@@ -1,0 +1,12 @@
+# Created at 2025-11-25T15:31:20.536
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+
+# Created at 2025-11-25T15:31:20.536
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by io.cucumber.messages.internal.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/Administrator/AppData/Local/Temp/surefire15176922247019886013/..%5C..%5C..%5C..%5C..%5CAdministrator%5C.m2%5Crepository%5Cio%5Ccucumber%5Cmessages%5C12.1.1%5Cmessages-12.1.1.jar)
+
+# Created at 2025-11-25T15:31:20.538
+WARNING: Please consider reporting this to the maintainers of class io.cucumber.messages.internal.com.google.protobuf.UnsafeUtil$MemoryAccessor
+
+# Created at 2025-11-25T15:31:20.541
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+

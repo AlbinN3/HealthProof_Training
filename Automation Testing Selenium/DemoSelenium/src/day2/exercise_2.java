@@ -1,0 +1,26 @@
+package day2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class exercise_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://blazedemo.com/");
+		WebElement welcome = driver.findElement(By.xpath("//h1"));
+		String s ="Welcome to the Simple Travel Agency!";
+		if(s.equals(welcome.getText())) {
+			System.out.println("Both are same");
+		}
+		else{
+			System.out.println("Both are different");
+
+		}
+		driver.quit();
+	}
+
+}

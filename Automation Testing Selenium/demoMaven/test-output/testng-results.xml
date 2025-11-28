@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-20T07:29:04 IST" name="Suite" finished-at="2025-11-20T07:29:07 IST" duration-ms="3027">
+    <groups>
+    </groups>
+    <test started-at="2025-11-20T07:29:04 IST" name="Test1" finished-at="2025-11-20T07:29:04 IST" duration-ms="66">
+      <class name="day7.tc3_suite">
+        <test-method signature="f()[pri:0, instance:day7.tc3_suite@4f83df68]" started-at="2025-11-20T07:29:04 IST" name="f" finished-at="2025-11-20T07:29:04 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- day7.tc3_suite -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-11-20T07:29:04 IST" name="Test2" finished-at="2025-11-20T07:29:04 IST" duration-ms="0">
+    </test> <!-- Test2 -->
+    <test started-at="2025-11-20T07:29:04 IST" name="Test3" finished-at="2025-11-20T07:29:07 IST" duration-ms="2890">
+      <class name="day7.tc2_register">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day7.tc2_register@49872d67]" started-at="2025-11-20T07:29:04 IST" name="beforeTest" finished-at="2025-11-20T07:29:07 IST" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:day7.tc2_register@49872d67]" started-at="2025-11-20T07:29:07 IST" name="f" finished-at="2025-11-20T07:29:07 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:day7.tc2_register@49872d67]" started-at="2025-11-20T07:29:07 IST" name="afterTest" finished-at="2025-11-20T07:29:07 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- day7.tc2_register -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

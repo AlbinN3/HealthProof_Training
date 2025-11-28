@@ -1,0 +1,229 @@
+Testing
+Finding and reporting defects, every testing need not get a defect
+debuhhing
+Finding and correcting defects
+without testing, if we put code to production it might fail
+developer,tester,customer also must test before production- uceracceptance testing, product can only assigned to production after user acceptance testing is passed
+static testing- testing without execution of code
+review done by author- self rewiew- you created the program, you checked the program
+programmer asks someone else to check-peer review,
+defects can be there in software,design,documents
+dynamic testing- compile and run and then test
+unit testing - developer testing after createing a module-component testing- done by developer
+integration testing- assemply testing- done by development team
+component integration and system integration - both module are within the range of product(within the product)-component - done by developers
+system integration- example- flipkart and banking app, checking entire application along with depending applications
+product testing- testing entire product- done by tester
+entry criteria- unit and integration should be passed before going to product testing
+user acceptance testing- done by customer- all other testing is done for finding defect, uat is not done for finding defects, it is done to make sure that the 
+product is ready for production
+
+
+unit
+integration
+system
+uat
+
+RFP-Request for Proposal- written by customer, for requirement, will not have complete project details, only high level information, it is confidential, this will go to wipro,ust,capegemini etc...
+Then the companies sent the proposal after bidding- proposal has time and cost(based on estimation)
+models for estimation,Estimation done by- function point, work break down structure, delfi, cocomo(cost constructive model), tcp( test case point analysis)
+software sizing- how big is the application, sizing cannot be planned by RFP
+SLA- service level agreement, done between comapny ceo and customer, it is a legal document
+Planning -5%
+Requirement-15%
+Analysis-5%
+Design-5%
+Coding-35%
+Testing-30%
+Implementation-5%
+sdlc
+project management team write project plan after signing SLA
+based on project plan, testing management team will write master test plan or test strategy
+
+
+STLC- Software Testing Life Cycle
+Q-Quality- degree of excellence, it needs to be measurable
+QA- Quality Assurance- process oriented
+QC- Quality control- testing comes under this
+
+QMS- Quality Management System- written by QA team
+Quality Audit- they check quality status,IQA- internal Qulity audit,EQA- External quality audits
+Capability maturity model - CMM, organisation gives the certificate to company
+CMM has 5 levels
+NC-Non conformance
+TMM- test maturity model,iso,isi
+TMM is for testing, CMM is for both development and testing
+ISO is for anything
+
+Informal testing
+	Ad hoc testing
+	Exploratory testinf
+Formal Testing
+	Requires a master test plan/test strategy-test manager
+	Plan for resources
+		software resources
+		browser
+		hardware resources(RAM,memory)
+		human resources
+	Scope of testing
+		In scope-what should be tested
+		Out scope- what should not be tested
+	Schedule of the project
+
+Req ID		Requirement description
+R1		Login to applicaion
+R2		Buying Items
+R3		View items
+R4		Compare Products
+R5		Delete Product from cart
+.
+.
+.R50
+
+
+Error,fault,failure
+All defects are not failure but all failure are defects
+
+7 testing priciples
+testing shows presence of defects, not their absence
+exhaustive testing is impossible
+early testing saves time and money
+defects cluster together
+beware of the pesticide paradox
+testing is context dependant
+absense of errors is fallacy
+
+Test case design techniques
+Black Box testing
+		Equivalence value partitioning
+		Boundary value analysis
+		Decision table
+		State transition diagram
+		Use case testing
+		Pairwise combination
+White box testing
+		Statement coverage
+		Decision/Path coverage
+		Condition coverage
+		Cyclomatic complexity
+
+Equivalence value partitioning
+valid group		invalid group
+
+
+Boundary value analysis
+minimum boundary,min boundary-1		max boundary,max boundary+1
+
+
+
+Decision Table
+
+1-4000 		NO tax
+4000-5500 	10%
+5000-32500 	22%
+32501		40%
+
+a;4800,14000,28000
+b;5200,5500,28000
+c;28001,32000,35000
+d;5800,28000,32000
+
+
+Whitebox testing
+	Statement coverage
+	Decision/path coverage
+	condition coverage
+	cyclomatic complexity
+
+
+
+Statement coverage- Ensure each and every statement is executed atleast once
+
+1	input a,b
+2	if(a>0)
+3		if(b==0)
+4			print onr
+5		else
+6			print two
+7	print program over
+8	end
+How many min imputs are required to reach 100% statement coverage
+Answer 1(a=2,b=0 and a=2,b=5)
+
+
+
+Decision/path coverage- Ensures each and every decision is evaluated for TRUE and FALSE once
+100% decision coverage 100% statement coverage but not vice versa
+
+read card
+if card is valid then
+	print card is valid
+end if
+print program over
+How many min inputs for 100% statement coverage- 1
+
+
+
+Condition coverage- Ensures each and every condition is evaluated for TRUE and FALSE side
+
+if(((a>0)&&(b>0)) || (c==100))
+	print success
+else
+	print not success
+end if
+
+testcases	condition1	&&	condition2	||	condition3	expected output
+1		   true 		false   		   true		     success
+2		   false		ignored			   false	   not success
+3		   true			true			   false	     success
+
+
+
+Cyclomatic complexity- To find the no of paths in the program
+
+read card
+if card is valid then
+	ask for pin
+		if pin is valid then
+			ask for amount
+				if amount is valid then
+					print "success"
+				else
+					print "amount is invalid"
+		else
+			print "pin is invalid"
+else
+	print "card is invalid"
+
+cyclomatic complexity=no of edges-no of nodes +2
+cyclomatic complexity=no of bounded region+1, bounded region-if else
+
+
+severity- how bad the defect is
+priority- how soon the defect will be solved  critical,high,mid,low
+
+
+Agile- Shorter development lifecycle
+multiple releases and each release will have user acceptance testing
+cost benfits while using agile
+customer is called sponsor
+Requirements are called user stories
+collection of user stories- epics
+scrum master- project manager
+15 min standup meeting
+product backlog- collection of user stories
+from product backlog it will go to sprint
+sprint is a time bound activity
+sprint backlog- 
+
+scrum- agile development method that emphasize on team centric approach
+eXtreme programming
+
+
+User story
+As a <<role>>, I want to <<do this>> so that I get this benefit
+
+As a usre, I want to see the buses which are available between Trivandrum 
+to Cochin, so that I can plan for my travel
+
+As a user, I want to compare product in flipkart, so that I can 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="day7.checkMyInfo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+      <class name="day7.loginWithLowerCaseUserName"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+    <classes>
+      <class name="day7.recruitmentHeading"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Reporter">
+    <classes>
+      <class name="day7.reporter"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="test4">
+    <classes>
+      <class name="day7.searchNumberInName"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test5">
+    <classes>
+      <class name="day7.titleCheck"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

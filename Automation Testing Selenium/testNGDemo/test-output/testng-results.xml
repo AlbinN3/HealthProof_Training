@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-19T16:35:17 IST" name="Suite" finished-at="2025-11-19T16:35:34 IST" duration-ms="16919">
+    <groups>
+    </groups>
+    <test started-at="2025-11-19T16:35:17 IST" name="Test1" finished-at="2025-11-19T16:35:23 IST" duration-ms="6131">
+      <class name="day6.tc3_buyCats">
+        <test-method signature="f()[pri:0, instance:day6.tc3_buyCats@815b41f]" started-at="2025-11-19T16:35:17 IST" name="f" finished-at="2025-11-19T16:35:23 IST" duration-ms="6085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- day6.tc3_buyCats -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-11-19T16:35:23 IST" name="Test2" finished-at="2025-11-19T16:35:28 IST" duration-ms="5327">
+      <class name="day6.tc2_buyDog">
+        <test-method signature="f()[pri:0, instance:day6.tc2_buyDog@b3ca52e]" started-at="2025-11-19T16:35:23 IST" name="f" finished-at="2025-11-19T16:35:28 IST" duration-ms="5324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- day6.tc2_buyDog -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-11-19T16:35:28 IST" name="Test3" finished-at="2025-11-19T16:35:34 IST" duration-ms="5426">
+      <class name="day6.tc1_buyFish">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:day6.tc1_buyFish@710f4dc7]" started-at="2025-11-19T16:35:17 IST" name="beforeSuite" finished-at="2025-11-19T16:35:17 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="f()[pri:0, instance:day6.tc1_buyFish@710f4dc7]" started-at="2025-11-19T16:35:28 IST" name="f" finished-at="2025-11-19T16:35:34 IST" duration-ms="5423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:day6.tc1_buyFish@710f4dc7]" started-at="2025-11-19T16:35:34 IST" name="afterSuite" finished-at="2025-11-19T16:35:34 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- day6.tc1_buyFish -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

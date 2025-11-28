@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/selenium-server-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/ci-environment-9.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-core-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-core-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-expressions-16.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-gherkin-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-gherkin-messages-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-html-0.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-java-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-junit-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-plugin-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/cucumber-reporting-5.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/datatable-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/docstring-7.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/extentreports-2.40.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/gherkin-26.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/html-formatter-20.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/junit-4.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/junit-xml-formatter-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/messages-21.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium downloads/bdd/tag-expressions-5.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

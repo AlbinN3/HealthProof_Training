@@ -1,0 +1,3 @@
+step 1: install plugin of cucumber in eclipse
+Step 2: Create a java project called "bddDemo"
+step 3: Add the following jar files

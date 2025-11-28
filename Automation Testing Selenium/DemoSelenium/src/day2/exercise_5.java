@@ -1,0 +1,27 @@
+package day2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class exercise_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://blazedemo.com/");
+		WebElement home = driver.findElement(By.xpath("//a[@href='home']"));
+		home.click();
+		WebElement check = driver.findElement(By.xpath("//input[@name='remember']"));
+		if(check.isSelected()) {
+			System.out.println("Checkbox is selected");
+		}
+		else {
+			System.out.println("Checkbox is not selected");
+
+		}
+		driver.quit();
+	}
+
+}

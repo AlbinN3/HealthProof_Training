@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="day7.tc3_suite"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+    <classes>
+      <class name="day7.tc2_register"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,25 @@
+package day2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class exercise_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://blazedemo.com/");
+		WebElement home = driver.findElement(By.xpath("//a[@href='home']"));
+		home.click();
+		WebElement label = driver.findElement(By.xpath("//*[@class='panel-heading']"));
+		if(label.getText()!=null) {
+			System.out.println("Label is present");
+		}else {
+			System.out.println("Label is not present");
+		}
+		driver.quit();
+	}
+
+}

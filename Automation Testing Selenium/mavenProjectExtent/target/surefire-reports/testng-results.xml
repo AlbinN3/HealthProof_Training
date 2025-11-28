@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-20T09:37:14 IST" name="Suite" finished-at="2025-11-20T09:37:14 IST" duration-ms="113">
+    <groups>
+    </groups>
+    <test started-at="2025-11-20T09:37:14 IST" name="Test1" finished-at="2025-11-20T09:37:14 IST" duration-ms="54">
+      <class name="day7.tc1">
+        <test-method signature="f()[pri:0, instance:day7.tc1@75f32542]" started-at="2025-11-20T09:37:14 IST" name="f" finished-at="2025-11-20T09:37:14 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- day7.tc1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-11-20T09:37:14 IST" name="Test2" finished-at="2025-11-20T09:37:14 IST" duration-ms="2">
+      <class name="day7.tc2">
+        <test-method signature="f()[pri:0, instance:day7.tc2@4e91d63f]" started-at="2025-11-20T09:37:14 IST" name="f" finished-at="2025-11-20T09:37:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- day7.tc2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-11-20T09:37:14 IST" name="Test3" finished-at="2025-11-20T09:37:14 IST" duration-ms="2">
+      <class name="day7.reporter">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:day7.reporter@2bbf180e]" started-at="2025-11-20T09:37:14 IST" name="beforeSuite" finished-at="2025-11-20T09:37:14 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:day7.reporter@2bbf180e]" started-at="2025-11-20T09:37:14 IST" name="afterSuite" finished-at="2025-11-20T09:37:15 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- day7.reporter -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
