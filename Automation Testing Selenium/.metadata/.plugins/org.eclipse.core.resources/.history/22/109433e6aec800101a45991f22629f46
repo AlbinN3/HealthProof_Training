@@ -1,0 +1,40 @@
+package stepdefenition;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import pageObjects.Computers;
+
+public class tc2_computersCheck {
+	
+	WebDriver driver = Hooks.getDriver();
+	Computers computer = new Computers(driver);
+	
+	@Given("User is in computer section")
+	public void user_is_in_computer_section() throws InterruptedException {
+		computer.clickComputer();
+	}
+	
+	@When("the subsections are loaded")
+	public void the_subsections_are_loaded() {
+	    List<WebElement> subsections = computer.getAllSubsections();
+	    List<String> expectedSubsections = Arrays.asList("Notebooks", "Desktops", "Software");
+	    List<String> actualSubsections = new ArrayList<>();
+	    for(WebElement element:subsections) {
+	    	actualSubsections.add(element.getText());
+	    }
+	    assertTrue(actualSubsections.containsAll(expectedSubsections));
+	}
+}

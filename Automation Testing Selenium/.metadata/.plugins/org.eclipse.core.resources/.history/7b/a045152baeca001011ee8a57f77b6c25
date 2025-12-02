@@ -1,0 +1,22 @@
+package stepdefenition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class tc1_steps {
+	@Given("the user in the URL https:\\/\\/api.restful-api.dev\\/objects")
+	public void the_user_in_the_URL_https_api_restful_api_dev_objects() {
+	    
+	}
+
+	@When("he sends the get request")
+	public void he_sends_the_get_request() {
+		
+	}
+
+	@Then("he gets the response of {int}")
+	public void he_gets_the_response_of(Integer int1) {
+	    
+	}
+}

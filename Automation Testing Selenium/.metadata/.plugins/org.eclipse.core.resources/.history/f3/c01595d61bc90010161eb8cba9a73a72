@@ -1,0 +1,31 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class RegisterUser {
+	WebDriver driver = new EdgeDriver();
+	public RegisterUser(WebDriver driver) {
+		this.driver = driver;
+		driver.get("https://advantageonlineshopping.com/#/");
+	}
+	public void clickRegister() {
+		driver.findElement(By.id("hrefUserIcon")).click();
+	}
+	public void clickCreateNewAccount() {
+		driver.findElement(By.linkText("CREATE NEW ACCOUNT")).click();
+	}
+	public void enterUsername(String username) {
+		driver.findElement(By.name("usernameRegisterPage")).sendKeys(username);
+	}
+	public void enterEmail(String email) {
+		driver.findElement(By.name("emailRegisterPage")).sendKeys(email);
+	}
+	public void enterPassword(String password) {
+		driver.findElement(By.name("passwordRegisterPage")).sendKeys(password);
+	}
+	public void enterConfirmPassword(String confirmPassword) {
+		driver.findElement(By.name("confirm_passwordRegisterPage")).sendKeys(confirmPassword);
+	}
+}

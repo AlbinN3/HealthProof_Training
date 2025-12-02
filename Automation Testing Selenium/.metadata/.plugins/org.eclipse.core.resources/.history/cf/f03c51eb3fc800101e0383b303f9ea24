@@ -1,0 +1,6 @@
+Feature: Home page
+Scenario: Verify the no of links in the web page
+
+Given the user in the HOME page
+When he launches the HOME page
+Then he should be able to view the links

@@ -1,0 +1,26 @@
+package pageObjects;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Computers {
+	WebDriver driver;
+	
+	public Computers(WebDriver driver) {
+		this.driver = driver;
+		driver.get("https://demo.nopcommerce.com/");
+	}
+	
+	public void clickComputer() throws InterruptedException {
+		driver.findElement(By.linkText("Computers")).click();
+		Thread.sleep(20000);
+	}
+	
+	public List<WebElement> getAllSubsections() {
+		List<WebElement> subsections = driver.findElements(By.className("sub-category-item"));
+		return subsections;
+	}
+}

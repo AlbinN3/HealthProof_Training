@@ -17,7 +17,7 @@ public class seleniumgrid {
 		// TODO Auto-generated method stub
 		nodeURL = "http://172.19.37.207:4444/wd/hub";
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setBrowserName("Microsoft Edge");
+		capabilities.setBrowserName("MicrosoftEdge");
 		capabilities.setPlatform(Platform.WINDOWS);
 		driver = new RemoteWebDriver(new URL(nodeURL),capabilities);
 		driver.get("https://demowebshop.tricentis.com/");

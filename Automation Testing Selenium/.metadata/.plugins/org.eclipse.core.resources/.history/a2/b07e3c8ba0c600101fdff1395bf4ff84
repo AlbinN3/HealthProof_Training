@@ -1,0 +1,5 @@
+Feature: Registering new user
+Scenario: Registering with valid value
+Given the user want to register
+When he enters the username as "asmin" and password as "admin"
+Then he reaches the welcome page

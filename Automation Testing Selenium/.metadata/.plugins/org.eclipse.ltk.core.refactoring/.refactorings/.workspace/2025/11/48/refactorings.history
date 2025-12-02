@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Performance_Testing&apos; to &apos;Junit_Jmeter_Performance_Testing&apos;&#x0D;&#x0A;- Original element: &apos;Performance_Testing&apos;&#x0D;&#x0A;- Renamed element: &apos;Performance_Testing&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Performance_Testing&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Performance_Testing" name="Junit_Jmeter_Performance_Testing" references="true" stamp="1764405583976" version="1.0"/>
+</session>

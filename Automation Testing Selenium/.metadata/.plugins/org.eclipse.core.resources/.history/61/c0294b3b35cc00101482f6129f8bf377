@@ -1,0 +1,5 @@
+Feature: Sample API tests
+Scenario: Test a sample GET API
+Given url 'http://api.restful-api.dev/objects'
+When method GET
+Then status 201

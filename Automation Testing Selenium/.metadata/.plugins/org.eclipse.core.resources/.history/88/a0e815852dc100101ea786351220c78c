@@ -1,0 +1,26 @@
+package day2;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class exercise_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://petstore.octoperf.com/");
+		WebElement enter = driver.findElement(By.xpath("//a[@href]"));
+		enter.click();
+		//List<WebElement> images = driver.findElements(By.xpath("//div[@id='MainImageContent']/img"));
+		//System.out.println(images.size());
+		WebElement images = driver.findElement(By.xpath("//div[@id='SidebarContent']"));
+		List<WebElement> img= images.findElements(By.tagName("img"));
+		System.out.println(img.size());
+		driver.quit();
+	}
+
+}
