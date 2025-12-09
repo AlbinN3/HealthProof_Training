@@ -1,0 +1,15 @@
+[t13]
+FileName1=t13.html
+URL1=http://ocsp.r2m04.amazontrust.com/
+Total=3
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_keen-tracking.min.html
+URL2=https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js
+FileName3=t13_success.txt
+URL3=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

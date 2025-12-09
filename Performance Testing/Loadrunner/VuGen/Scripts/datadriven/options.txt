@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\datadriven
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\datadriven\\logfile.log
+c:\users\administrator\documents\vugen\scripts\datadriven\\combined_datadriven.c
+c:\users\administrator\documents\vugen\scripts\datadriven\\pre_cci.c

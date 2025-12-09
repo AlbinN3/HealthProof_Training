@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_fish_icon.gif
+URL1=https://petstore.octoperf.com/images/fish_icon.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

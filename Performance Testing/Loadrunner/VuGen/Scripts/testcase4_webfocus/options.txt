@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\testcase4_webfocus
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\testcase4_webfocus\\logfile.log
+c:\users\administrator\documents\vugen\scripts\testcase4_webfocus\\combined_testcase4_webfocus.c
+c:\users\administrator\documents\vugen\scripts\testcase4_webfocus\\pre_cci.c

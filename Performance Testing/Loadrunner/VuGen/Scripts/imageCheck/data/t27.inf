@@ -1,0 +1,15 @@
+[t27]
+FileName1=t27.html
+URL1=http://o.pki.goog/s/wr3/xvY
+Total=3
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=t27_RequestBody.txt
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_27.xml
+FileName2=t27_public.ajaxcart.html
+URL2=https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js
+FileName3=t27_success.txt
+URL3=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

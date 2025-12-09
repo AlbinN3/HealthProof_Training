@@ -1,0 +1,10 @@
+GET /register HTTP/1.1
+Referer: https://demowebshop.tricentis.com/
+Accept-Language: en-GB,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Connection: Keep-Alive
+Host: demowebshop.tricentis.com
+Cookie: __utma=78382081.1054723828.1764995006.1764995006.1764995006.1; __utmc=78382081; __utmz=78382081.1764995006.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=78382081.1.10.1764995006; Nop.customer=20861fe6-a16e-4356-81b8-81751c1c2e47; ARRAffinity=aeff9384aa58dd80a06097da55d76e7a00364bf1f86c5304e8c691754ded5177; ARRAffinitySameSite=aeff9384aa58dd80a06097da55d76e7a00364bf1f86c5304e8c691754ded5177
+

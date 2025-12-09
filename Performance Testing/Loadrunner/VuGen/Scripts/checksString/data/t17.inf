@@ -1,0 +1,15 @@
+[t17]
+FileName1=t17.html
+URL1=http://ocsp.r2m04.amazontrust.com/
+Total=3
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=t17_RequestBody.txt
+ResponseHeaderFile=t17_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_17.xml
+FileName2=t17_keen-tracking.min.html
+URL2=https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js
+FileName3=t17_favicon.html
+URL3=https://blazedemo.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

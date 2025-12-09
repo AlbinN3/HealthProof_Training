@@ -1,0 +1,13 @@
+[t11]
+FileName1=t11.htm
+URL1=https://demowebshop.tricentis.com/
+Total=2
+RequestHeaderFile=t11_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t11_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_11.xml
+FileName2=t11_0000015_25-virtual-gift-card_32.jpg
+URL2=https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_32.jpeg
+[ProtocolInfo]
+ProtocolId=QTWeb

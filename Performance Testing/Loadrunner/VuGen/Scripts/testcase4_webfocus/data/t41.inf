@@ -1,0 +1,11 @@
+[t41]
+FileName1=t41.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/usage-reporting/1/b71d85e3-4efe-4162-bb52-109da5d33595
+Total=1
+RequestHeaderFile=t41_RequestHeader.txt
+RequestBodyFile=t41_RequestBody.txt
+ResponseHeaderFile=t41_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_41.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

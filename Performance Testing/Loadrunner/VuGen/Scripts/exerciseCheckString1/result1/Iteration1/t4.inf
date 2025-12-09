@@ -1,0 +1,16 @@
+[t4]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/json
+StepName=Custom Request: ads
+Total=2
+FileName1=t4.json
+FileName2=t1_1_remote-settings.UNK
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1764828464417
+RawStepName=ads
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1764828464112
+URL1=https://ads.mozilla.org/v1/ads
+URL2=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain

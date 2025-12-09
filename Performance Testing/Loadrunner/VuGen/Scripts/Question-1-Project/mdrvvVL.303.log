@@ -1,0 +1,66 @@
+Start auto log messages stack.	[MsgId: MMSG-10546]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack.	[MsgId: MMSG-10546]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+vuser_init.c(29): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+AddToCart.c(59): Notify: Transaction "Adding to cart" ended with a "Pass" status (Duration: 17.8554 Wasted Time: 0.0003).	[MsgId: MMSG-16871]
+Ending action AddToCart.	[MsgId: MMSG-15918]
+Starting action BuyItem.	[MsgId: MMSG-15919]
+BuyItem.c(4): Notify: Transaction "Buying an item" started.	[MsgId: MMSG-16999]
+BuyItem.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+BuyItem.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+BuyItem.c(10): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+BuyItem.c(10): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+BuyItem.c(21): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+BuyItem.c(21): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+BuyItem.c(31): web_url("Order.action") started  	[MsgId: MMSG-26355]
+BuyItem.c(31): Error -27760: Request "https://petstore.octoperf.com/actions/Order.action?newOrderForm=" failed  	[MsgId: MERR-27760]
+BuyItem.c(31): Error -35048: No match found for the requested parameter "_sourcePage_1". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+BuyItem.c(31): Error -35048: No match found for the requested parameter "__fp_1". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Starting action HomePage.	[MsgId: MMSG-15919]
+HomePage.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+HomePage.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+HomePage.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+HomePage.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+HomePage.c(9): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+HomePage.c(9): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/"  	[MsgId: MMSG-26659]
+HomePage.c(9): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

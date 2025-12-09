@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Powered-By: PHP/4.4.8
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:52:21 GMT
+Content-Length: 1149
+

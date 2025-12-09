@@ -1,0 +1,11 @@
+[t13]
+FileName1=t13.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/1eaed5b7-5186-40d9-a683-7b892dbb99bc
+Total=1
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_13.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

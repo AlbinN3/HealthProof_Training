@@ -1,0 +1,10 @@
+[BuyComputers]
+SnapshotIndex=I1_BuyComputers
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Cart]
+SnapshotIndex=I1_Cart
+[LaunchApp]
+SnapshotIndex=I1_LaunchApp
+[vuser_end]
+SnapshotIndex=I1_vuser_end

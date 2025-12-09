@@ -1,0 +1,2 @@
+Automatic corelation - Replacing every occurrence of "FISH" while creating parameter done by loadrunner itself
+Manual corelation - Manually save the parameter using web_reg_save_param with left boundary taken from data from server and replacing the occurence of FISH manually with left boundary

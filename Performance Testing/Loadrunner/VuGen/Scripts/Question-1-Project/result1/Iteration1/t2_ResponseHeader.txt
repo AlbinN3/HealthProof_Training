@@ -1,0 +1,9 @@
+HTTP/2.0 200
+Status: 200
+date: Sun, 07 Dec 2025 14:40:29 GMT
+content-type: text/html;charset=UTF-8
+content-length: 5352
+set-cookie: JSESSIONID=475EB2520DE2A0BA8E975F37FCA27787; Path=/; HttpOnly
+content-language: en-US
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

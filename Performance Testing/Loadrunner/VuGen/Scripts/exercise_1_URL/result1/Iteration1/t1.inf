@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/html
+StepName=Url: canonical.html
+Total=1
+FileName1=t1.html
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=canonical.html
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1764824650638
+URL1=http://detectportal.firefox.com/canonical.html

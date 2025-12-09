@@ -1,0 +1,11 @@
+[hosts]
+content-signature-2.cdn.mozilla.net=
+detectportal.firefox.com=
+petstore.octoperf.com=
+o.pki.goog=
+ads.mozilla.org=
+push.services.mozilla.com=
+ocsp.digicert.com=
+incoming.telemetry.mozilla.org=
+prod.ohttp-gateway.prod.webservices.mozgcp.net=
+localhost=

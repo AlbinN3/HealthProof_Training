@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\runlogic
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\runlogic\\logfile.log
+c:\users\administrator\documents\vugen\scripts\runlogic\\combined_runlogic.c
+c:\users\administrator\documents\vugen\scripts\runlogic\\pre_cci.c

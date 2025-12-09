@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\Create_new_actions
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\create_new_actions\\logfile.log
+c:\users\administrator\documents\vugen\scripts\create_new_actions\\combined_Create_new_actions.c
+c:\users\administrator\documents\vugen\scripts\create_new_actions\\pre_cci.c

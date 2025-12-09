@@ -1,0 +1,36 @@
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+HomePage.c(23): Error -27644: Step download timeout (120 seconds) has expired when only cross-step downloads (0) were active  	[MsgId: MERR-27644]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

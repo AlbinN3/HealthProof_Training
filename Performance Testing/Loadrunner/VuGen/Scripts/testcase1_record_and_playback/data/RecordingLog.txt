@@ -1,0 +1,525 @@
+[API Trapper      (16fc: ab4)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (1e84:2504)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (1930:2724)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (2354:2118)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2354:24c8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2354:24c8)] Load Network Traffic Analyzers:
+[Network Analyzer (2354:24c8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2354:24c8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2354:24c8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2354:24c8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2354:24c8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2354:24c8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2354:24c8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2354:24c8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2354: 1b8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2354:24c8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2354:24c8)] Request Connection: Remote Server @ 150.171.22.17:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (22a0:12e4)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (22a0: 588)] ------------------------------------------------------------------------------------------
+[Network Analyzer (22a0: 588)] Load Network Traffic Analyzers:
+[Network Analyzer (22a0: 588)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (22a0: 588)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (22a0: 588)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (22a0: 588)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (22a0: 588)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (22a0: 588)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (22a0: 588)]     Analyzer Module: local_server (value=)
+[Network Analyzer (22a0: 588)] ------------------------------------------------------------------------------------------
+[Network Analyzer (22a0:2fd4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (22a0: 588)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (22a0: 588)] Request Connection: Remote Server @ 184.26.162.59:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( 6f8:2c8c)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\142.0.3595.94\identity_helper.exe
+[API Trapper      (2d14:22cc)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2d14:1c74)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d14:1c74)] Load Network Traffic Analyzers:
+[Network Analyzer (2d14:1c74)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2d14:1c74)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2d14:1c74)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2d14:1c74)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2d14:1c74)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2d14:1c74)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2d14:1c74)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2d14:1c74)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d14:2740)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2d14:1c74)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2d14:1c74)] Request Connection: Remote Server @ 104.77.173.11:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( fd8:2604)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( fd8:24f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fd8:24f8)] Load Network Traffic Analyzers:
+[Network Analyzer ( fd8:24f8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( fd8:24f8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( fd8:24f8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( fd8:24f8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( fd8:24f8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( fd8:24f8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( fd8:24f8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( fd8:24f8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fd8:27f8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( fd8:24f8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( fd8:24f8)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( a5c: d30)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( a5c:22a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( a5c:22a4)] Load Network Traffic Analyzers:
+[Network Analyzer ( a5c:22a4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( a5c:22a4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( a5c:22a4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( a5c:22a4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( a5c:22a4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( a5c:22a4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( a5c:22a4)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( a5c:22a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( a5c: a88)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( a5c:22a4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( a5c:22a4)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2d64:2d74)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2d64:1f40)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d64:1f40)] Load Network Traffic Analyzers:
+[Network Analyzer (2d64:1f40)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2d64:1f40)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2d64:1f40)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2d64:1f40)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2d64:1f40)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2d64:1f40)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2d64:1f40)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2d64:1f40)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d64:27c4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2d64:1f40)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2d64:1f40)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (18f8:2564)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (18f8:1ba4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (18f8:1ba4)] Load Network Traffic Analyzers:
+[Network Analyzer (18f8:1ba4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (18f8:1ba4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (18f8:1ba4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (18f8:1ba4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (18f8:1ba4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (18f8:1ba4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (18f8:1ba4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (18f8:1ba4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (18f8: ae0)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (18f8:1ba4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (18f8:1ba4)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1c48:2dbc)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1c48:2680)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1c48:2680)] Load Network Traffic Analyzers:
+[Network Analyzer (1c48:2680)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1c48:2680)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1c48:2680)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1c48:2680)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1c48:2680)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1c48:2680)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1c48:2680)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1c48:2680)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1c48:1140)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1c48:2680)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1c48:2680)] Request Connection: Remote Server @ 13.107.246.48:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1130:1010)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (1f6c:2f68)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (2474:1f74)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (1fbc:246c)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1130: 430)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1130: 430)] Load Network Traffic Analyzers:
+[Network Analyzer (1130: 430)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1130: 430)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1130: 430)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1130: 430)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1130: 430)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1130: 430)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1130: 430)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1130: 430)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1130: 3b4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1130: 430)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1130: 430)] Request Connection: Remote Server @ 150.171.28.11:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (217c: 1a0)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (217c:2cd8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (217c:2cd8)] Load Network Traffic Analyzers:
+[Network Analyzer (217c:2cd8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (217c:2cd8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (217c:2cd8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (217c:2cd8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (217c:2cd8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (217c:2cd8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (217c:2cd8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (217c:2cd8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (217c:2610)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (217c:2cd8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (217c:2cd8)] Request Connection: Remote Server @ 150.171.28.11:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( 4cc:1b10)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( 4cc:19c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 4cc:19c4)] Load Network Traffic Analyzers:
+[Network Analyzer ( 4cc:19c4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 4cc:19c4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 4cc:19c4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 4cc:19c4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 4cc:19c4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 4cc:19c4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 4cc:19c4)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 4cc:19c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 4cc:144c)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( 4cc:19c4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( 4cc:19c4)] Request Connection: Remote Server @ 150.171.28.11:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2e90:1768)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2e90: ccc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2e90: ccc)] Load Network Traffic Analyzers:
+[Network Analyzer (2e90: ccc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2e90: ccc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2e90: ccc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2e90: ccc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2e90: ccc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2e90: ccc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2e90: ccc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2e90: ccc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2e90:28dc)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2e90: ccc)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2e90: ccc)] Request Connection: Remote Server @ 150.171.74.11:80   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2668:1820)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2668:266c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2668:266c)] Load Network Traffic Analyzers:
+[Network Analyzer (2668:266c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2668:266c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2668:266c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2668:266c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2668:266c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2668:266c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2668:266c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2668:266c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2668:260c)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2668:266c)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2668:266c)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( e5c:18a0)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( e5c:157c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e5c:157c)] Load Network Traffic Analyzers:
+[Network Analyzer ( e5c:157c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( e5c:157c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( e5c:157c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( e5c:157c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( e5c:157c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( e5c:157c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( e5c:157c)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( e5c:157c)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( e5c:13d4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( e5c:157c)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( e5c:157c)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2f94: 618)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2f94:2f00)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f94:2f00)] Load Network Traffic Analyzers:
+[Network Analyzer (2f94:2f00)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2f94:2f00)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2f94:2f00)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2f94:2f00)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2f94:2f00)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2f94:2f00)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2f94:2f00)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2f94:2f00)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f94:2830)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2f94:2f00)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2f94:2f00)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2f20:1e94)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2f20: aa0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f20: aa0)] Load Network Traffic Analyzers:
+[Network Analyzer (2f20: aa0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2f20: aa0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2f20: aa0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2f20: aa0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2f20: aa0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2f20: aa0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2f20: aa0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2f20: aa0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f20:2598)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2f20: aa0)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2f20: aa0)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1e30:2798)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1e30:1b24)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1e30:1b24)] Load Network Traffic Analyzers:
+[Network Analyzer (1e30:1b24)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1e30:1b24)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1e30:1b24)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1e30:1b24)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1e30:1b24)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1e30:1b24)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1e30:1b24)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1e30:1b24)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1e30:1334)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1e30:1b24)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1e30:1b24)] Request Connection: Remote Server @ 13.107.246.48:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2954:1884)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2954:2f90)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2954:2f90)] Load Network Traffic Analyzers:
+[Network Analyzer (2954:2f90)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2954:2f90)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2954:2f90)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2954:2f90)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2954:2f90)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2954:2f90)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2954:2f90)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2954:2f90)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2954:13c4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2954:2f90)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2954:2f90)] Request Connection: Remote Server @ 150.171.28.11:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (123c:2efc)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (123c:1f38)] ------------------------------------------------------------------------------------------
+[Network Analyzer (123c:1f38)] Load Network Traffic Analyzers:
+[Network Analyzer (123c:1f38)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (123c:1f38)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (123c:1f38)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (123c:1f38)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (123c:1f38)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (123c:1f38)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (123c:1f38)]     Analyzer Module: local_server (value=)
+[Network Analyzer (123c:1f38)] ------------------------------------------------------------------------------------------
+[Network Analyzer (123c: dd8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (123c:1f38)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (123c:1f38)] Request Connection: Remote Server @ 23.201.47.203:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( 9dc:23c8)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( 9dc: e00)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 9dc: e00)] Load Network Traffic Analyzers:
+[Network Analyzer ( 9dc: e00)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 9dc: e00)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 9dc: e00)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 9dc: e00)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 9dc: e00)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 9dc: e00)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 9dc: e00)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 9dc: e00)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 9dc:1364)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( 9dc: e00)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( 9dc: e00)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1ad8:20f4)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1ad8:1efc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1ad8:1efc)] Load Network Traffic Analyzers:
+[Network Analyzer (1ad8:1efc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1ad8:1efc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1ad8:1efc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1ad8:1efc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1ad8:1efc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1ad8:1efc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1ad8:1efc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1ad8:1efc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1ad8: 1b8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1ad8:1efc)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1ad8:1efc)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (24c8:11a0)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (24c8:1ee0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (24c8:1ee0)] Load Network Traffic Analyzers:
+[Network Analyzer (24c8:1ee0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (24c8:1ee0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (24c8:1ee0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (24c8:1ee0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (24c8:1ee0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (24c8:1ee0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (24c8:1ee0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (24c8:1ee0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (24c8:2e04)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (24c8:1ee0)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (24c8:1ee0)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1eec:2078)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1eec: 700)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1eec: 700)] Load Network Traffic Analyzers:
+[Network Analyzer (1eec: 700)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1eec: 700)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1eec: 700)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1eec: 700)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1eec: 700)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1eec: 700)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1eec: 700)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1eec: 700)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1eec:2014)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1eec: 700)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1eec: 700)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (16f0:16f8)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (16f0: 9a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (16f0: 9a0)] Load Network Traffic Analyzers:
+[Network Analyzer (16f0: 9a0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (16f0: 9a0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (16f0: 9a0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (16f0: 9a0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (16f0: 9a0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (16f0: 9a0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (16f0: 9a0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (16f0: 9a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (16f0: dc4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (16f0: 9a0)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (16f0: 9a0)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1238: 924)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1238:1fe4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1238:1fe4)] Load Network Traffic Analyzers:
+[Network Analyzer (1238:1fe4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1238:1fe4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1238:1fe4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1238:1fe4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1238:1fe4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1238:1fe4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1238:1fe4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1238:1fe4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1238: d3c)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1238:1fe4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1238:1fe4)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( c3c:2d58)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( c3c:1ff0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( c3c:1ff0)] Load Network Traffic Analyzers:
+[Network Analyzer ( c3c:1ff0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( c3c:1ff0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( c3c:1ff0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( c3c:1ff0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( c3c:1ff0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( c3c:1ff0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( c3c:1ff0)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( c3c:1ff0)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( c3c:1fe8)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( c3c:1ff0)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( c3c:1ff0)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2404:2794)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2404:22a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2404:22a4)] Load Network Traffic Analyzers:
+[Network Analyzer (2404:22a4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2404:22a4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2404:22a4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2404:22a4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2404:22a4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2404:22a4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2404:22a4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2404:22a4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2404:2d74)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2404:22a4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2404:22a4)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2d3c:2d30)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2d3c:2590)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d3c:2590)] Load Network Traffic Analyzers:
+[Network Analyzer (2d3c:2590)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2d3c:2590)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2d3c:2590)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2d3c:2590)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2d3c:2590)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2d3c:2590)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2d3c:2590)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2d3c:2590)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2d3c:1a40)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2d3c:2590)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2d3c:2590)] Request Connection: Remote Server @ 150.171.28.11:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (26d4:131c)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (26d4:1838)] ------------------------------------------------------------------------------------------
+[Network Analyzer (26d4:1838)] Load Network Traffic Analyzers:
+[Network Analyzer (26d4:1838)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (26d4:1838)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (26d4:1838)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (26d4:1838)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (26d4:1838)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (26d4:1838)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (26d4:1838)]     Analyzer Module: local_server (value=)
+[Network Analyzer (26d4:1838)] ------------------------------------------------------------------------------------------
+[Network Analyzer (26d4:1ecc)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (26d4:1838)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (26d4:1838)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1628: 4ac)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1628:1434)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1628:1434)] Load Network Traffic Analyzers:
+[Network Analyzer (1628:1434)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1628:1434)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1628:1434)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1628:1434)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1628:1434)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1628:1434)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1628:1434)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1628:1434)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1628:2788)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1628:1434)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1628:1434)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (1f94:19d0)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1f94:20bc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1f94:20bc)] Load Network Traffic Analyzers:
+[Network Analyzer (1f94:20bc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1f94:20bc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1f94:20bc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1f94:20bc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1f94:20bc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1f94:20bc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1f94:20bc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1f94:20bc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1f94: b18)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[API Trapper      (16ac: aa4)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (1f94:20bc)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (1f94:20bc)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( fe0:1538)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( fe0:20dc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fe0:20dc)] Load Network Traffic Analyzers:
+[Network Analyzer ( fe0:20dc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( fe0:20dc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( fe0:20dc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( fe0:20dc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( fe0:20dc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( fe0:20dc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( fe0:20dc)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( fe0:20dc)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( fe0:1634)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( fe0:20dc)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( fe0:20dc)] Request Connection: Remote Server @ 23.201.47.240:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2994:2c7c)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2994:22c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2994:22c4)] Load Network Traffic Analyzers:
+[Network Analyzer (2994:22c4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2994:22c4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2994:22c4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2994:22c4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2994:22c4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2994:22c4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2994:22c4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2994:22c4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2994:2df4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2994:22c4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2994:22c4)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2f0c:25d8)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2f0c:173c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f0c:173c)] Load Network Traffic Analyzers:
+[Network Analyzer (2f0c:173c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2f0c:173c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2f0c:173c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2f0c:173c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2f0c:173c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2f0c:173c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2f0c:173c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2f0c:173c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2f0c:198c)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2f0c:173c)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (2f0c:173c)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      ( 4a0:1258)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer ( 4a0: d60)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 4a0: d60)] Load Network Traffic Analyzers:
+[Network Analyzer ( 4a0: d60)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 4a0: d60)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 4a0: d60)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 4a0: d60)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 4a0: d60)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 4a0: d60)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 4a0: d60)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 4a0: d60)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 4a0:1578)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( 4a0: d60)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer ( 4a0: d60)] Request Connection: Remote Server @ 8.8.8.8:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (17f8: da4)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (17f8: 314)] ------------------------------------------------------------------------------------------
+[Network Analyzer (17f8: 314)] Load Network Traffic Analyzers:
+[Network Analyzer (17f8: 314)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (17f8: 314)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (17f8: 314)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (17f8: 314)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (17f8: 314)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (17f8: 314)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (17f8: 314)]     Analyzer Module: local_server (value=)
+[Network Analyzer (17f8: 314)] ------------------------------------------------------------------------------------------
+[Network Analyzer (17f8: c60)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (17f8: 314)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[Network Analyzer (17f8: 314)] Request Connection: Remote Server @ 8.8.4.4:443   (Service=)  (Sid=  1)  PROXIED!
+[API Trapper      (2fb4:17e8)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (2fb4: cd8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2fb4: cd8)] Load Network Traffic Analyzers:
+[Network Analyzer (2fb4: cd8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2fb4: cd8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2fb4: cd8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2fb4: cd8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2fb4: cd8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2fb4: cd8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2fb4: cd8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2fb4: cd8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2fb4:15e4)] Address lookup for e4f755d820ed58d = 172.19.37.207
+[User action                 ] Pausing...  

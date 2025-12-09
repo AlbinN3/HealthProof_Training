@@ -1,0 +1,16 @@
+[t2]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=DummyContentType
+StepName=Custom Request: v9o_2
+Total=2
+FileName1=t2.UNK
+FileName2=t1_1_remote-settings.UNK
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1764828463982
+RawStepName=v9o_2
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1764828463842
+URL1=http://o.pki.goog/s/wr3/v9o
+URL2=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain

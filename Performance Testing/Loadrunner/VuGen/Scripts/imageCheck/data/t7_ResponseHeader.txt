@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 564
+x-content-type-options: nosniff
+server: nginx
+access-control-allow-origin: *
+access-control-expose-headers: Backoff, Content-Type, Content-Length, Alert, Retry-After
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+cache-control: max-age=3600
+expires: Thu, 04 Dec 2025 08:58:38 GMT
+content-security-policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+strict-transport-security: max-age=31536000
+content-type: application/json
+Content-Encoding: br
+Accept-Ranges: bytes
+Date: Thu, 04 Dec 2025 08:55:00 GMT
+Age: 216
+X-Served-By: cache-maa10225-MAA, cache-maa10240-MAA
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 519
+X-Timer: S1764838501.781625,VS0,VE0
+Vary: Accept-Encoding
+

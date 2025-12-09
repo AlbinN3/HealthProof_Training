@@ -1,0 +1,48 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: demowebshop.tricentis.com",
+                "infFile": "t1.inf",
+                "time": 1764998475948
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Register",
+                "infFile": "t2.inf",
+                "time": 1764998476358
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Log in",
+                "infFile": "t3.inf",
+                "time": 1764998476769
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Register",
+                "rawStartTime": 1764998475974,
+                "rawEndTime": 1764998476368,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013384580612182618
+            },
+            {
+                "transactionName": "Register User",
+                "rawStartTime": 1764998476384,
+                "rawEndTime": 1764998476400,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1764998476416,
+                "rawEndTime": 1764998476776,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012571573257446289
+            }
+        ]
+    }
+]

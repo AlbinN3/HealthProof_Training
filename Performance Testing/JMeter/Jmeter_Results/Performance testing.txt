@@ -1,0 +1,16 @@
+Record and playback
+Think time(timers)
+Correlation
+Data driven testing
+Analysis of performance
+	Response time
+	Throughput rate
+	Transaction per second
+	CPU utilization
+	Memory leakage
+Performing for multiple users/multiple transactions/loops
+API testing
+JDBC
+Report Generations
+
+

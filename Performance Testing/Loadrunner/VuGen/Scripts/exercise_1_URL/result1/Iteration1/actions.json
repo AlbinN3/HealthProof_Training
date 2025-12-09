@@ -1,0 +1,128 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: canonical.html",
+                "infFile": "t1.inf",
+                "time": 1764824650777
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: canonical.html_2",
+                "infFile": "t4.inf",
+                "time": 1764824651137
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: ads",
+                "infFile": "t6.inf",
+                "time": 1764824651586
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: blazedemo.com",
+                "infFile": "t7.inf",
+                "time": 1764824653978
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: cfr-v1-en-US",
+                "infFile": "t8.inf",
+                "time": 1764824654972
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: canonical.html_3",
+                "infFile": "t9.inf",
+                "time": 1764824655039
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: 06567e4a-c9bc-489c-a58d-45856cb79c8b",
+                "infFile": "t11.inf",
+                "time": 1764824655841
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: canonical.html_4",
+                "infFile": "t14.inf",
+                "time": 1764824656734
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: e2b7912c-9878-4d57-ac2e-8245983de039",
+                "infFile": "t16.inf",
+                "time": 1764824658421
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: d5fb4081-21e5-486e-8630-fecbde3bc60f",
+                "infFile": "t18.inf",
+                "time": 1764824659446
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: a74e062e-3985-41a4-afe8-f6526c5ec54e",
+                "infFile": "t19.inf",
+                "time": 1764824660049
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: 9bb24be5-f8e3-4c8a-b3cb-f2af34e8b923",
+                "infFile": "t21.inf",
+                "time": 1764824661067
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: 76336140-4e23-4164-9fcc-9b728604ce92",
+                "infFile": "t22.inf",
+                "time": 1764824661365
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: 0221c094-6218-46aa-a4b4-c03650249d88",
+                "infFile": "t23.inf",
+                "time": 1764824661672
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: f7e6e3fc-45ae-451a-9562-35676ec2c329",
+                "infFile": "t24.inf",
+                "time": 1764824661943
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: canonical.html_5",
+                "infFile": "t26.inf",
+                "time": 1764824662692
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: canonical.html_6",
+                "infFile": "t27.inf",
+                "time": 1764824662781
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: reserve.php",
+                "infFile": "t35.inf",
+                "time": 1764824666097
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: purchase.php",
+                "infFile": "t39.inf",
+                "time": 1764824667317
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: confirmation.php",
+                "infFile": "t41.inf",
+                "time": 1764824668055
+            }
+        ],
+        "transactions": []
+    }
+]

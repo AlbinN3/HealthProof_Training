@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+X-Amz-Id-2: GUs6F9gv7foHOW74KwKOrU3WYS6spFu9jiKnX6Vmow7uQ/MIQrciKbbXDJi5z7ait49obVq5vJPO1YNN4MDsEyEIqH6mTJIL92pfdTAvbvk=
+X-Amz-Request-Id: BSY597JBXXER8415
+X-Amz-Server-Side-Encryption: AES256
+Content-Disposition: attachment
+Accept-Ranges: bytes
+Content-Length: 5303
+Server: AmazonS3
+Via: 1.1 google
+Date: Thu, 04 Dec 2025 08:34:48 GMT
+Age: 1211
+Last-Modified: Wed, 29 Oct 2025 09:14:52 GMT
+ETag: "da2df317fe40bd4460e32977232f0f56"
+Content-Type: binary/octet-stream
+Cache-Control: public,max-age=3600
+Alt-Svc: clear
+

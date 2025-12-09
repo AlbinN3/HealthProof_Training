@@ -1,0 +1,17 @@
+[t20]
+FileName1=t20.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/7858b731-1b12-4934-919a-832a146f9228
+Total=4
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=t20_RequestBody.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_0000015_25-virtual-gift-card_125.jpg
+URL2=https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg
+FileName3=t20_0000224_141-inch-laptop_125.png
+URL3=https://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png
+FileName4=t20_0000172_build-your-own-cheap-computer_125.jpg
+URL4=https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg
+[ProtocolInfo]
+ProtocolId=QTWeb

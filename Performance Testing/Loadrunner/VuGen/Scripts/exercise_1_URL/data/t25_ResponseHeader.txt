@@ -1,0 +1,15 @@
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Content-Length: 0
+Connection: keep-alive
+Date: Thu, 04 Dec 2025 05:26:07 GMT
+X-Amzn-Trace-Id: Root=1-69311b6f-617e6600616ae7f45e7a4362;Parent=45383e236c0f633f;Sampled=0;Lineage=1:f1844f24:0
+x-amzn-RequestId: 7617c363-7415-45e9-a588-e8bac4f12766
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: VDE5iEEdIAMET4Q=
+X-Content-Type-Options: nosniff
+X-Cache: Miss from cloudfront
+Via: 1.1 3e01f1bb97e94babf3a238feeedd6966.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: yVDrwCecnukY7e3KX030SX6uX2_wD6hV-MROc7Is-6-BaBz85oM88A==
+

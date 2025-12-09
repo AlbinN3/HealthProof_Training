@@ -1,0 +1,883 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 6,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Dec-06-2025",
+    "RecordingDuration": 44781,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1764998677,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 782550,
+    "TotalBytesSent": 51136,
+    "TotalRequests": 49,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "tricentis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.174.3.80",
+          "IncludeInScript": true,
+          "Name": "demowebshop.tricentis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 156,
+              "EventId": 835,
+              "HttpStatus": 200,
+              "Size": 911,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_32.jpeg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 829,
+              "HttpStatus": 200,
+              "Size": 7700,
+              "URL": "https://demowebshop.tricentis.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 827,
+              "HttpStatus": 302,
+              "Size": 118,
+              "URL": "https://demowebshop.tricentis.com/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 822,
+              "HttpStatus": 200,
+              "Size": 370,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/progress-step-inactive.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 820,
+              "HttpStatus": 200,
+              "Size": 387,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/progress-step-active.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 922,
+              "EventId": 815,
+              "HttpStatus": 200,
+              "Size": 4280,
+              "URL": "https://demowebshop.tricentis.com/cart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 781,
+              "EventId": 813,
+              "HttpStatus": 200,
+              "Size": 3159,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000116_blue-and-green-sneaker_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 156,
+              "EventId": 809,
+              "HttpStatus": 200,
+              "Size": 8057,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_300.jpeg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 156,
+              "EventId": 793,
+              "HttpStatus": 200,
+              "Size": 13925,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery.magnific-popup.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 141,
+              "EventId": 791,
+              "HttpStatus": 200,
+              "Size": 1988,
+              "URL": "https://demowebshop.tricentis.com/Content/magnific-popup/magnific-popup.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 344,
+              "EventId": 787,
+              "HttpStatus": 200,
+              "Size": 8295,
+              "URL": "https://demowebshop.tricentis.com/25-virtual-gift-card"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 234,
+              "EventId": 785,
+              "HttpStatus": 200,
+              "Size": 154,
+              "URL": "https://demowebshop.tricentis.com/addproducttocart/catalog/2/1/1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 172,
+              "EventId": 775,
+              "HttpStatus": 200,
+              "Size": 36343,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ajax_loader_large.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 359,
+              "EventId": 769,
+              "HttpStatus": 200,
+              "Size": 7602,
+              "URL": "https://demowebshop.tricentis.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 767,
+              "HttpStatus": 302,
+              "Size": 118,
+              "URL": "https://demowebshop.tricentis.com/login"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 296,
+              "EventId": 732,
+              "HttpStatus": 200,
+              "Size": 5732,
+              "URL": "https://demowebshop.tricentis.com/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 171,
+              "EventId": 729,
+              "HttpStatus": 200,
+              "Size": 824,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/arrows.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 727,
+              "HttpStatus": 200,
+              "Size": 1281,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/bullets.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 141,
+              "EventId": 725,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://demowebshop.tricentis.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 723,
+              "HttpStatus": 200,
+              "Size": 1737,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/loading.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 721,
+              "HttpStatus": 200,
+              "Size": 208,
+              "URL": "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 719,
+              "HttpStatus": 200,
+              "Size": 182,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-triangle.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 715,
+              "HttpStatus": 200,
+              "Size": 631,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/star-x-active.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 709,
+              "HttpStatus": 200,
+              "Size": 685,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/star-x-inactive.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 707,
+              "HttpStatus": 200,
+              "Size": 58,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/bullet-right.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 705,
+              "HttpStatus": 200,
+              "Size": 927,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-divider.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 156,
+              "EventId": 702,
+              "HttpStatus": 200,
+              "Size": 3659,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000201_build-your-own-expensive-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 699,
+              "HttpStatus": 200,
+              "Size": 3659,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000204_simple-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 690,
+              "HttpStatus": 200,
+              "Size": 3674,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000031_build-your-own-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 171,
+              "EventId": 515,
+              "HttpStatus": 200,
+              "Size": 2785,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 511,
+              "HttpStatus": 200,
+              "Size": 440464,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000240.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 508,
+              "HttpStatus": 200,
+              "Size": 55470,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000215.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 506,
+              "HttpStatus": 200,
+              "Size": 7335,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 140,
+              "EventId": 504,
+              "HttpStatus": 200,
+              "Size": 3661,
+              "URL": "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 500,
+              "HttpStatus": 200,
+              "Size": 7188,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 141,
+              "EventId": 497,
+              "HttpStatus": 200,
+              "Size": 4793,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 203,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 3072,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 188,
+              "EventId": 481,
+              "HttpStatus": 200,
+              "Size": 956,
+              "URL": "https://demowebshop.tricentis.com/Scripts/public.common.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 172,
+              "EventId": 479,
+              "HttpStatus": 200,
+              "Size": 817,
+              "URL": "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 157,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 60492,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery-ui-1.10.3.custom.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 156,
+              "EventId": 471,
+              "HttpStatus": 200,
+              "Size": 2302,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery.validate.unobtrusive.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 156,
+              "EventId": 468,
+              "HttpStatus": 200,
+              "Size": 6796,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery.validate.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 187,
+              "EventId": 458,
+              "HttpStatus": 200,
+              "Size": 1016,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 156,
+              "EventId": 448,
+              "HttpStatus": 200,
+              "Size": 33422,
+              "URL": "https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 156,
+              "EventId": 446,
+              "HttpStatus": 200,
+              "Size": 912,
+              "URL": "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/default.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 156,
+              "EventId": 443,
+              "HttpStatus": 200,
+              "Size": 5287,
+              "URL": "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 140,
+              "EventId": 440,
+              "HttpStatus": 200,
+              "Size": 4274,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 156,
+              "EventId": 423,
+              "HttpStatus": 200,
+              "Size": 16116,
+              "URL": "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 531,
+              "EventId": 415,
+              "HttpStatus": 200,
+              "Size": 7578,
+              "URL": "https://demowebshop.tricentis.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.183.138",
+          "IncludeInScript": false,
+          "Name": "optimizationguide-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 764,
+              "HttpStatus": 200,
+              "Size": 44,
+              "URL": "https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.206.74",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 807,
+              "HttpStatus": 200,
+              "Size": 89,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIzCUbdun0R--KJEgUNg9baMhIFDScmv28SBQ3zedpXEgUNKwb6MRIFDeSsVqcSBQ1lL_PvEhAJNjqN2K--6IoSBQ0T7oMO?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 79,
+              "EventId": 740,
+              "HttpStatus": 200,
+              "Size": 98,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIXCSMyQAYmgGaREgUNqpg3oBIFDWUhmeoSEAk2Oo3Yr77oihIFDRPugw4=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 717,
+              "HttpStatus": 200,
+              "Size": 36,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIQCTY6jdivvuiKEgUNE-6DDg==?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.77.104",
+          "IncludeInScript": false,
+          "Name": "ssl.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 833,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=6&utmn=503483247&utmhn=demowebshop.tricentis.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=-&utmdt=Demo%20Web%20Shop&utmhid=1540088264&utmr=0&utmp=%2F&utmht=1764998808791&utmac=UA-6574346-11&utmcc=__utma%3D78382081.2034286562.1764998771.1764998771.1764998771.1%3B%2B__utmz%3D78382081.1764998771.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 818,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=5&utmn=71237424&utmhn=demowebshop.tricentis.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=-&utmdt=Demo%20Web%20Shop.%20Shopping%20Cart&utmhid=1421869661&utmr=0&utmp=%2Fcart&utmht=1764998804693&utmac=UA-6574346-11&utmcc=__utma%3D78382081.2034286562.1764998771.1764998771.1764998771.1%3B%2B__utmz%3D78382081.1764998771.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 805,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=4&utmn=304091501&utmhn=demowebshop.tricentis.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=-&utmdt=Demo%20Web%20Shop.%20%2425%20Virtual%20Gift%20Card&utmhid=615616477&utmr=0&utmp=%2F25-virtual-gift-card&utmht=1764998801618&utmac=UA-6574346-11&utmcc=__utma%3D78382081.2034286562.1764998771.1764998771.1764998771.1%3B%2B__utmz%3D78382081.1764998771.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 773,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=3&utmn=57994817&utmhn=demowebshop.tricentis.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=-&utmdt=Demo%20Web%20Shop&utmhid=1895875687&utmr=0&utmp=%2F&utmht=1764998787421&utmac=UA-6574346-11&utmcc=__utma%3D78382081.2034286562.1764998771.1764998771.1764998771.1%3B%2B__utmz%3D78382081.1764998771.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 738,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=2&utmn=1833220636&utmhn=demowebshop.tricentis.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=-&utmdt=Demo%20Web%20Shop.%20Login&utmhid=1781214605&utmr=0&utmp=%2Flogin&utmht=1764998772319&utmac=UA-6574346-11&utmcc=__utma%3D78382081.2034286562.1764998771.1764998771.1764998771.1%3B%2B__utmz%3D78382081.1764998771.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 713,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=1340744676&utmhn=demowebshop.tricentis.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x644&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=-&utmdt=Demo%20Web%20Shop&utmhid=1371948691&utmr=-&utmp=%2F&utmht=1764998770800&utmac=UA-6574346-11&utmcc=__utma%3D78382081.2034286562.1764998771.1764998771.1764998771.1%3B%2B__utmz%3D78382081.1764998771.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1812053656&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 16,
+              "EventId": 667,
+              "HttpStatus": 200,
+              "Size": 17168,
+              "URL": "https://ssl.google-analytics.com/ga.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "dns.google",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "8.8.8.8",
+          "IncludeInScript": false,
+          "Name": "dns.google",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 16,
+              "EventId": 800,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABAnM3B2FkZHRoaXMDY29tAAABAAEAACkQAAAAAAAAVQAMAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 758,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 756,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 751,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABCGFjY291bnRzBmdvb2dsZQNjb20AAEEAAQAAKRAAAAAAAABQAAwATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 749,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABCGFjY291bnRzBmdvb2dsZQNjb20AAAEAAQAAKRAAAAAAAABQAAwATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 32,
+              "EventId": 744,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAQQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 742,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 16,
+              "EventId": 735,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABEGNvbnRlbnQtYXV0b2ZpbGwKZ29vZ2xlYXBpcwNjb20AAAEAAQAAKRAAAAAAAABEAAwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 697,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3NzbBBnb29nbGUtYW5hbHl0aWNzA2NvbQAAQQABAAApEAAAAAAAAEsADABHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 47,
+              "EventId": 695,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3NzbBBnb29nbGUtYW5hbHl0aWNzA2NvbQAAAQABAAApEAAAAAAAAEsADABHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 683,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 16,
+              "EventId": 672,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 665,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 663,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 0,
+              "EventId": 661,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 15,
+              "EventId": 657,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

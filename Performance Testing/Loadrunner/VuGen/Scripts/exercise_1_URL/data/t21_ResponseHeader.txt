@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=105682, private
+Date: Thu, 04 Dec 2025 05:26:07 GMT
+Content-Length: 41
+Content-Type: application/octet-stream
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

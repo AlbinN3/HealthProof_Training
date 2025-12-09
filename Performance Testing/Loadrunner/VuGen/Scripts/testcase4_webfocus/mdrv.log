@@ -1,0 +1,62 @@
+Virtual User Script started at: 04-12-2025 09:53:15
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\testcase4_webfocus\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_url("webtours") started  	[MsgId: MMSG-26355]
+Action.c(4): Detected non-resource "http://localhost:1080/webtours/header.html" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26573]
+Action.c(4): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26573]
+Action.c(4): Found resource "http://localhost:1080/webtours/images/hp_logo.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(4): Found resource "http://localhost:1080/webtours/images/webtours.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(4): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26573]
+Action.c(4): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26573]
+Action.c(4): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(4): web_url("webtours") was successful, 10076 body bytes, 2377 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(22): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(22): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(33): web_custom_request("xvY") started  	[MsgId: MMSG-26355]
+Action.c(33): web_custom_request("xvY") was successful, 5 body bytes, 627 header bytes  	[MsgId: MMSG-26386]
+Action.c(54): web_custom_request("ads") started  	[MsgId: MMSG-26355]
+Action.c(54): web_custom_request("ads") was successful, 59 body bytes, 237 header bytes  	[MsgId: MMSG-26386]
+Action.c(76): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(76): Warning -35046: The WebSocket whose ID is "0" is not connected  	[MsgId: MWAR-35046]
+Action.c(76): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(92): web_custom_request("ocsp.digicert.com") started  	[MsgId: MMSG-26355]
+Action.c(92): Downloading resource "http://detectportal.firefox.com/success.txt?ipv4" (specified by argument number 12)  	[MsgId: MMSG-26576]
+Action.c(92): web_custom_request("ocsp.digicert.com") was successful, 13 body bytes, 460 header bytes  	[MsgId: MMSG-26386]
+Action.c(106): web_custom_request("b3e452fa-acc0-46b4-8461-66bfb00fcfdf") started  	[MsgId: MMSG-26355]
+Action.c(106): Downloading resource "https://prod.ohttp-gateway.prod.webservices.mozgcp.net/ohttp-configs" (specified by argument number 13)  	[MsgId: MMSG-26576]
+Action.c(106): web_custom_request("b3e452fa-acc0-46b4-8461-66bfb00fcfdf") was successful, 61 body bytes, 897 header bytes  	[MsgId: MMSG-26386]
+Action.c(152): web_custom_request("8da09465-160b-4cc0-a18c-23ff16028323") started  	[MsgId: MMSG-26355]
+Action.c(152): web_custom_request("8da09465-160b-4cc0-a18c-23ff16028323") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(181): web_custom_request("a44974cd-13ad-4545-83be-8dff48e129bd") started  	[MsgId: MMSG-26355]
+Action.c(181): web_custom_request("a44974cd-13ad-4545-83be-8dff48e129bd") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(195): web_custom_request("ae7c50c0-2009-47c9-a3ca-42b66ab98b72") started  	[MsgId: MMSG-26355]
+Action.c(195): web_custom_request("ae7c50c0-2009-47c9-a3ca-42b66ab98b72") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(241): web_custom_request("f43ddb19-7187-4007-9cb0-bebe114a5c23") started  	[MsgId: MMSG-26355]
+Action.c(241): web_custom_request("f43ddb19-7187-4007-9cb0-bebe114a5c23") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(265): web_custom_request("b71d85e3-4efe-4162-bb52-109da5d33595") started  	[MsgId: MMSG-26355]
+Action.c(265): web_custom_request("b71d85e3-4efe-4162-bb52-109da5d33595") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(279): web_custom_request("d2e83cba-07af-4630-94e8-309f54b45fbd") started  	[MsgId: MMSG-26355]
+Action.c(279): web_custom_request("d2e83cba-07af-4630-94e8-309f54b45fbd") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(307): web_custom_request("ad81a6d8-5e9c-4675-98d3-89901db87206") started  	[MsgId: MMSG-26355]
+Action.c(307): web_custom_request("ad81a6d8-5e9c-4675-98d3-89901db87206") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(356): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(356): web_submit_data("login.pl") was successful, 795 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(389): web_reg_async_attributes started  	[MsgId: MMSG-26355]
+Action.c(389): web_reg_async_attributes was successful  	[MsgId: MMSG-26392]
+Action.c(444): web_stop_async started  	[MsgId: MMSG-26355]
+Action.c(444): Notify: Deleting Conversation Information with ID="poll_0"
+Action.c(444): web_stop_async was successful  	[MsgId: MMSG-26392]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

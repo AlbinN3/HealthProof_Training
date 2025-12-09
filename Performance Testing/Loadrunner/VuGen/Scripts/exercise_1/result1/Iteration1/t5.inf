@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/json
+StepName=Custom Request: curated-recommendations
+Total=1
+FileName1=t5.json
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1764822533840
+RawStepName=curated-recommendations
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1764822533371
+URL1=https://merino.services.mozilla.com/api/v1/curated-recommendations

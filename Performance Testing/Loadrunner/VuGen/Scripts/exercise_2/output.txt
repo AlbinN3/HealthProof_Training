@@ -1,0 +1,62 @@
+Virtual User Script started at: 04-12-2025 10:20:31
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\exercise_2\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_url("webtours") started  	[MsgId: MMSG-26355]
+Action.c(4): Detected non-resource "http://localhost:1080/webtours/header.html" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26573]
+Action.c(4): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26573]
+Action.c(4): Found resource "http://localhost:1080/webtours/images/hp_logo.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(4): Found resource "http://localhost:1080/webtours/images/webtours.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(4): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26573]
+Action.c(4): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26573]
+Action.c(4): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(4): web_url("webtours") was successful, 10080 body bytes, 2377 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(13): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(13): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(26): web_url("v1") started  	[MsgId: MMSG-26355]
+Action.c(26): Warning -26603: Unsupported "Content-Encoding"  	[MsgId: MWAR-26603]
+Action.c(26): web_url("v1") highest severity level was "warning", 563 body bytes, 744 header bytes  	[MsgId: MMSG-26388]
+Action.c(35): web_url("v1_2") started  	[MsgId: MMSG-26355]
+Action.c(35): Resource "https://firefox.settings.services.mozilla.com/v1/" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(44): web_custom_request("xvY") started  	[MsgId: MMSG-26355]
+Action.c(44): web_custom_request("xvY") was successful, 5 body bytes, 627 header bytes  	[MsgId: MMSG-26386]
+Action.c(56): web_custom_request("ads") started  	[MsgId: MMSG-26355]
+Action.c(56): web_custom_request("ads") was successful, 59 body bytes, 237 header bytes  	[MsgId: MMSG-26386]
+Action.c(78): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(78): Warning -35046: The WebSocket whose ID is "0" is not connected  	[MsgId: MWAR-35046]
+Action.c(78): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(94): web_custom_request("ocsp.digicert.com") started  	[MsgId: MMSG-26355]
+Action.c(94): Downloading resource "http://detectportal.firefox.com/success.txt?ipv4" (specified by argument number 12)  	[MsgId: MMSG-26576]
+Action.c(94): web_custom_request("ocsp.digicert.com") was successful, 13 body bytes, 460 header bytes  	[MsgId: MMSG-26386]
+Action.c(108): web_custom_request("cf230efd-fbc9-4cdd-a8c8-ae16fd70188e") started  	[MsgId: MMSG-26355]
+Action.c(108): Downloading resource "https://prod.ohttp-gateway.prod.webservices.mozgcp.net/ohttp-configs" (specified by argument number 13)  	[MsgId: MMSG-26576]
+Action.c(108): web_custom_request("cf230efd-fbc9-4cdd-a8c8-ae16fd70188e") was successful, 61 body bytes, 898 header bytes  	[MsgId: MMSG-26386]
+Action.c(158): web_custom_request("0497cd55-5880-455f-9a46-1df6edcea0af") started  	[MsgId: MMSG-26355]
+Action.c(158): web_custom_request("0497cd55-5880-455f-9a46-1df6edcea0af") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(192): web_custom_request("aaa636c4-85a4-4ab3-9a18-97eae0a962e3") started  	[MsgId: MMSG-26355]
+Action.c(192): web_custom_request("aaa636c4-85a4-4ab3-9a18-97eae0a962e3") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(206): web_custom_request("834e5da3-db1a-4c92-98f9-0987cee126b3") started  	[MsgId: MMSG-26355]
+Action.c(206): web_custom_request("834e5da3-db1a-4c92-98f9-0987cee126b3") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(252): web_custom_request("48c4bc20-c041-4de3-a2a7-96c045e0daca") started  	[MsgId: MMSG-26355]
+Action.c(252): web_custom_request("48c4bc20-c041-4de3-a2a7-96c045e0daca") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(276): web_custom_request("f1190c53-b730-41df-a28a-4add1dfbade9") started  	[MsgId: MMSG-26355]
+Action.c(276): web_custom_request("f1190c53-b730-41df-a28a-4add1dfbade9") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(290): web_custom_request("906f2d84-5072-4061-a7a2-ca81b7b11003") started  	[MsgId: MMSG-26355]
+Action.c(290): web_custom_request("906f2d84-5072-4061-a7a2-ca81b7b11003") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(318): web_custom_request("7b764e50-d2ea-44b9-aa3d-7024d6b10c9b") started  	[MsgId: MMSG-26355]
+Action.c(318): web_custom_request("7b764e50-d2ea-44b9-aa3d-7024d6b10c9b") was successful, 20 body bytes, 658 header bytes  	[MsgId: MMSG-26386]
+Action.c(367): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(367): web_submit_data("login.pl") was successful, 795 body bytes, 229 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

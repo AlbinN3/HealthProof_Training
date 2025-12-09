@@ -1,0 +1,98 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: canonical.html",
+                "infFile": "t1.inf",
+                "time": 1764830214369
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: demowebshop.tricentis.com",
+                "infFile": "t3.inf",
+                "time": 1764830217783
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: ads",
+                "infFile": "t5.inf",
+                "time": 1764830218232
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: canonical.html_2",
+                "infFile": "t6.inf",
+                "time": 1764830219424
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: 4fee0c73-8484-47d7-8b48-8a5634311ea6",
+                "infFile": "t8.inf",
+                "time": 1764830220682
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: canonical.html_3",
+                "infFile": "t9.inf",
+                "time": 1764830221957
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: 7feb88ad-0bec-48d0-abb2-85408ce9c871",
+                "infFile": "t10.inf",
+                "time": 1764830222269
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: 4df2ce0d-a3b2-4d0c-8725-5fe0ad438179",
+                "infFile": "t11.inf",
+                "time": 1764830222560
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: 1eaed5b7-5186-40d9-a683-7b892dbb99bc",
+                "infFile": "t12.inf",
+                "time": 1764830222836
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: 164ae961-5578-4ed6-adf9-02e89466451f",
+                "infFile": "t13.inf",
+                "time": 1764830223162
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: 876b6905-6cca-439b-b770-a77f5be53710",
+                "infFile": "t14.inf",
+                "time": 1764830223454
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: 38efcd04-2f3a-446b-a8f4-7781217dcf5b",
+                "infFile": "t15.inf",
+                "time": 1764830223778
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: 94a66282-ab35-4458-8138-7bf9e6470f0d",
+                "infFile": "t16.inf",
+                "time": 1764830224102
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: canonical.html_4",
+                "infFile": "t17.inf",
+                "time": 1764830225016
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: canonical.html_5",
+                "infFile": "t18.inf",
+                "time": 1764830225983
+            }
+        ],
+        "transactions": []
+    }
+]

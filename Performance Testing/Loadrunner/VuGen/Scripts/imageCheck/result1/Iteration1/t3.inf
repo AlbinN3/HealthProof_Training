@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=application/json
+StepName=Custom Request: ads
+Total=1
+FileName1=t3.json
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=1764834797894
+RawStepName=ads
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1764834794368
+URL1=https://ads.mozilla.org/v1/ads

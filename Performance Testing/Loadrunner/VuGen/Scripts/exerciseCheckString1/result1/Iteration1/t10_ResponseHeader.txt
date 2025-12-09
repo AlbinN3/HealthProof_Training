@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Content-Length: 5
+Connection: keep-alive
+Cache-Control: max-age=243
+Expires: Thu, 04 Dec 2025 06:48:08 GMT
+Date: Thu, 04 Dec 2025 06:44:05 GMT
+Akamai-GRN: 0.1bd62c17.1764830645.dfb4f8bd
+X-Cache: Miss from cloudfront
+Via: 1.1 757eaeb1fb5967d84424b75db965388c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P2
+X-Amz-Cf-Id: mzwD4SikItmNgPtpHOJt4CpUhQVrUHkV2GHZpLIyzHkKhoAoyv3nJQ==
+

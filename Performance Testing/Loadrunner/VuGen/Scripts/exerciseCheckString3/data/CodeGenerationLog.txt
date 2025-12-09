@@ -1,0 +1,3308 @@
+****** Start Log Message ******
+Web Recorder version : 2023.0.0.506 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2023.0.0.506
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 218 ******
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 218 Ended $$$$$$
+
+****** Response Header For Transaction With Id 218 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Wed, 03 Dec 2025 15:17:32 GMT
+Age: 56031
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 218 Ended $$$$$$
+
+****** Response Body For Transaction With Id 218 ******
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+$$$$$$ Response Body For Transaction With Id 218 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 218 ****** (Location Flag : tFlagInsertEnd, Location ID : 218)
+	web_url("canonical.html",
+		"URL=http://detectportal.firefox.com/canonical.html",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t11.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 218 Ended $$$$$$
+
+****** Request Header For Transaction With Id 262 ******
+POST /s/wr3/xvY HTTP/1.1
+Host: o.pki.goog
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 84
+Connection: keep-alive
+Priority: u=2
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 262 Ended $$$$$$
+
+****** Request Body For Transaction With Id 262 ******
+0R0P0N0L0J0	\x06\x05+\x0E\x03\x02\x1A\x05\x00\x04\x14t\x02F\xF2Z\\B\x12 \xB5\xBD]v	\xA6\xBA\\\xA3G\xDF\x04\x14$\xF2.N\x0F\xBD\xCA\xF7>)U\xCAr\x8Di\x87VD\xE9z\x02\x11\x00\xC6\xF6\xC8\xE2\xDF\x16\xC1\x12\xC6\xEC\xC0s\\\xB0T
+$$$$$$ Request Body For Transaction With Id 262 Ended $$$$$$
+
+****** Response Header For Transaction With Id 262 ******
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Cache-Control: public, max-age=300
+Content-Security-Policy-Report-Only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/sytroprc:52:0
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to=sytroprc:52:0
+Report-To: {"group":"sytroprc:52:0","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/scaffolding/sytroprc:52:0"}],}
+Date: Thu, 04 Dec 2025 06:51:24 GMT
+Server: scaffolding on HTTPServer2
+Content-Length: 5
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+
+$$$$$$ Response Header For Transaction With Id 262 Ended $$$$$$
+
+****** Response Body For Transaction With Id 262 ******
+0\x03
+\x01\x06
+$$$$$$ Response Body For Transaction With Id 262 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/canonical.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 262 ****** (Location Flag : tFlagInsertEnd, Location ID : 262)
+	web_custom_request("xvY",
+		"URL=http://o.pki.goog/s/wr3/xvY",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/ocsp-response",
+		"Referer=",
+		"Snapshot=t12.inf",
+		"Mode=HTML",
+		"EncType=application/ocsp-request",
+		"BodyBinary=0R0P0N0L0J0\t\\x06\\x05+\\x0E\\x03\\x02\\x1A\\x05\\x00\\x04\\x14t\\x02F\\xF2Z\\\\B\\x12 \\xB5\\xBD]v\t\\xA6\\xBA\\\\\\xA3G\\xDF\\x04\\x14$\\xF2.N\\x0F\\xBD\\xCA\\xF7>)U\\xCAr\\x8Di\\x87VD\\xE9z\\x02\\x11\\x00\\xC6\\xF6\\xC8\r\\xE2\\xDF\\x16\\xC1\\x12\\xC6\\xEC\\xC0s\\\\\\xB0T",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 262 Ended $$$$$$
+
+****** Request Header For Transaction With Id 264 ******
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 264 Ended $$$$$$
+
+****** Response Header For Transaction With Id 264 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Wed, 03 Dec 2025 15:17:32 GMT
+Age: 56032
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 264 Ended $$$$$$
+
+****** Response Body For Transaction With Id 264 ******
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+$$$$$$ Response Body For Transaction With Id 264 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/s/wr3/xvY
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 264 ****** (Location Flag : tFlagInsertEnd, Location ID : 264)
+	web_url("canonical.html_2",
+		"URL=http://detectportal.firefox.com/canonical.html",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t13.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 264 Ended $$$$$$
+
+****** Request Header For Transaction With Id 268 ******
+GET /v1/ HTTP/1.1
+Host: firefox.settings.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 268 Ended $$$$$$
+
+****** Response Header For Transaction With Id 268 ******
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 563
+x-content-type-options: nosniff
+server: nginx
+access-control-allow-origin: *
+access-control-expose-headers: Content-Type, Content-Length, Retry-After, Backoff, Alert
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+cache-control: max-age=3600
+expires: Thu, 04 Dec 2025 07:17:05 GMT
+content-security-policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+strict-transport-security: max-age=31536000
+content-type: application/json
+Content-Encoding: br
+Accept-Ranges: bytes
+Date: Thu, 04 Dec 2025 06:51:24 GMT
+Age: 0
+X-Served-By: cache-maa10244-MAA, cache-maa10232-MAA
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 2
+X-Timer: S1764831084.004972,VS0,VE203
+Vary: Accept-Encoding
+
+
+$$$$$$ Response Header For Transaction With Id 268 Ended $$$$$$
+
+****** Response Body For Transaction With Id 268 ******
+\xB1X&\x00 \xD7\xD4\xACj\x99u\x8B\x88\x8At\x0E\x9D\xFD\x9F\xBB\xA4A\x84\x13\x17@#\xD6!\x1D\x7F?\x81\xFD\xEA\xAD\x8B"\x922\x01\x0B4i\xF6\x81V6\xC1\x01\x0F\xA7Kc\xC3\xDFO\x8E
+`J\x08N\x7F\xB5\xEEwH\x8E\xE5\x7F\x1F\x0C\xFC\x0C\x97\x82\x81\xFC
+\x88)\x1F*\xF9\xFE\xF3\xDB\x1DPO\xCE\xFEW0\xA04\xD3L\x00\x85\x15q\x9B\xED\x96\xEC\xDB\x92)\x1D\x18\xF3\xC5\xD5\xE9\x00\xF23\xEE_ci\x90\x1A\xD8\x9A\x02\xB8\x86\xEB:K\x05(<\xEE\xE7\x10\x1E\x04Vv\xAB\xCAr\xA7!\x01UO\x92\x03\x05\x16\xC3`\xDE\xA1`\xED`\x80\x07t\xFC\xD47a\x96rB\xEC\xB0\xD5\xF6\xA3\x8B.j\xDB\xC7\xC1\x8DC\xD4\xA3
+\xD3\xB2\x8CS'{\x19\x97n\xF4\x93p\xD6G\x1F}\xAFepQ\xF9\xD6\xF6~\x08Q\x05\xAD\xA7\xA5\xEB\x80\x02\x0BP\x8F\xCF\x84\xEA\x1A)\x1B9\xFE\x16\xCAHi\xBA\x8Eu\xDD\xA4T\x0F\x9F\x14\xC0\x034X/\x10\xE0\x04\xF3X\x8B&\x85\xC5\xA2[\xE7\x8B}\x99	\xFB\xA9\x82Q\x1D\x85\xF0\xB2\x9D\x93K8\xF3\xEC\xAE\xB0\xBDF\xCD'\x05g\xB7m4\x9C)d&j\xF1-\xC85\xBA\xA7\xC9@\xD1\x9B\x08Z\xA3SY\xB6\x92\x12I\x7F\x94U\x922\xB9\xAFO\xE7\xF9\x18\xD5\x9F\x90\xED<\xF5$\xCB4\x91J&\x93\x04\x02\xC0\xD9J\xE6W\xC5\xF2\xE8N\x01\xC3;\x82\xA6\x19\x85n\xC3\xEB\xDF\x83\xE6(\x0F\x99w\xF9}\x1C\x1F\xB1\xEC\xC9\x9E+\xAF\xAF\xD9\xAD{\xC9\xA9b\xE5\xB3\xC3i_m\xE5|N\xF9\xD0\xC4\xB27\xAD#\xEB\xDD\xA0\xD0s\x15\xAD`\x8A\xA9\x1E\x100U\x15\xCC\x1F\xE08\x9D\x95\xAB\xC3qN%\x9EK-\xAEf\x13O\x97\x07\xEDP\xD2\xEB\xB3\xBE\xBE"\xA5#6\x15-\x06\xAB\x8A\xDF\xFA\xF7Ia2\xF4c.r\xED=y\xC6h\x92xN\x93\xAD\xF1\xD5[%\x15\x87\x84\xEB\xE3"\x05\xA4\x94
+?\xD1d\x98\xE6\x15\x0B\x0EL\x89\x17&\xC8\xFCYoJ\x9F\x9Dy
+\x959\x9Fe\x17\xCE\x01y\x7F\x1B\xB6\xDF\x9EC\xB8\x86\xC7\xA5X\xBF\xDBo\x83\\\x02\xEE\xC9U\x06\x1F0\xD3p\x0E\x81\x01\xEE\x05U|\x06
+\x03\xCE<\xA7.\x07\xF3\xE7\xDF\xE7\xE7'
+$$$$$$ Response Body For Transaction With Id 268 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/canonical.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 268 ****** (Location Flag : tFlagInsertEnd, Location ID : 268)
+	web_url("v1",
+		"URL=https://firefox.settings.services.mozilla.com/v1/",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t14.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 268 Ended $$$$$$
+
+****** Request Header For Transaction With Id 271 ******
+GET /v1/ HTTP/1.1
+Host: firefox.settings.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 271 Ended $$$$$$
+
+****** Response Header For Transaction With Id 271 ******
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 563
+x-content-type-options: nosniff
+server: nginx
+access-control-allow-origin: *
+access-control-expose-headers: Content-Type, Content-Length, Retry-After, Backoff, Alert
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+cache-control: max-age=3600
+expires: Thu, 04 Dec 2025 07:17:05 GMT
+content-security-policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+strict-transport-security: max-age=31536000
+content-type: application/json
+Content-Encoding: br
+Accept-Ranges: bytes
+Date: Thu, 04 Dec 2025 06:51:24 GMT
+Age: 0
+X-Served-By: cache-maa10244-MAA, cache-maa10232-MAA
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1764831084.995338,VS0,VE213
+Vary: Accept-Encoding
+
+
+$$$$$$ Response Header For Transaction With Id 271 Ended $$$$$$
+
+****** Response Body For Transaction With Id 271 ******
+\xB1X&\x00 \xD7\xD4\xACj\x99u\x8B\x88\x8At\x0E\x9D\xFD\x9F\xBB\xA4A\x84\x13\x17@#\xD6!\x1D\x7F?\x81\xFD\xEA\xAD\x8B"\x922\x01\x0B4i\xF6\x81V6\xC1\x01\x0F\xA7Kc\xC3\xDFO\x8E
+`J\x08N\x7F\xB5\xEEwH\x8E\xE5\x7F\x1F\x0C\xFC\x0C\x97\x82\x81\xFC
+\x88)\x1F*\xF9\xFE\xF3\xDB\x1DPO\xCE\xFEW0\xA04\xD3L\x00\x85\x15q\x9B\xED\x96\xEC\xDB\x92)\x1D\x18\xF3\xC5\xD5\xE9\x00\xF23\xEE_ci\x90\x1A\xD8\x9A\x02\xB8\x86\xEB:K\x05(<\xEE\xE7\x10\x1E\x04Vv\xAB\xCAr\xA7!\x01UO\x92\x03\x05\x16\xC3`\xDE\xA1`\xED`\x80\x07t\xFC\xD47a\x96rB\xEC\xB0\xD5\xF6\xA3\x8B.j\xDB\xC7\xC1\x8DC\xD4\xA3
+\xD3\xB2\x8CS'{\x19\x97n\xF4\x93p\xD6G\x1F}\xAFepQ\xF9\xD6\xF6~\x08Q\x05\xAD\xA7\xA5\xEB\x80\x02\x0BP\x8F\xCF\x84\xEA\x1A)\x1B9\xFE\x16\xCAHi\xBA\x8Eu\xDD\xA4T\x0F\x9F\x14\xC0\x034X/\x10\xE0\x04\xF3X\x8B&\x85\xC5\xA2[\xE7\x8B}\x99	\xFB\xA9\x82Q\x1D\x85\xF0\xB2\x9D\x93K8\xF3\xEC\xAE\xB0\xBDF\xCD'\x05g\xB7m4\x9C)d&j\xF1-\xC85\xBA\xA7\xC9@\xD1\x9B\x08Z\xA3SY\xB6\x92\x12I\x7F\x94U\x922\xB9\xAFO\xE7\xF9\x18\xD5\x9F\x90\xED<\xF5$\xCB4\x91J&\x93\x04\x02\xC0\xD9J\xE6W\xC5\xF2\xE8N\x01\xC3;\x82\xA6\x19\x85n\xC3\xEB\xDF\x83\xE6(\x0F\x99w\xF9}\x1C\x1F\xB1\xEC\xC9\x9E+\xAF\xAF\xD9\xAD{\xC9\xA9b\xE5\xB3\xC3i_m\xE5|N\xF9\xD0\xC4\xB27\xAD#\xEB\xDD\xA0\xD0s\x15\xAD`\x8A\xA9\x1E\x100U\x15\xCC\x1F\xE08\x9D\x95\xAB\xC3qN%\x9EK-\xAEf\x13O\x97\x07\xEDP\xD2\xEB\xB3\xBE\xBE"\xA5#6\x15-\x06\xAB\x8A\xDF\xFA\xF7Ia2\xF4c.r\xED=y\xC6h\x92xN\x93\xAD\xF1\xD5[%\x15\x87\x84\xEB\xE3"\x05\xA4\x94
+?\xD1d\x98\xE6\x15\x0B\x0EL\x89\x17&\xC8\xFCYoJ\x9F\x9Dy
+\x959\x9Fe\x17\xCE\x01y\x7F\x1B\xB6\xDF\x9EC\xB8\x86\xC7\xA5X\xBF\xDBo\x83\\\x02\xEE\xC9U\x06\x1F0\xD3p\x0E\x81\x01\xEE\x05U|\x06
+\x03\xCE<\xA7.\x07\xF3\xE7\xDF\xE7\xE7'
+$$$$$$ Response Body For Transaction With Id 271 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/v1/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 271 ****** (Location Flag : tFlagInsertEnd, Location ID : 271)
+	web_url("v1_2",
+		"URL=https://firefox.settings.services.mozilla.com/v1/",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t15.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 271 Ended $$$$$$
+
+****** Request Header For Transaction With Id 276 ******
+POST /v1/ads HTTP/1.1
+Host: ads.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+content-type: application/json
+Content-Length: 223
+Connection: keep-alive
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 276 Ended $$$$$$
+
+****** Request Body For Transaction With Id 276 ******
+{"context_id":"23852afd-307f-4d9f-8e21-aa01fb354cbc","placements":[{"placement":"newtab_tile_1","count":1},{"placement":"newtab_tile_2","count":1},{"placement":"newtab_tile_3","count":1}],"blocks":[""],"credentials":"omit"}
+$$$$$$ Request Body For Transaction With Id 276 Ended $$$$$$
+
+****** Response Header For Transaction With Id 276 ******
+HTTP/1.1 200 OK
+content-type: application/json
+strict-transport-security: max-age=31536000
+date: Thu, 04 Dec 2025 06:51:24 GMT
+via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 276 Ended $$$$$$
+
+****** Response Body For Transaction With Id 276 ******
+{"newtab_tile_1":[{"format":"tile","url":"https://skyscanner.pxf.io/RGoLka?subid1=254860087025209344\u0026mfadid=adm","callbacks":{"click":"https://ads.mozilla.org/v1/t?data=Cp0IEgQxNTEwGgsIqt7EyQYQ8P34RyILCOzexMkGEOSGuFoqClNreXNjYW5uZXIyJDIzODUyYWZkLTMwN2YtNGQ5Zi04ZTIxLWFhMDFmYjM1NGNiYzoCSU5yDW5ld3RhYl90aWxlXzGCAVBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxNDUuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDUuMJgBAqABAagBA7ABAbgBAsIBJGQ5OTE0MDM2LTMyMWEtNDZhMC05ZDk5LTcwZjYyYTFjNGY4N8gBAZIBqAYKpQZodHRwczovL2JyaWRnZS5wZHgxLmFkbWFya2V0cGxhY2UubmV0L2N0cD92ZXJzaW9uPTEuMC4wJmVuY3A9am5FWXhtd1ZKUWtYNVFiVWZ0SU5JJTNEd3FnQ2xueEdFa2dDbHI0UTJhZlpiZDRacWFmUURuSG53cUklM0RFWUQlM0RjWUhGZFpnRGRTRUNlZzNjd3JDRDNSZmtkbEJDYzRpcWxkQ0d2M2Z0SVdIUWtYZnBiVWZ0SWRqJTNEcXpmQklkSW1xemZPSXV4cjNXR213cXNwa1c3bnVyaUYyemZaSFdmUWZZNHBMWjdSY2RJRzdfaUYyemZRRGsxcEhXZnBMcmZwOGRmUWJfZloyazduZFpqOTJ6ZnRJWWolM0Q3VGdGSU5KOTR3N1Jla2olM0R3cWdDYm5JOWVRaUYyemZ0SVFqOXd2SXBrWGZCSVF4bkV2SXBrWGZRZmFmT0lXSiUzRHdxZ0NsV2ZweG5JOTRXSG53cWdDbGExQ0RuSTk0V0hGM21pRjJ6ZkNEWGZ0SXF4cmVOakYzbWlGMnoxQ0hhNEJJcXhyZXZKbXdxZ0NsX2ZDRG5IRjNaSiUzRHdxZ0M4ZDRwTG1mcGJhNFpiazRRbGFmQ2xYZnRJWkolM0R6a0pSRXVnQ2xuSUZfRURxV3pDbE5lZm1JRkUlM0RMYUVaRUhEUXc3SnI3UERkRUNmbGtYSkU0JTJGSEdjVENaY18xRGR3STlJU2lxTjRzRThrQ251YTJ3RWc0RTc1RVI3d0k5ZndmcUlVeEVqOXN0RFkybnFaSUVFZzRjN1lJJTNERFdDbDRVMSUzRHhrRUZYdmpxN0RFbU5veFEyd2ZxSWtzUkk5NEM0MUlFMl9Da1glM0RIbkVmQ252V2k5ZTlJWURaM3REWjN0SVlqJTNEelpnQiUyRk02UVRTMVklMkZuaUZ3UWdCa1gxWWtYMVlrWDFZa1gxWWtYN240V2dDYlVmcGJkZnRXVzVwZlhmWnhUZnRXVzVwbFdmcHhUNXRXVDU5M3ZKJTNERVp4dFhPSEY0b0lud1RKY3pRSm1fcWpGNHZqbkR5EiA8O-mlxoAMa8lCqkmLgoS2Ter5ioTvVmbdQ4tm9K9Zpg","impression":"https://ads.mozilla.org/v1/t?data=CscDEgQxNTEwGgsIqt7EyQYQ8P34RyILCOzexMkGEOSGuFoqClNreXNjYW5uZXIyJDIzODUyYWZkLTMwN2YtNGQ5Zi04ZTIxLWFhMDFmYjM1NGNiYzoCSU5yDW5ld3RhYl90aWxlXzGCAVBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxNDUuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDUuMJgBAaABAagBA7ABAbgBAsIBJGQ5OTE0MDM2LTMyMWEtNDZhMC05ZDk5LTcwZjYyYTFjNGY4N8gBAZIB0gEKzwFodHRwczovL2ltcC5tdDQ4Lm5ldC9zdGF0aWM_aWQ9N1JIemZPSVhqRkVZc0Jkdklwa1k0QzJhNFFiVzFweFdmUURZZnBxWjRwMm5qOXdXSUJkdklwa1k3bjRZSUZja2lHSXc1RndxZ0NsWWZaTFk3UmVUSEY0d0pGRVVqdGR2SXBrWGZwYnI3bmNxNUc0d0olM0RFUWolM0R3VkpPZHZJcGtZNEMyYTRRYlcxcHhXNHBIWDFwbFhmQ2JueG1YVmp0ZFVqRmRPSUc4emYyeXkSIMaS8cJ032CO_NBXdNZ2YtlWfZA7R-orIQqLHV5pioUL","report":"https://ads.mozilla.org/v1/t?data=CrQEEgQxNTEwGgsIqt7EyQYQ8P34RyILCOzexMkGEOSGuFoqClNreXNjYW5uZXIyJDIzODUyYWZkLTMwN2YtNGQ5Zi04ZTIxLWFhMDFmYjM1NGNiYzoCSU5yDW5ld3RhYl90aWxlXzGCAVBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxNDUuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xNDUuMJgBBKABAagBA7ABAbgBAsIBJGQ5OTE0MDM2LTMyMWEtNDZhMC05ZDk5LTcwZjYyYTFjNGY4N8gBAeoBRWh0dHBzOi8vc2t5c2Nhbm5lci5weGYuaW8vUkdvTGthP3N1YmlkMT0yNTQ4NjAwODcwMjUyMDkzNDQmbWZhZGlkPWFkbfIB9wFodHRwczovL2Fkcy1pbWcubW96aWxsYS5vcmcvdjEvaW1hZ2VzP2ltYWdlX2RhdGE9Q25BS2JtaDBkSEJ6T2k4dllXMXdMV0Z6YzJWMExqUTFkSFV4WXpBdVkyOXRMMkZ6YzJWMGN5OHhOVEV3THpreE1EUTNZamxqWmpjMlpqYzJPRGcyTkRVMFlUa3lNalUyTWpFMk9XWTFOakZqTldaak5tVmpNbVl3TlRJeU9EWTNabUZtT1RBMllXTmpPRE5pWVRVdWFuQm5FaUJLX28xNHF3UlZ5bGkwbk5GOTd3Sm5YYkJQSDJvQy1Wd05ibF9WRDAwbXJREiBZrXc2Kd6UjO6KlrbnGCyaJcr_RNC8YDcllTHgmMLjUw"},"image_url":"https://ads-img.mozilla.org/v1/images?image_data=CnAKbmh0dHBzOi8vYW1wLWFzc2V0LjQ1dHUxYzAuY29tL2Fzc2V0cy8xNTEwLzkxMDQ3YjljZjc2Zjc2ODg2NDU0YTkyMjU2MjE2OWY1NjFjNWZjNmVjMmYwNTIyODY3ZmFmOTA2YWNjODNiYTUuanBnEiBK_o14qwRVyli0nNF97wJnXbBPH2oC-VwNbl_VD00mrQ","name":"Skyscanner","block_key":"CAMSCnNreXNjYW5uZXI"}],"newtab_tile_2":[],"newtab_tile_3":[]}
+
+$$$$$$ Response Body For Transaction With Id 276 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/v1/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 276 ****** (Location Flag : tFlagInsertEnd, Location ID : 276)
+	web_custom_request("ads",
+		"URL=https://ads.mozilla.org/v1/ads",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t16.inf",
+		"Mode=HTML",
+		"EncType=application/json",
+		"Body={\"context_id\":\"23852afd-307f-4d9f-8e21-aa01fb354cbc\",\"placements\":[{\"placement\":\"newtab_tile_1\",\"count\":1},{\"placement\":\"newtab_tile_2\",\"count\":1},{\"placement\":\"newtab_tile_3\",\"count\":1}],\"blocks\":[\"\"],\"credentials\":\"omit\"}",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 276 Ended $$$$$$
+
+****** Request Header For Transaction With Id 280 ******
+GET / HTTP/1.1
+Host: push.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Sec-WebSocket-Version: 13
+Origin: wss://push.services.mozilla.com/
+Sec-WebSocket-Protocol: push-notification
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: XZ4HZw8i6SXqWOCz0jjf5w==
+Connection: keep-alive, Upgrade
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: websocket
+Sec-Fetch-Site: none
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+
+
+$$$$$$ Request Header For Transaction With Id 280 Ended $$$$$$
+
+****** Response Header For Transaction With Id 280 ******
+HTTP/1.1 101 Switching Protocols
+sec-websocket-accept: 9lzB1MfEl2k2iUk7/qB2y+FQwMY=
+date: Thu, 04 Dec 2025 06:51:24 GMT
+Via: 1.1 google
+Upgrade: websocket
+Connection: Upgrade
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 280 Ended $$$$$$
+
+****** Response Body For Transaction With Id 280 ******
+
+$$$$$$ Response Body For Transaction With Id 280 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/v1/ads
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 280 ****** (Location Flag : tFlagInsertEnd, Location ID : 280)
+	web_url("push.services.mozilla.com",
+		"URL=https://push.services.mozilla.com/",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t17.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 280 Ended $$$$$$
+
+****** Request Header For Transaction With Id 302 ******
+GET /v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US HTTP/1.1
+Host: firefox.settings.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Content-Type: application/json
+Connection: keep-alive
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 302 Ended $$$$$$
+
+****** Response Header For Transaction With Id 302 ******
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 227
+last-modified: Mon, 02 Dec 2024 22:25:11 GMT
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+etag: "1733178311775"
+server: nginx
+access-control-allow-origin: *
+access-control-expose-headers: Last-Modified, Expires, Content-Length, ETag, Retry-After, Backoff, Alert, Pragma, Content-Type, Cache-Control
+expires: Wed, 03 Dec 2025 00:07:16 GMT
+cache-control: max-age=3600
+content-security-policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+content-type: application/json
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+Content-Encoding: br
+Accept-Ranges: bytes
+Date: Thu, 04 Dec 2025 06:51:25 GMT
+Age: 2427
+X-Served-By: cache-maa10234-MAA, cache-maa10245-MAA
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 8847
+X-Timer: S1764831086.972447,VS0,VE0
+Vary: Accept-Encoding
+
+
+$$$$$$ Response Header For Transaction With Id 302 Ended $$$$$$
+
+****** Response Body For Transaction With Id 302 ******
+\xA1H
+\x00 f.\x13\xF1\xC5V\xFEd\xB9\x13\x9A	\xCE\xB8~\xEFo\\\x03\xEB8\x0C:\x0C\xF8 \x838\xF9\xB6\x0F\xB8\xC8\x90\x17\x0BQ\xDD\xB1'.Ho\x08\xD93\xD2\xFB\xAB\x90m)Ho4\x8F\x85\xB0\xFF!\xC1\x0F\xD1\xDE\xC5\xE6J1=x;l\xA8\xBD\xC4\xAEG\x19\xAD\xC6\xD2\\	Z\xA2\xEF5\xFBl\xAA\xD52\x95\xC9\x07\xD7]\x18\xECc\x80\xC2y\xF9\xEAHl\x83\x8E
+c\xB9\xE9\xBB\xBC\xEDH\xC8\xE7\xD3\xFEz\xE9\xA7\x9Fq\xD9@a\xB3\xAF\xF9\xCEZ$l\xF3rG\xF7\xFDi=\xA0\xCC\xB6\xE7$Btt\x9E\x95\x90s\x8C\xADQ\xD1\xC5\x91\x11\xD6\x14\xAA\x99\xA8\xB1\xCEK\x94\xC2"\xAD\xDB\xE5\xB6\xC7{ x\xE2\xF6\xF5\xD2/\xC4b\x8B\xAF\xC2\xB2!\xA1\x8E\x13\xDD\x98\xFA\x8E\xFE~\xA1\xDE
+\xE4\x7F\xEFg$\xF6"\xEC\x830{o\xBF_
+$$$$$$ Response Body For Transaction With Id 302 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 302 ****** (Location Flag : tFlagInsertEnd, Location ID : 302)
+	web_custom_request("cfr-v1-en-US",
+		"URL=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US",
+		"Method=GET",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t18.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 302 Ended $$$$$$
+
+****** Request Header For Transaction With Id 348 ******
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 348 Ended $$$$$$
+
+****** Response Header For Transaction With Id 348 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Wed, 03 Dec 2025 15:17:32 GMT
+Age: 56034
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 348 Ended $$$$$$
+
+****** Response Body For Transaction With Id 348 ******
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+$$$$$$ Response Body For Transaction With Id 348 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 348 ****** (Location Flag : tFlagInsertEnd, Location ID : 348)
+	web_url("canonical.html_3",
+		"URL=http://detectportal.firefox.com/canonical.html",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t19.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 348 Ended $$$$$$
+
+****** Request Header For Transaction With Id 367 ******
+POST / HTTP/1.1
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+Priority: u=2
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 367 Ended $$$$$$
+
+****** Request Body For Transaction With Id 367 ******
+0Q0O0M0K0I0	\x06\x05+\x0E\x03\x02\x1A\x05\x00\x04\x14t\x02F\xF2Z\\B\x12 \xB5\xBD]v	\xA6\xBA\\\xA3G\xDF\x04\x14$\xF2.N\x0F\xBD\xCA\xF7>)U\xCAr\x8Di\x87VD\xE9z\x02\x10\x02\xF1\x84\xDA\xF8\x12Sy\xE1\x18\x08\xA7\x04<\xF6\xF4
+$$$$$$ Request Body For Transaction With Id 367 Ended $$$$$$
+
+****** Response Header For Transaction With Id 367 ******
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Content-Length: 5
+Cache-Control: max-age=176
+Expires: Thu, 04 Dec 2025 06:54:22 GMT
+Date: Thu, 04 Dec 2025 06:51:26 GMT
+Connection: keep-alive
+Akamai-GRN: 0.36392017.1764831086.8eeb693f
+
+
+$$$$$$ Response Header For Transaction With Id 367 Ended $$$$$$
+
+****** Response Body For Transaction With Id 367 ******
+0\x03
+\x01\x06
+$$$$$$ Response Body For Transaction With Id 367 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/canonical.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 367 ****** (Location Flag : tFlagInsertEnd, Location ID : 367)
+	web_custom_request("ocsp.digicert.com",
+		"URL=http://ocsp.digicert.com/",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/ocsp-response",
+		"Referer=",
+		"Snapshot=t20.inf",
+		"Mode=HTML",
+		"EncType=application/ocsp-request",
+		"BodyBinary=0Q0O0M0K0I0\t\\x06\\x05+\\x0E\\x03\\x02\\x1A\\x05\\x00\\x04\\x14t\\x02F\\xF2Z\\\\B\\x12 \\xB5\\xBD]v\t\\xA6\\xBA\\\\\\xA3G\\xDF\\x04\\x14$\\xF2.N\\x0F\\xBD\\xCA\\xF7>)U\\xCAr\\x8Di\\x87VD\\xE9z\\x02\\x10\\x02\\xF1\\x84\\xDA\\xF8\\x12Sy\\xE1\\x18\\x08\\xA7\\x04<\\xF6\\xF4",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 367 Ended $$$$$$
+
+****** Request Header For Transaction With Id 373 ******
+GET /success.txt?ipv4 HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 373 Ended $$$$$$
+
+****** Response Header For Transaction With Id 373 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 8
+Via: 1.1 google
+Date: Thu, 04 Dec 2025 02:50:57 GMT
+Age: 14429
+Content-Type: text/plain
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 373 Ended $$$$$$
+
+****** Response Body For Transaction With Id 373 ******
+success
+
+$$$$$$ Response Body For Transaction With Id 373 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 367 ******
+	web_custom_request("ocsp.digicert.com",
+		"URL=http://ocsp.digicert.com/",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/ocsp-response",
+		"Referer=",
+		"Snapshot=t20.inf",
+		"Mode=HTML",
+		"EncType=application/ocsp-request",
+		"BodyBinary=0Q0O0M0K0I0\t\\x06\\x05+\\x0E\\x03\\x02\\x1A\\x05\\x00\\x04\\x14t\\x02F\\xF2Z\\\\B\\x12 \\xB5\\xBD]v\t\\xA6\\xBA\\\\\\xA3G\\xDF\\x04\\x14$\\xF2.N\\x0F\\xBD\\xCA\\xF7>)U\\xCAr\\x8Di\\x87VD\\xE9z\\x02\\x10\\x02\\xF1\\x84\\xDA\\xF8\\x12Sy\\xE1\\x18\\x08\\xA7\\x04<\\xF6\\xF4",
+		EXTRARES,
+		"Url=http://detectportal.firefox.com/success.txt?ipv4", "Referer=", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 367 Ended $$$$$$
+
+****** Request Header For Transaction With Id 375 ******
+GET / HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 375 Ended $$$$$$
+
+****** Response Header For Transaction With Id 375 ******
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=iso-8859-1
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Set-Cookie: PHPSESSID=046a4829bb1d7afd587ee011674445dc; path=/
+X-Powered-By: PHP/4.4.8
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:45:34 GMT
+Content-Length: 5638
+
+
+$$$$$$ Response Header For Transaction With Id 375 Ended $$$$$$
+
+****** Response Body For Transaction With Id 375 ******
+<html>
+<head>
+<title>CodeCharge Studio Demos and Examples</title>
+<link rel="stylesheet" type="text/css" href="CC-site-style.css">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#000080" vlink="#000080" alink="#ff0000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table border="0" cellpadding="0" cellspacing="0" width="780" bgcolor="#ffffff">
+  <tr>
+    <td nowrap><img border="0" height="60" src="images/header_cce_logo.gif"></td> 
+    <td nowrap><img border="0" height="60" src="images/header_s_text2.gif"></td> 
+    <td nowrap><img border="0" height="60" src="images/header_text2.gif"></td> 
+    <td nowrap><img border="0" height="60" src="images/header_ys_logo2.gif"></td> 
+  </tr>
+  <tr>
+    <td bgcolor="#000080" colspan="4"><img src="images/0-0.gif" width="1" height="10" border="0"></td>
+  </tr>
+</table>
+
+<table cellSpacing="5" cellPadding="5" width="780" border="0">
+<tr>
+	<td vAlign="top" colspan="2"><h1>CodeCharge Studio Demos and Examples</h1></td>
+</tr>
+<tr>
+	<td vAlign="top" colspan="2">Rapid Web development tools are becoming increasingly 
+		important for a growing number of developers these days. 
+		CodeCharge Studio is being used in many innovative ways to 
+		create sophisticated Web applications. Take a look below at 
+		the professional-strength examples (many included with 
+		purchase) built using CodeCharge Studio. You won't believe 
+		how quickly you can start building better Web applications!</td>
+	</tr>
+<tr>
+	<td class="SubHead" colSpan="2">Complete Applications
+	<hr color="#000080" SIZE="1"></td>
+</tr>
+<tr>
+	<td vAlign="top" width="380">
+	<ul>
+	<li><a class="link_body" target="_blank" href="http://www.yessoftware.com/">YesSoftware Website</a><br>
+			Our own extensive, fully-functional Website was developed using CodeCharge Studio. It includes powerful product management and affiliate management features and a secure online store. It runs on Linux with Apache, MySQL and PHP.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://forums.codecharge.com/">CodeCharge Forums</a><br>
+		This powerful online discussion system has the advanced 
+		features found only in the leading community applications, 
+		such as integration with NNTP newsgroup server, advanced 
+		search, email notifications, spam filtering, and many more. 
+		It runs securely and efficiently on Linux with Apache, MySQL 
+		and PHP.</ul></td>
+
+	<td vAlign="top" width="380">
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://support.codecharge.com/">CodeCharge Support System</a><br>
+		The CodeCharge support site includes news/updates and 
+		documents depository and an online trouble ticket management 
+		system. It runs on Windows NT with ASP and MS Access.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://support.codecharge.com/kb_search.asp">CodeCharge Knowledge Base</a><br>
+		A user-friendly, searchable database-driven knowledge 
+		management solution that provides a centralized repository 
+		for company knowledge. Runs smoothly on Windows NT with ASP 
+		and MS Access.
+		<br><br>
+		<i>Note: the Knowledge Base application is available as an 
+		example, free of charge to all registered users.</i>
+		</ul>
+		</td>
+
+
+		
+</tr>
+<tr>
+	<td class="SubHead" colSpan="2">Basic Applications and Examples<br>
+      <a href="http://docs.codecharge.com/studio40/html/ProgrammingTechniques/CCSSolutions.html" target="docs">The applications below are included in CodeCharge Studio</a>
+	<hr color="#000080" SIZE="1"></td>
+</tr>
+<tr>
+	<td vAlign="top">
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://examples.codecharge.com/Store/Default.php">Online Bookstore</a><br>
+		This simple store can be used as a framework to create an 
+		expanded e-commerce system.
+		</ul>
+		
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://examples.codecharge.com/Forum/Default.php">Forum</a><br>
+		A basic but functional online discussion board, ready for 
+		online use.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://examples.codecharge.com/TaskManager/Default.php">Task Manager</a><br>
+		The Task Manager is a functional task, issue and bug 
+		tracking application for small companies and organizations 
+		to help maximize time.
+		</ul></td>
+
+	<td vAlign="top">
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://examples.codecharge.com/Portal/Default.php">Community Portal</a><br>
+		A simple and fully functional online Web Portal. This portal 
+		is a great starter system for small organizations, clubs, 
+		user groups, and schools.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://examples.codecharge.com/EmployeeDirectory/Default.php">Employee Directory</a><br>
+		Extend and adapt the Employee Directory application to fit 
+		any organization. Make employee information accessible and 
+		improve communication and productivity.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_body" target="_blank" href="http://examples.codecharge.com/RegistrationForm/Default.php">User Registration Form</a><br>
+		A user registration form with validation of required fields. 
+		Ready for use on your Website.
+		</ul></td>
+</tr>
+<tr>
+    <td class="SubHead" colspan="2">AJAX Examples created with CodeCharge Studio
+      4.0<br><a href="http://docs.codecharge.com/studio40/html/ProgrammingTechniques/CCSSolutions.html" target="docs">The applications below are included in CodeCharge Studio</a>
+      <hr color="#000080" size="1">
+    </td>
+</tr>
+<tr>
+    <td valign="top">
+      <ul>
+        <li><a href="http://examples.codecharge.com/Ajax/DependentListBox2.php">Two
+          Dependent Listboxes &amp; Autofill</a><br>
+          An implementation of 2 dependent drop-down menus (dependent listboxes)
+          using Ajax.<br>
+          Product information is automatically prefilled based on listbox
+          selection.
+      </ul>
+      <ul>
+        <li><a href="http://examples.codecharge.com/Ajax/DependentListBox3.php">Three
+          Dependent Listboxes &amp; Autofill</a><br>
+          An implementation of&nbsp;3 dependent drop-down menus (dependent
+          listboxes) using Ajax.<br>
+          Company information is automatically prefilled based on listbox
+          selection.<br>
+        <li><a href="http://examples.codecharge.com/Ajax/Autocomplete.php">Autocomplete
+          and Autofill</a><br>
+          Matching names are displayed automatically when typing a name.<br>
+          Employee information is retrieved automatically after selecting an
+          employee.
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+        <li><a href="http://examples.codecharge.com/Ajax/DatabaseInteraction.php">Database
+          Interaction and Tabbed View</a><br>
+          Information is retrieved from&nbsp;a database and updated without page
+          refresh. Two tabs are available for viewing and editing information.
+      </ul>
+      <ul>
+        <li><a href="http://examples.codecharge.com/Ajax/ModalWindow.php">Modal
+          Window (pop-up)</a><br>
+          Changing user password is performed in a modal window. The new
+          password is verified and updated without page refresh.
+      </ul>
+    </td>
+</tr>
+<tr>
+	<td class="SubHead" colSpan="2">Examples of Using CodeCharge Studio Features<br>
+      <a href="http://docs.codecharge.com/studio40/html/ProgrammingTechniques/CCSExamplePack.html" target="docs">The examples below make up CCS Example Pack, included in CodeCharge Studio</a>
+	<hr color="#000080" SIZE="1"></td>
+</tr>
+<tr>
+	<td vAlign="top"><b>Index/Directory Usage</b>
+	<br>
+		
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/Directory/Directory.php">Directory &amp; Path Implementation</a><br>
+		Implementation of CodeCharge Studio's&nbsp; directory and path components.
+		</ul>
+		
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/DirectoryMaintenance/DirectoryMaintenance.php">Directory Maintenance System</a><br>
+		Hierarchical category maintenance system for use with the directory.
+		</ul>
+
+		<b>Editable Grid Usage</b>
+	<br>
+		
+
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/NavRecordGrid/NavRecordGrid.php">Record Maintenance with Navigation</a><br>
+		Editable Grid used for record&nbsp;maintenance, with navigation.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/EditableGridAddButton/EditableGridAddButton.php">Editable Grid with 'Add Row' Button</a><br>
+		Editable Grid with new rows added using an &quot;Add Row&quot; button.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/EditableGridAutoRows/EditableGridAutoRows.php">Editable Grid with Auto New Rows</a><br>
+		Editable Grid with new rows added automatically.
+		</ul>
+
+		<b>Creating Master/Detail Forms</b>
+	<br>
+		
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/MasterDetail/MasterDetail.php">Simple Master-Detail for Employees/Projects</a><br>
+		Master-detail page for maintaining employees/projects.
+		</ul>
+
+		
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/OrderEntry/OrderEntry.php">Master-Detail Form for Order Entry</a><br>
+		An order entry page example implemented as master-detail.
+		</ul>
+
+		<b>Data Presentation Techniques</b>
+	<br>
+		
+		<ul>
+			<li><a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/NavGrid/NavGrid.php">Grid with Navigable Detail View</a><br>
+		Using a Grid to implement a record detail view with 
+		navigation.
+		</ul>
+		</td>
+
+	<td vAlign="top"><b>Working with Multiple Selections</b>
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/ManyToManyListbox/ManyToManyListbox.php">Updating Many-to-Many via Multi-select ListBox</a><br>
+		Using a multi-select ListBox to update multiple tables in a 
+		many-to-many relationship.
+	</ul>
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/ManyToManyCheckbox/ManyToManyCheckbox.php">
+		Updating Many-to-Many via CheckBox List</a><br>
+		Using a CheckBox List to update multiple tables in a 
+		many-to-many relationship.
+	</ul>
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/ManyToManyListboxes/ManyToManyListboxes.php">
+		Updating Many-to-Many via Two ListBoxes</a><br>
+		Using two multi-select ListBoxes to update multiple tables 
+		in a many-to-many relationship.
+	</ul>
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/MultiSelectSearch/MultiSelectSearch.php">
+		Search Form with Multi-select ListBox</a><br>
+		Search form with a multi-select ListBox.
+	</ul>
+
+		<b>Data Input Techniques</b><br>
+
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/PopUpList/PopUpList.php">
+		Pop-up List &amp; Smart Lookup</a><br>
+		Pop-up grid/list for selecting values and Smart Lookup for 
+		quick data entry.
+	</ul>
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/MultiStepRegistration/MultiStepRegistrationGrid.php">
+		Multi-Step User Registration</a><br>
+		Multi-step user registration form.
+	</ul>
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/InputMask/InputMask.php">
+		Data Entry page with Input Mask</a><br>
+		Data Entry page with Input Mask.
+	</ul>
+
+
+		<b>Other</b><br>
+	<ul>
+		<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/MultiColumnPrimaryKey/MultiColumnPrimaryKey.php">
+		Using a Multi-Column Primary Key</a><br>
+		An implementation of a multi-column primary key.
+	</ul>
+	<ul>
+	<li>
+		<a class="link_pack" target="_blank" href="http://examples.codecharge.com/ExamplePack/ExportToExcel/ExportToExcel.php">
+		Export To Excel</a><br>
+		This example shows how to implement export to Microsoft® Excel®.
+		</td>
+</tr>
+<tr>
+	<td colSpan="2"><font class="SubHead">Additional Examples - CCS Example Pack 2</font><br>
+		<a href="http://examples.codecharge.com/CCSExamplePack2/Default.php">The examples below make up CCS Example Pack 2</a>, available only to CodeCharge Studio users in <a href="http://www.yessoftware.com/content.php?content_id=customers_home"> CodeCharge Studio User Area</a>.
+		<hr color="#000080" SIZE="1"></td>
+</tr>
+<tr>
+	<td vAlign="top"><b>Dependent Listboxes</b><br>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/DependentListBox/DependentListBox.php">Two Dependent Listboxes</a><br>	An implementation of dependent drop-down menus (dependent listboxes).
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/DependentListBox3/DependentListBox3.php">
+		Three Dependent Listboxes</a><br>
+		An implementation of&nbsp;multiple dependent drop-down menus 
+		(three dependent listboxes).
+	</ul>
+
+		<b>Uploading Files</b><br>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/FileUpload/FileUpload.php">
+		Multiple File Uploads</a><br>
+		Uploading multiple file attachments.
+	</ul>
+
+
+	<b>Reports</b><br>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/EmployeesReport/EmployeesReport.php">
+		Employee Report</a><br>
+		Employee report with "Hide/Show Component" action used in printable mode.
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/ProductsReport/ProductsReport.php">
+		Products By Category Report</a><br>
+		A report example.
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/OrderEntryReport/OrderEntryReport.php">
+		Order Detail Report</a><br>
+		Simple Order Detail report.
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/SimpleReport/SimpleReport.php">
+		Simple Report</a><br>
+		Simple Employees by Department report.
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/TimeReport/TimeReport.php">
+		Timesheet Report</a><br>
+		An advanced example of a timesheet report implementation.
+	</ul>
+
+
+
+		<b>Calendar</b><br>
+<!--
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/CalendarEvents/CalendarEvents.php">
+		Calendar with Events</a><br>
+		Simple Web calendar with an event maintenance form.
+	</ul>
+ -->
+
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/CalendarSearch/CalendarSearch.php">
+		Calendar with Date Selection</a><br>
+		Simple Web calendar with date selection.
+	</ul>
+
+
+
+
+   </td>
+
+	<td vAlign="top"><b>Dynamic Menus</b>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/HorizontalJSMenu/HJSMenu.php">
+		Horizontal JavaScript Menu</a><br>
+		An implementation of dynamic (database-driven) horizontal <a target="tigra" href="http://www.softcomplex.com/products/tigra_menu/">
+		Tigra menu</a> (JavaScript).
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/VerticalJSMenu/VJSMenu.php">Vertical JavaScript Menu</a><br>
+		An implementation of dynamic (database-driven) vertical	<a target="tigra" href="http://www.softcomplex.com/products/tigra_menu/">
+		Tigra menu</a> (JavaScript).
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/HorizontalCSSMenu/HCSSMenu.php">
+		Horizontal CSS Menu</a><br>
+		Horizontal dynamic multi-level&nbsp;menu based on cascading style 
+		sheets (CSS)
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/VerticalCSSMenu/VCSSMenu.php">
+		Vertical CSS Menu</a><br>
+		Vertical dynamic multi-level menu based on cascading style 
+		sheets (CSS)
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/DirectoryMenu/DirectoryMenu.php">
+		Directory Menu</a><br>
+		Using the Directory component to create two-level dynamic 
+		menu
+	</ul>
+
+
+	<b>Caching</b><br>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/CacheExample/CacheExample.php">
+		Caching</a><br>
+		A demonstration of page caching features.
+	</ul>
+
+
+
+	<b>Panel</b><br>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/HideGridColumns/HideGridColumns.php">
+		Hide/Show Grid Columns</a><br>
+		Using panels to hide grid columns.
+	</ul>
+
+
+	<b>Other</b><br>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/RetrievingFieldsValues/RetrievingFieldsValues.php">
+		Retrieving fields values from the server on the fly</a><br>
+		Retrieving field values from a database without 
+		refreshing the page.
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/HorizontalGrid/HorizontalGrid.php">
+		Horizontal Grid</a><br>
+		An implementation of horizontal grid.
+	</ul>
+	<ul>
+		<li>
+		<a target="_blank" href="http://examples.codecharge.com/CCSExamplePack2/MultipleColumns/MultipleColumns.php">
+		Horizontal Grid with Multiple Columns</a><br>
+		An implementation of horizontal grid with multiple columns.
+	</ul>
+
+
+	</td>
+</tr>
+</table>
+
+<!-- footer -->
+<table border="0" cellspacing="0" cellpadding="5" width="780">
+  <tr>
+    <td colspan="3">
+      <hr size="1" color="#000080"></td> 
+  </tr>
+ 
+  <tr>
+    <td valign="top"><img height="10" src="images/0-0.gif" width="10" border="0"></td> 
+    <td class="copy" align="center"><br>
+      <br>
+      This website was generated with <a class="link_copy" href="http://www.yessoftware.com/?ys_examples">CodeCharge
+      Studio</a>.<br>
+      Copyright &copy; 2003-2009 <a class="link_copy" href="http://www.yessoftware.com/company/">YesSoftware</a>&nbsp;All
+      Rights Reserved.</td> 
+    <td valign="top"><img height="10" src="images/0-0.gif" width="10" border="0"></td> 
+  </tr>
+ 
+  <tr>
+    <td class="copy" align="center" colspan="2"><font style="color: #FFF; font-size: 1px">programming
+      Golive Dynamic ASP create web forms access2web convert database to html
+      publish databases on the Web asp2php JSP programming JSP tools PHP
+      programming PHP tools Perl programming Perl tools programming tools web
+      programming Access HTML Access Web Internet database html database web
+      html web forms dynamic websites code generator code generate</font></td> 
+  </tr>
+</table>
+<!-- /footer -->
+
+</body>
+</html>
+
+
+
+$$$$$$ Response Body For Transaction With Id 375 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 375 ****** (Location Flag : tFlagInsertEnd, Location ID : 375)
+	web_url("examples.codecharge.com",
+		"URL=http://examples.codecharge.com/",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t21.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 375 Ended $$$$$$
+
+****** Request Header For Transaction With Id 378 ******
+POST /submit/firefox-desktop/events/1/6e4a87c3-82eb-4667-9010-238e1a7be89e HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+content-type: application/json; charset=utf-8
+x-telemetry-agent: Glean/65.2.3 (Rust on Windows)
+content-length: 2798
+content-encoding: gzip
+date: Thu, 04 Dec 2025 06:15:05 GMT
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 378 Ended $$$$$$
+
+****** Request Body For Transaction With Id 378 ******
+{"ping_info":{"seq":28,"start_time":"2025-12-04T11:42:39.000+05:30","end_time":"2025-12-04T11:45:05.324+05:30","reason":"startup","experiments":{"fox-doodle-multi-action-cta-2025-rollout":{"branch":"treatment-a","extra":{"type":"nimbus-rollout"}},"smart-tab-groups-rollout-beta":{"branch":"smart-tab-groups","extra":{"type":"nimbus-rollout"}},"ai-chatbot-page-summarization-mvp-treatment-a-callout-badge-rollout-v2":{"branch":"treatment-a-callout-badge","extra":{"type":"nimbus-rollout"}},"private-window-visual-refresh-rollout":{"branch":"control","extra":{"type":"nimbus-rollout"}},"desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta":{"branch":"next-sign-up-modal-cta","extra":{"type":"nimbus-rollout"}},"windows-ui-automation-release-rollout":{"branch":"rollout","extra":{"type":"nimbus-rollout"}},"mozilla-foundation-donation-promotion-moments-page":{"branch":"treatment-a","extra":{"type":"nimbus-nimbus"}},"backgroundupdate-enable-unelevated-installations-rollout-3-release":{"branch":"enabled"
+$$$$$$ Request Body For Transaction With Id 378 Ended $$$$$$
+
+****** Response Header For Transaction With Id 378 ******
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 04 Dec 2025 06:51:26 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: DENY
+Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS
+Access-Control-Max-Age: 1728000
+Access-Control-Allow-Headers: Accept-Encoding,Connection,Content-Encoding,Content-Length,Content-Type,DNT,Date,Sec-Fetch-Dest,Sec-Fetch-Mode,Sec-Fetch-Site,User-Agent,X-Client-Type,X-Client-Version,X-Debug-ID,X-Forwarded-For,X-Pingsender-Version,X-Pipeline-Proxy,X-Source-Tags,X-Telemetry-Agent
+Content-Encoding: gzip
+Via: 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 378 Ended $$$$$$
+
+****** Response Body For Transaction With Id 378 ******
+
+$$$$$$ Response Body For Transaction With Id 378 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 378 ****** (Location Flag : tFlagInsertEnd, Location ID : 378)
+	web_custom_request("6e4a87c3-82eb-4667-9010-238e1a7be89e",
+		"URL=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/6e4a87c3-82eb-4667-9010-238e1a7be89e",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t22.inf",
+		"Mode=HTML",
+		"EncType=application/json; charset=utf-8",
+		"ContentEncoding=gzip",
+		"Body={\"ping_info\":{\"seq\":28,\"start_time\":\"2025-12-04T11:42:39.000+05:30\",\"end_time\":\"2025-12-04T11:45:05.324+05:30\",\"reason\":\"startup\",\"experiments\":{\"fox-doodle-multi-action-cta-2025-rollout\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"smart-tab-groups-rollout-beta\":{\"branch\":\"smart-tab-groups\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"ai-chatbot-page-summarization-mvp-treatment-a-callout-badge-rollout-v2\":{\"branch\":\"treatment-a-callout-badge\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"private-window-visual-refresh-rollout\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta\":{\"branch\":\"next-sign-up-modal-cta\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"windows-ui-automation-release-rollout\":{\"branch\":\"rollout\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"mozilla-foundation-donation-promotion-moments-page\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":"
+		"\"nimbus-nimbus\"}},\"backgroundupdate-enable-unelevated-installations-rollout-3-release\":{\"branch\":\"enabled\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"fast-udp-for-firefox-treatment-fast-udp-release-rollout\":{\"branch\":\"treatment-fast-udp\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"long-term-holdback-2025h1-growth-desktop\":{\"branch\":\"delivery\",\"extra\":{\"type\":\"nimbus-nimbus\"}},\"new-tab-147020251114194929-to-release\":{\"branch\":\"rollout\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"encrypted-client-hello-fallback-mechanism\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"enable-nimbus-unenrollment-synchronization\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"roll-out-expanded-sign-in-pxi-toolbar-button-wcallout-signed-out\":{\"branch\":\"sign-in-with-call-out\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"account-adoption-pxi-menu-rollout-v2\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"1-callout-contextual-chatbot-s"
+		"uggestion-treatment-a-tab-switching-copy-rollout\":{\"branch\":\"treatment-a-tab-switching-copy\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"unified-api-for-spocs-and-top-sites-controlled-rollout-for-release-133\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"pin-frequently-used-websites-143-promo-rollout-all-locales\":{\"branch\":\"rollout-branch\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"deprecate-ipaddrany-rollout-for-release\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"desktop-credit-card-autofill-global-enablement-rollout-release\":{\"branch\":\"creditcard-enable\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"visual-search-rollout\":{\"branch\":\"google-lens-rollout\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"disable-enrollment-status-telemetry-for-firefox-desktop-via-nimbustelemetry\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"downsample-uptakeremotecontent-events\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\""
+		"temp-new-tab-mobile-qr-code-campaign-row\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"account-adoption-callout-passwords-global-rollout\":{\"branch\":\"treatment-e\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"account-adoption-callout-credit-cards-treatment-c-rollout\":{\"branch\":\"treatment-c\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"acct-adoption-callout-addresses-rollout-with-pxi-required\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"pdf-annotations-highlight-treatment-b-rollout\":{\"branch\":\"treatment-b\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"visual-card-updates\":{\"branch\":\"updated\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"smart-shortcuts-v3-sticky\":{\"branch\":\"sticky-frozen-thom\",\"extra\":{\"type\":\"nimbus-nimbus\"}},\"taskbar-tabs-discovery-global-rollout\":{\"branch\":\"delivery\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"improved-mailto-handling-with-os-integration-treatment-a-rollout\":{\"branch\":\"treatment-a\",\"extra"
+		"\":{\"type\":\"nimbus-rollout\"}},\"windows-10-eos-sync-and-reminder-messaging-rollout\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"desktop-address-autofill-india-release-rollout\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"context-id-rotation-every-3-days\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"enforce-crlite-results-and-limit-use-of-ocsp-rollout\":{\"branch\":\"enforce\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"fx-accounts-ping-release-rollout-2\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}}}},\"client_info\":{\"telemetry_sdk_build\":\"65.2.3\",\"build_date\":\"1970-01-01T00:00:00+00:00\",\"first_run_date\":\"2022-10-16+05:30\",\"client_id\":\"90571d99-40b9-4f10-9a9a-227b856f2593\",\"app_channel\":\"release\",\"os_version\":\"10.0\",\"os\":\"Windows\",\"app_display_version\":\"145.0.2\",\"app_build\":\"20251124145406\",\"locale\":\"en-US\",\"architecture\":\"x86_64\",\"windows_build_number\":19045,\""
+		"attribution\":{\"source\":\"www.bing.com\",\"medium\":\"referral\",\"campaign\":\"%2528not%2Bset%2529\",\"content\":\"%2528not%2Bset%2529\"}},\"metrics\":{\"quantity\":{\"browser.engagement.max_concurrent_tab_count\":2,\"urlbar.pref_max_results\":10},\"boolean\":{\"urlbar.pref_suggest_topsites\":true,\"search.engine.private.overridden_by_third_party\":false,\"usage.is_default_browser\":false,\"urlbar.pref_suggest_data_collection\":false,\"search.engine.default.overridden_by_third_party\":false,\"policies.is_enterprise\":false,\"urlbar.pref_suggest_nonsponsored\":false,\"urlbar.pref_suggest_sponsored\":false},\"url\":{\"search.engine.private.submission_url\":\"blank:\",\"search.engine.default.submission_url\":\"https://www.google.com/search?client=firefox-b-d&q=\"},\"uuid\":{\"legacy.telemetry.client_id\":\"f6637294-d75f-4350-be24-43ca2fcded9d\",\"legacy.telemetry.profile_group_id\":\"f6637294-d75f-4350-be24-43ca2fcded9d\"},\"counter\":{\"browser.engagement.tab_open_event_count\":1,\"browser.engagement.uri_c"
+		"ount\":2,\"browser.engagement.active_ticks\":6},\"string\":{\"search.engine.default.display_name\":\"Google\",\"search.engine.private.partner_code\":\"\",\"search.engine.private.provider_id\":\"\",\"search.engine.default.provider_id\":\"google\",\"search.engine.private.load_path\":\"\",\"search.engine.private.display_name\":\"\",\"search.engine.default.partner_code\":\"firefox-b-d\",\"region.home_region\":\"IN\",\"search.engine.default.load_path\":\"[app]google\"}},\"events\":[{\"timestamp\":0,\"category\":\"session_restore\",\"name\":\"backup_can_be_loaded_session_file\",\"extra\":{\"can_load\":\"true\",\"loadfail_reason\":\"N/A\",\"glean_timestamp\":\"1764828757056\",\"path_key\":\"clean\"}},{\"timestamp\":0,\"category\":\"session_restore\",\"name\":\"backup_can_be_loaded_session_file\",\"extra\":{\"path_key\":\"clean\",\"can_load\":\"true\",\"glean_timestamp\":\"1764828757056\",\"loadfail_reason\":\"N/A\"}},{\"timestamp\":0,\"category\":\"session_restore\",\"name\":\"shutdown_success_session_startup\",\""
+		"extra\":{\"glean_timestamp\":\"1764828757057\",\"shutdown_ok\":\"false\",\"shutdown_reason\":\"N/A\"}},{\"timestamp\":601,\"category\":\"webcompatreporting\",\"name\":\"reason_dropdown\",\"extra\":{\"glean_timestamp\":\"1764828757657\",\"setting\":\"required\"}},{\"timestamp\":1157,\"category\":\"nimbus_events\",\"name\":\"startup_database_consistency\",\"extra\":{\"glean_timestamp\":\"1764828758213\",\"db_active_count\":\"37\",\"total_store_count\":\"48\",\"total_db_count\":\"48\",\"primary\":\"database\",\"store_active_count\":\"37\",\"trigger\":\"startup\"}},{\"timestamp\":1252,\"category\":\"jsonfile\",\"name\":\"load_autofillprofiles\",\"extra\":{\"glean_timestamp\":\"1764828758308\",\"value\":\"error_notfounderror\"}},{\"timestamp\":1268,\"category\":\"doh\",\"name\":\"state_rollback\",\"extra\":{\"glean_timestamp\":\"1764828758324\",\"value\":\"null\"}},{\"timestamp\":1285,\"category\":\"containers\",\"name\":\"container_profile_loaded\",\"extra\":{\"glean_timestamp\":\"1764828758342\",\"containers\""
+		":\"4\"}},{\"timestamp\":1850,\"category\":\"normandy\",\"name\":\"enroll_failed_nimbus_experiment\",\"extra\":{\"reason\":\"feature-conflict\",\"value\":\"account-spotlight-modal-global-rollout-v3\",\"glean_timestamp\":\"1764828758907\"}},{\"timestamp\":1851,\"category\":\"nimbus_events\",\"name\":\"enroll_failed\",\"extra\":{\"experiment\":\"account-spotlight-modal-global-rollout-v3\",\"glean_timestamp\":\"1764828758907\",\"reason\":\"feature-conflict\"}},{\"timestamp\":2000,\"category\":\"nimbus_events\",\"name\":\"is_ready\",\"extra\":{\"glean_timestamp\":\"1764828759057\"}},{\"timestamp\":2007,\"category\":\"jsonfile\",\"name\":\"load_logins\",\"extra\":{\"glean_timestamp\":\"1764828759064\",\"value\":\"error_notfounderror\"}},{\"timestamp\":2012,\"category\":\"upgrade_dialog\",\"name\":\"trigger_reason\",\"extra\":{\"glean_timestamp\":\"1764828759068\",\"value\":\"not-major\"}},{\"timestamp\":3884,\"category\":\"nimbus_events\",\"name\":\"exposure\",\"extra\":{\"experiment\":\"private-window-visual-ref"
+		"resh-rollout\",\"glean_timestamp\":\"1764828762184\",\"feature_id\":\"feltPrivacy\",\"branch\":\"control\"}},{\"timestamp\":3884,\"category\":\"normandy\",\"name\":\"expose_nimbus_experiment\",\"extra\":{\"branchSlug\":\"control\",\"value\":\"private-window-visual-refresh-rollout\",\"featureId\":\"feltPrivacy\",\"glean_timestamp\":\"1764828762184\"}},{\"timestamp\":5680,\"category\":\"normandy\",\"name\":\"expose_nimbus_experiment\",\"extra\":{\"value\":\"new-tab-147020251114194929-to-release\",\"branchSlug\":\"rollout\",\"glean_timestamp\":\"1764828762737\",\"featureId\":\"newtabTrainhopAddon\"}},{\"timestamp\":5680,\"category\":\"nimbus_events\",\"name\":\"exposure\",\"extra\":{\"feature_id\":\"newtabTrainhopAddon\",\"branch\":\"rollout\",\"glean_timestamp\":\"1764828762737\",\"experiment\":\"new-tab-147020251114194929-to-release\"}},{\"timestamp\":83113,\"category\":\"urlbar\",\"name\":\"abandonment\",\"extra\":{\"actions\":\"none,none,none,none,none,none\",\"glean_timestamp\":\"1764828840169\",\"n_words"
+		"\":\"0\",\"results\":\"top_site,top_site,top_site,top_site,top_site,top_site\",\"groups\":\"top_site,top_site,top_site,top_site,top_site,top_site\",\"n_chars\":\"0\",\"n_results\":\"6\",\"interaction\":\"topsites\",\"sap\":\"urlbar_newtab\",\"abandonment_type\":\"tab_switch\",\"search_mode\":\"\",\"available_semantic_sources\":\"none\",\"search_engine_default_id\":\"google-b-d\"}},{\"timestamp\":84287,\"category\":\"urlbar\",\"name\":\"engagement\",\"extra\":{\"glean_timestamp\":\"1764828841344\",\"selected_result\":\"url\",\"n_chars\":\"60\",\"n_results\":\"1\",\"actions\":\"none\",\"sap\":\"urlbar_newtab\",\"results\":\"url\",\"search_engine_default_id\":\"google-b-d\",\"groups\":\"heuristic\",\"selected_position\":\"1\",\"available_semantic_sources\":\"none\",\"provider\":\"UrlbarProviderHeuristicFallback\",\"search_mode\":\"\",\"engagement_type\":\"enter\",\"n_words\":\"1\",\"interaction\":\"pasted\"}},{\"timestamp\":106884,\"category\":\"doh\",\"name\":\"state_shutdown\",\"extra\":{\"glean_timestamp\":"
+		"\"1764828863940\",\"value\":\"null\"}}]}",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 378 Ended $$$$$$
+
+****** Request Header For Transaction With Id 390 ******
+GET /ohttp-configs HTTP/1.1
+Host: prod.ohttp-gateway.prod.webservices.mozgcp.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 390 Ended $$$$$$
+
+****** Response Header For Transaction With Id 390 ******
+HTTP/1.1 200 OK
+Cache-Control: max-age=99888, private
+Date: Thu, 04 Dec 2025 06:51:27 GMT
+Content-Length: 41
+Content-Type: application/octet-stream
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 390 Ended $$$$$$
+
+****** Response Body For Transaction With Id 390 ******
+\x80\x00 W\xDC\x11\x08\x82\xED5\xA1%\xB6\x84`\x0Fac\x1B\xB3\xB2)~\xE3\x02\xB6$\xD4G\x13\xFF\xDA\xC3\x85\x13\x00\x04\x00\x01\x00\x01
+$$$$$$ Response Body For Transaction With Id 390 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/submit/firefox-desktop/events/1/6e4a87c3-82eb-4667-9010-238e1a7be89e
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 378 ******
+	web_custom_request("6e4a87c3-82eb-4667-9010-238e1a7be89e",
+		"URL=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/6e4a87c3-82eb-4667-9010-238e1a7be89e",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t22.inf",
+		"Mode=HTML",
+		"EncType=application/json; charset=utf-8",
+		"ContentEncoding=gzip",
+		"Body={\"ping_info\":{\"seq\":28,\"start_time\":\"2025-12-04T11:42:39.000+05:30\",\"end_time\":\"2025-12-04T11:45:05.324+05:30\",\"reason\":\"startup\",\"experiments\":{\"fox-doodle-multi-action-cta-2025-rollout\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"smart-tab-groups-rollout-beta\":{\"branch\":\"smart-tab-groups\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"ai-chatbot-page-summarization-mvp-treatment-a-callout-badge-rollout-v2\":{\"branch\":\"treatment-a-callout-badge\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"private-window-visual-refresh-rollout\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta\":{\"branch\":\"next-sign-up-modal-cta\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"windows-ui-automation-release-rollout\":{\"branch\":\"rollout\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"mozilla-foundation-donation-promotion-moments-page\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":"
+		"\"nimbus-nimbus\"}},\"backgroundupdate-enable-unelevated-installations-rollout-3-release\":{\"branch\":\"enabled\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"fast-udp-for-firefox-treatment-fast-udp-release-rollout\":{\"branch\":\"treatment-fast-udp\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"long-term-holdback-2025h1-growth-desktop\":{\"branch\":\"delivery\",\"extra\":{\"type\":\"nimbus-nimbus\"}},\"new-tab-147020251114194929-to-release\":{\"branch\":\"rollout\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"encrypted-client-hello-fallback-mechanism\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"enable-nimbus-unenrollment-synchronization\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"roll-out-expanded-sign-in-pxi-toolbar-button-wcallout-signed-out\":{\"branch\":\"sign-in-with-call-out\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"account-adoption-pxi-menu-rollout-v2\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"1-callout-contextual-chatbot-s"
+		"uggestion-treatment-a-tab-switching-copy-rollout\":{\"branch\":\"treatment-a-tab-switching-copy\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"unified-api-for-spocs-and-top-sites-controlled-rollout-for-release-133\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"pin-frequently-used-websites-143-promo-rollout-all-locales\":{\"branch\":\"rollout-branch\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"deprecate-ipaddrany-rollout-for-release\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"desktop-credit-card-autofill-global-enablement-rollout-release\":{\"branch\":\"creditcard-enable\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"visual-search-rollout\":{\"branch\":\"google-lens-rollout\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"disable-enrollment-status-telemetry-for-firefox-desktop-via-nimbustelemetry\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"downsample-uptakeremotecontent-events\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\""
+		"temp-new-tab-mobile-qr-code-campaign-row\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"account-adoption-callout-passwords-global-rollout\":{\"branch\":\"treatment-e\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"account-adoption-callout-credit-cards-treatment-c-rollout\":{\"branch\":\"treatment-c\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"acct-adoption-callout-addresses-rollout-with-pxi-required\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"pdf-annotations-highlight-treatment-b-rollout\":{\"branch\":\"treatment-b\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"visual-card-updates\":{\"branch\":\"updated\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"smart-shortcuts-v3-sticky\":{\"branch\":\"sticky-frozen-thom\",\"extra\":{\"type\":\"nimbus-nimbus\"}},\"taskbar-tabs-discovery-global-rollout\":{\"branch\":\"delivery\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"improved-mailto-handling-with-os-integration-treatment-a-rollout\":{\"branch\":\"treatment-a\",\"extra"
+		"\":{\"type\":\"nimbus-rollout\"}},\"windows-10-eos-sync-and-reminder-messaging-rollout\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"desktop-address-autofill-india-release-rollout\":{\"branch\":\"treatment-a\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"context-id-rotation-every-3-days\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"enforce-crlite-results-and-limit-use-of-ocsp-rollout\":{\"branch\":\"enforce\",\"extra\":{\"type\":\"nimbus-rollout\"}},\"fx-accounts-ping-release-rollout-2\":{\"branch\":\"control\",\"extra\":{\"type\":\"nimbus-rollout\"}}}},\"client_info\":{\"telemetry_sdk_build\":\"65.2.3\",\"build_date\":\"1970-01-01T00:00:00+00:00\",\"first_run_date\":\"2022-10-16+05:30\",\"client_id\":\"90571d99-40b9-4f10-9a9a-227b856f2593\",\"app_channel\":\"release\",\"os_version\":\"10.0\",\"os\":\"Windows\",\"app_display_version\":\"145.0.2\",\"app_build\":\"20251124145406\",\"locale\":\"en-US\",\"architecture\":\"x86_64\",\"windows_build_number\":19045,\""
+		"attribution\":{\"source\":\"www.bing.com\",\"medium\":\"referral\",\"campaign\":\"%2528not%2Bset%2529\",\"content\":\"%2528not%2Bset%2529\"}},\"metrics\":{\"quantity\":{\"browser.engagement.max_concurrent_tab_count\":2,\"urlbar.pref_max_results\":10},\"boolean\":{\"urlbar.pref_suggest_topsites\":true,\"search.engine.private.overridden_by_third_party\":false,\"usage.is_default_browser\":false,\"urlbar.pref_suggest_data_collection\":false,\"search.engine.default.overridden_by_third_party\":false,\"policies.is_enterprise\":false,\"urlbar.pref_suggest_nonsponsored\":false,\"urlbar.pref_suggest_sponsored\":false},\"url\":{\"search.engine.private.submission_url\":\"blank:\",\"search.engine.default.submission_url\":\"https://www.google.com/search?client=firefox-b-d&q=\"},\"uuid\":{\"legacy.telemetry.client_id\":\"f6637294-d75f-4350-be24-43ca2fcded9d\",\"legacy.telemetry.profile_group_id\":\"f6637294-d75f-4350-be24-43ca2fcded9d\"},\"counter\":{\"browser.engagement.tab_open_event_count\":1,\"browser.engagement.uri_c"
+		"ount\":2,\"browser.engagement.active_ticks\":6},\"string\":{\"search.engine.default.display_name\":\"Google\",\"search.engine.private.partner_code\":\"\",\"search.engine.private.provider_id\":\"\",\"search.engine.default.provider_id\":\"google\",\"search.engine.private.load_path\":\"\",\"search.engine.private.display_name\":\"\",\"search.engine.default.partner_code\":\"firefox-b-d\",\"region.home_region\":\"IN\",\"search.engine.default.load_path\":\"[app]google\"}},\"events\":[{\"timestamp\":0,\"category\":\"session_restore\",\"name\":\"backup_can_be_loaded_session_file\",\"extra\":{\"can_load\":\"true\",\"loadfail_reason\":\"N/A\",\"glean_timestamp\":\"1764828757056\",\"path_key\":\"clean\"}},{\"timestamp\":0,\"category\":\"session_restore\",\"name\":\"backup_can_be_loaded_session_file\",\"extra\":{\"path_key\":\"clean\",\"can_load\":\"true\",\"glean_timestamp\":\"1764828757056\",\"loadfail_reason\":\"N/A\"}},{\"timestamp\":0,\"category\":\"session_restore\",\"name\":\"shutdown_success_session_startup\",\""
+		"extra\":{\"glean_timestamp\":\"1764828757057\",\"shutdown_ok\":\"false\",\"shutdown_reason\":\"N/A\"}},{\"timestamp\":601,\"category\":\"webcompatreporting\",\"name\":\"reason_dropdown\",\"extra\":{\"glean_timestamp\":\"1764828757657\",\"setting\":\"required\"}},{\"timestamp\":1157,\"category\":\"nimbus_events\",\"name\":\"startup_database_consistency\",\"extra\":{\"glean_timestamp\":\"1764828758213\",\"db_active_count\":\"37\",\"total_store_count\":\"48\",\"total_db_count\":\"48\",\"primary\":\"database\",\"store_active_count\":\"37\",\"trigger\":\"startup\"}},{\"timestamp\":1252,\"category\":\"jsonfile\",\"name\":\"load_autofillprofiles\",\"extra\":{\"glean_timestamp\":\"1764828758308\",\"value\":\"error_notfounderror\"}},{\"timestamp\":1268,\"category\":\"doh\",\"name\":\"state_rollback\",\"extra\":{\"glean_timestamp\":\"1764828758324\",\"value\":\"null\"}},{\"timestamp\":1285,\"category\":\"containers\",\"name\":\"container_profile_loaded\",\"extra\":{\"glean_timestamp\":\"1764828758342\",\"containers\""
+		":\"4\"}},{\"timestamp\":1850,\"category\":\"normandy\",\"name\":\"enroll_failed_nimbus_experiment\",\"extra\":{\"reason\":\"feature-conflict\",\"value\":\"account-spotlight-modal-global-rollout-v3\",\"glean_timestamp\":\"1764828758907\"}},{\"timestamp\":1851,\"category\":\"nimbus_events\",\"name\":\"enroll_failed\",\"extra\":{\"experiment\":\"account-spotlight-modal-global-rollout-v3\",\"glean_timestamp\":\"1764828758907\",\"reason\":\"feature-conflict\"}},{\"timestamp\":2000,\"category\":\"nimbus_events\",\"name\":\"is_ready\",\"extra\":{\"glean_timestamp\":\"1764828759057\"}},{\"timestamp\":2007,\"category\":\"jsonfile\",\"name\":\"load_logins\",\"extra\":{\"glean_timestamp\":\"1764828759064\",\"value\":\"error_notfounderror\"}},{\"timestamp\":2012,\"category\":\"upgrade_dialog\",\"name\":\"trigger_reason\",\"extra\":{\"glean_timestamp\":\"1764828759068\",\"value\":\"not-major\"}},{\"timestamp\":3884,\"category\":\"nimbus_events\",\"name\":\"exposure\",\"extra\":{\"experiment\":\"private-window-visual-ref"
+		"resh-rollout\",\"glean_timestamp\":\"1764828762184\",\"feature_id\":\"feltPrivacy\",\"branch\":\"control\"}},{\"timestamp\":3884,\"category\":\"normandy\",\"name\":\"expose_nimbus_experiment\",\"extra\":{\"branchSlug\":\"control\",\"value\":\"private-window-visual-refresh-rollout\",\"featureId\":\"feltPrivacy\",\"glean_timestamp\":\"1764828762184\"}},{\"timestamp\":5680,\"category\":\"normandy\",\"name\":\"expose_nimbus_experiment\",\"extra\":{\"value\":\"new-tab-147020251114194929-to-release\",\"branchSlug\":\"rollout\",\"glean_timestamp\":\"1764828762737\",\"featureId\":\"newtabTrainhopAddon\"}},{\"timestamp\":5680,\"category\":\"nimbus_events\",\"name\":\"exposure\",\"extra\":{\"feature_id\":\"newtabTrainhopAddon\",\"branch\":\"rollout\",\"glean_timestamp\":\"1764828762737\",\"experiment\":\"new-tab-147020251114194929-to-release\"}},{\"timestamp\":83113,\"category\":\"urlbar\",\"name\":\"abandonment\",\"extra\":{\"actions\":\"none,none,none,none,none,none\",\"glean_timestamp\":\"1764828840169\",\"n_words"
+		"\":\"0\",\"results\":\"top_site,top_site,top_site,top_site,top_site,top_site\",\"groups\":\"top_site,top_site,top_site,top_site,top_site,top_site\",\"n_chars\":\"0\",\"n_results\":\"6\",\"interaction\":\"topsites\",\"sap\":\"urlbar_newtab\",\"abandonment_type\":\"tab_switch\",\"search_mode\":\"\",\"available_semantic_sources\":\"none\",\"search_engine_default_id\":\"google-b-d\"}},{\"timestamp\":84287,\"category\":\"urlbar\",\"name\":\"engagement\",\"extra\":{\"glean_timestamp\":\"1764828841344\",\"selected_result\":\"url\",\"n_chars\":\"60\",\"n_results\":\"1\",\"actions\":\"none\",\"sap\":\"urlbar_newtab\",\"results\":\"url\",\"search_engine_default_id\":\"google-b-d\",\"groups\":\"heuristic\",\"selected_position\":\"1\",\"available_semantic_sources\":\"none\",\"provider\":\"UrlbarProviderHeuristicFallback\",\"search_mode\":\"\",\"engagement_type\":\"enter\",\"n_words\":\"1\",\"interaction\":\"pasted\"}},{\"timestamp\":106884,\"category\":\"doh\",\"name\":\"state_shutdown\",\"extra\":{\"glean_timestamp\":"
+		"\"1764828863940\",\"value\":\"null\"}}]}",
+		EXTRARES,
+		"Url=https://prod.ohttp-gateway.prod.webservices.mozgcp.net/ohttp-configs", "Referer=", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 378 Ended $$$$$$
+
+****** Request Header For Transaction With Id 392 ******
+GET /EmployeeDirectory/Default.php HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+
+$$$$$$ Request Header For Transaction With Id 392 Ended $$$$$$
+
+****** Response Header For Transaction With Id 392 ******
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Set-Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6; path=/
+X-Powered-By: PHP/4.4.8
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:45:35 GMT
+Content-Length: 1149
+
+
+$$$$$$ Response Header For Transaction With Id 392 Ended $$$$$$
+
+****** Response Body For Transaction With Id 392 ******
+<html>
+<head>
+<title>Employee Directory</title>
+<link rel="stylesheet" type="text/css" href="Styles/Oak/Style.css">
+</head>
+<body>
+<table border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td><a href="Default.php"><img src="images/logo.gif" border="0"></a></td> 
+    <td align="center"><a href="Default.php"><img src="images/home.gif" width="77" height="77" border="0"></a><br>
+      <a href="Default.php">Home</a></td> 
+    <td align="center"><a href="AdminMenu.php"><img src="images/admin.gif" width="77" height="77" border="0"></a><br>
+      <a href="AdminMenu.php">Administration</a></td> 
+  </tr>
+</table>
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td>
+      <form method="post" action="Default.php?ccsForm=empsSearch" name="empsSearch">
+        <table cellspacing="0" cellpadding="0" border="0" class="Header">
+          <tr>
+            <td class="HeaderLeft"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+            <th>Employee Search</th>
+ 
+            <td class="HeaderRight"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+          </tr>
+ 
+        </table>
+ 
+        <table class="Grid" cellspacing="0" cellpadding="0">
+          
+          <tr class="Caption">
+            <td><input name="filter" maxlength="50" value="" size="25" />&nbsp;<input type="image" name="DoSearch" src="Styles/Oak/Images/en/ButtonSearch.gif" />&nbsp;&nbsp;<a href="AdvSearch.php">Advanced
+              Search</a></td> 
+          </tr>
+ 
+        </table>
+ 
+      </form>
+ </td> 
+  </tr>
+ 
+</table>
+<br>
+
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="0" class="Header">
+        <tr>
+          <td class="HeaderLeft"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+          <th>Employee Directory</th>
+ 
+          <td class="HeaderRight"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+        </tr>
+ 
+      </table>
+ 
+      <table class="Grid" cellspacing="0" cellpadding="0">
+        <tr class="Caption">
+          <td>
+            <a href="Default.php?empsOrder=emps_name&empsDir=ASC">Name</a> 
+            
+            <a href="Default.php?empsOrder=emps_name&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_name&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_title&empsDir=ASC">Title</a> 
+            
+            <a href="Default.php?empsOrder=emps_title&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_title&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_dep_id&empsDir=ASC">Department</a> 
+            
+            <a href="Default.php?empsOrder=emps_dep_id&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_dep_id&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_work_phone&empsDir=ASC">Work
+            Phone</a> 
+            
+            <a href="Default.php?empsOrder=emps_work_phone&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_work_phone&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_email&empsDir=ASC">Email</a> 
+            
+            <a href="Default.php?empsOrder=emps_email&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_email&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+        </tr>
+ 
+        
+        
+        
+        <tr class="NoRecords">
+          <td colspan="5">No records</td> 
+        </tr>
+ 
+        <tr class="Footer">
+          <td colspan="5">
+            
+            
+            <img border="0" src="Styles/Oak/Images/FirstOff.gif" />
+            
+            <img border="0" src="Styles/Oak/Images/PrevOff.gif" />&nbsp;1
+            of 1 
+            
+            <img border="0" src="Styles/Oak/Images/NextOff.gif" />
+            
+            <img border="0" src="Styles/Oak/Images/LastOff.gif" /></td> 
+        </tr>
+ 
+      </table>
+ </td> 
+  </tr>
+ 
+</table>
+<br>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 392 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/submit/firefox-desktop/events/1/6e4a87c3-82eb-4667-9010-238e1a7be89e
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 392 ****** (Location Flag : tFlagInsertEnd, Location ID : 392)
+	web_url("Default.php",
+		"URL=http://examples.codecharge.com/EmployeeDirectory/Default.php",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t23.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 392 Ended $$$$$$
+
+****** Request Header For Transaction With Id 400 ******
+GET /EmployeeDirectory/Styles/Oak/Style.css HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=2
+
+
+$$$$$$ Request Header For Transaction With Id 400 Ended $$$$$$
+
+****** Response Header For Transaction With Id 400 ******
+HTTP/1.1 200 OK
+Content-Type: text/css
+Content-Encoding: gzip
+Last-Modified: Wed, 14 Nov 2007 14:22:08 GMT
+Accept-Ranges: bytes
+ETag: "028edbcc926c81:0"
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:45:35 GMT
+Content-Length: 1596
+
+
+$$$$$$ Response Header For Transaction With Id 400 Ended $$$$$$
+
+****** Response Body For Transaction With Id 400 ******
+/* CCSTheme v 3.x */
+/* General */
+
+/* BEGIN Common */
+body { 
+	font-family: Arial; font-size: 80%;
+	background-color: #e1ddcd;
+	}
+
+p { 
+	margin-top: 5px; 
+	}
+
+a:link { 
+	color: #546216;
+	}
+
+a:visited { 
+	color: #879454;
+	}
+
+a:hover,a:active { 
+	color: #f72525;
+	}
+
+ul, ol, blockquote { 
+	margin-top: 5px; 
+	margin-bottom: 10px; 
+	margin-left: 20px 
+	}
+
+form {
+	margin: 0px;
+	}
+
+h1	{
+	font-size: 150%;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+	}
+
+h2	{ 
+	font-size: 130%;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h3	{ 
+	font-size: 110%; font-style: italic;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h4	{ 
+	font-size: 100%;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h5	{ 
+	font-size: 100%; font-style: italic;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+h6	{ 
+	font-size: 90%;
+	margin-top: 15px; 
+	margin-bottom: 5px; 
+	}
+
+th	{ 
+	font-family: Arial; font-size: 80%;
+	}
+
+td { 
+	font-family: Arial; font-size: 80%;
+	}
+
+/* END Common */
+
+.Header {
+	width: 100%;
+	}
+
+.Header th { 
+	font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-color: #635e54; color: #fcfcfc;
+	width: 100%;
+	white-space: nowrap;
+	}
+
+.Header a:link { 
+	color: #fcfcfc;
+	}
+
+.Header a:visited { 
+	color: #fcfcfc;
+	}
+
+.Header a:hover, .Caption a:active { 
+	color: #fcfcfc;
+    text-decoration: none;
+	}
+
+.HeaderLeft { 
+	background-image: url('Images/HeaderLeft.gif');
+	}
+
+.HeaderRight { 
+	background-image: url('Images/HeaderRight.gif');
+	}
+
+.HeaderLeft img{
+	width: 4px;
+	}
+
+.HeaderRight img{
+	width: 9px;
+	}
+
+
+/* Grid Options */
+.Grid { 
+	border: 1px solid #635e54;
+	width: 100%;
+	}
+
+.Caption th { 
+	font-size: 80%; 	text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	background-color: #e8dda8; color: #000000;
+	white-space: nowrap;
+	}
+
+.Caption td { 
+	font-size: 80%; 	text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	background-color: #e8dda8; color: #000000;
+	white-space: nowrap;
+	}
+
+.Caption a:link { 
+	color: #000000;
+	}
+
+.Caption a:visited { 
+	color: #000000;
+	}
+
+.Caption a:hover, .Caption a:active { 
+	color: #f72525;
+	}
+
+.Caption img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Caption input {
+	vertical-align: middle;
+	}
+
+.Row th { 
+	font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Row td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+
+.Row a:link { 
+	color: #546216;
+	}
+
+.Row a:visited { 
+	color: #879454;
+	}
+
+.Row a:hover, .Row a:active { 
+	color: #f72525;
+	}
+
+.Separator{
+	color: #635e54;
+	}
+
+.Separator td{
+	height: 1px;
+	}
+
+
+.AltRow th { 
+	font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRow td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	vertical-align: top;
+	background-color: #f4f1e5; 
+	color: #000000;
+	}
+
+.AltRow a:link { 
+	color: #546216;
+	}
+
+.AltRow a:visited { 
+	color: #879454;
+	}
+
+.AltRow a:hover, .AltRow a:active { 
+	color: #f72525;
+	}
+
+.NoRecords td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	background-color: #f4f4f4; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+.Footer td { 
+	font-size: 80%;
+	padding: 3px;
+	border: 1px solid #e8dda8; border-left: 0px none;
+	background-color: #e8dda8; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Footer a:link { 
+	color: #000000;
+	}
+
+.Footer a:visited { 
+	color: #000000;
+	}
+
+.Footer a:hover, .Footer a:active { 
+	color: #f72525;
+	}
+
+.Footer img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Footer input {
+	vertical-align: middle;
+	}
+
+/* Record Options */
+.Record { 
+	border: 1px solid #635e54;
+	width: 100%;
+	}
+
+.Error td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f4f4f4; 
+	}
+
+.Controls th { 
+	font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	background-color: #f4f4f4; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Controls td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	white-space: nowrap;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+
+.Bottom td { 
+	font-size: 80%;
+	padding: 3px;
+	border: 1px solid #e8dda8; border-left: 0px none;
+	background-color: #e8dda8; color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Bottom a:link { 
+	color: #000000;
+	}
+
+.Bottom a:visited { 
+	color: #000000;
+	}
+
+.Bottom a:hover, .Caption a:active { 
+	color: #f72525;
+	}
+
+.Bottom img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.Bottom input {
+	vertical-align: middle;
+	}
+
+/* Report */
+.GroupCaption th{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	white-space: nowrap;
+	text-align: left; 
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f4f1e5; 
+	color: #000000;
+	}
+
+.GroupCaption td{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f4f4f4; 
+	color: #000000;
+	}
+
+.GroupCaption a:link {
+	color: #000000;
+	}
+
+.GroupCaption a:visited{
+	color: #000000;
+	}
+
+.GroupCaption a:hover, .GroupCaption a:active{
+	color: #f72525;
+	}
+
+.GroupFooter td{
+	font-size: 80%;
+	padding: 3px;
+	border: 1px solid #e8dda8; border-left: 0px none;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #e8dda8; 
+	color: #000000;
+	}
+
+.GroupFooter a:link {
+	color: #000000;
+	}
+
+.GroupFooter a:visited{
+	color: #000000;
+	}
+
+.GroupFooter a:hover,.GroupFooter a:active{
+	color: #f72525;
+	}
+
+.GroupFooter img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.GroupFooter input {
+	vertical-align: middle;
+	}
+
+.SubTotal td{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	vertical-align: top;
+	font-weight: bold;
+	background-color: #f4f1e5; 
+	color: #000000;
+	border-bottom: 2px solid #635e54;
+	}
+
+.SubTotal a:link {
+	color: #546216;
+	}
+
+.SubTotal a:visited{
+	color: #879454;
+	}
+
+.SubTotal a:hover, .SubTotal a:active{
+	color: #f72525;
+	}
+
+.Total td{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	vertical-align: top;
+	white-space: nowrap;
+	font-weight: bold;
+	background-color: #f4f1e5; 
+	color: #000000;
+	}
+
+.Total a:link {
+	color: #546216;
+	}
+
+.Total a:visited{
+	color: #879454;
+	}
+
+.Total a:hover, .Total a:active{
+	color: #f72525;
+	}
+
+/* Form Options */
+.Button { 
+	margin: 2px
+	}
+
+/* Calendar */
+
+.Calendar { 
+	border: 1px solid #635e54;
+	width: 100%;
+	}
+
+.CalendarWeekdayName{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	text-align: center; 
+	vertical-align: top;
+	white-space: nowrap;
+	background-color: #f4f1e5; 
+	color: #000000;
+	}
+
+.CalendarWeekdayName a:link {
+	color: #546216;
+	}
+
+.CalendarWeekdayName a:visited{
+	color: #879454;
+	}
+
+.CalendarWeekdayName a:hover, .CalendarWeekdayName a:active{
+	color: #f72525;
+	}
+
+.CalendarWeekendName{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	white-space: nowrap;
+	text-align: center; 
+	vertical-align: top;
+	background-color: #f4f1e5;	
+	color: #000000;
+	}
+
+.CalendarWeekendName a:link {
+	color: #000000;
+	}
+
+.CalendarWeekendName a:visited{
+	color: #000000;
+	}
+
+.CalendarWeekendName a:link, .CalendarWeekendName a:visited{
+	color: #f72525;
+	}
+
+/* Calendar Day */
+.CalendarDay{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #000000;
+	}
+
+.CalendarDay a:link {
+	color: #546216;
+	}
+
+.CalendarDay a:visited{
+	color: #879454;
+	}
+
+.CalendarDay a:hover, .CalendarDay a:active{
+	color: #f72525;
+	}
+
+/* Calendar Weekend */
+.CalendarWeekend{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	text-align: center;
+	background-color: #f4f1e5;	
+	color: #000000;
+	}
+
+.CalendarWeekend a:link {
+	color: #546216;
+	}
+
+.CalendarWeekend a:visited{
+	color: #879454;
+	}
+
+.CalendarWeekend a:hover, .CalendarWeekend a:active{
+	color: #f72525;
+	}
+
+/* Calendar Today */
+.CalendarToday {
+	font-size: 80%;
+	border: 2px solid #635e54;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #000000;
+	}
+
+.CalendarToday a:link {
+	color: #546216;
+	}
+
+.CalendarToday a:visited{
+	color: #879454;
+	}
+
+.CalendarToday a:hover, .CalendarToday a:active {
+	color: #f72525;
+	}
+
+/* Calendar Weekend Today */
+.CalendarWeekendToday {
+	font-size: 80%;
+	border: 2px solid #635e54;
+	text-align: center;
+	background-color: #f4f1e5;	
+	color: #000000;
+	}
+
+.CalendarWeekendToday a:link {
+	color: #546216;
+	}
+
+.CalendarWeekendToday a:visited{
+	color: #879454;
+	}
+
+.CalendarWeekendToday a:hover, .CalendarWeekendToday a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Day */
+.CalendarOtherMonthDay{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #635e54;
+	}
+
+.CalendarOtherMonthDay a:link {
+	color: #635e54;
+	}
+
+.CalendarOtherMonthDay a:visited{
+	color: #635e54;
+	}
+
+.CalendarOtherMonthDay a:hover, .CalendarOtherMonthDay a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Today */
+.CalendarOtherMonthToday {
+	font-size: 80%;
+	border: 2px solid #635e54;
+	text-align: center;
+	background-color: #f4f4f4;	
+	color: #635e54;
+	}
+
+.CalendarOtherMonthToday a:link {
+	color: #635e54;
+	}
+
+.CalendarOtherMonthToday a:visited{
+	color: #635e54;
+	}
+
+.CalendarOtherMonthToday a:hover,.CalendarOtherMonthToday a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Weekend */
+.CalendarOtherMonthWeekend {
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	text-align: center;
+	background-color: #f4f1e5;	
+	color: #635e54;
+	}
+
+.CalendarOtherMonthWeekend a:link {
+	color: #635e54;
+	}
+
+.CalendarOtherMonthWeekend a:visited{
+	color: #635e54;
+	}
+
+.CalendarOtherMonthWeekend a:hover, .CalendarOtherMonthWeekend a:active{
+	color: #f72525;
+	}
+
+/* Calendar Other Month's Weekend Today */
+.CalendarOtherMonthWeekendToday {
+	font-size: 80%;
+	border: 2px solid #635e54;
+	text-align: center;
+	color: #635e54;
+	background-color: #f4f1e5;	
+	}
+
+.CalendarOtherMonthWeekendToday a:link {
+	color: #635e54;
+	}
+
+.CalendarOtherMonthWeekendToday a:visited{
+	color: #635e54;
+	}
+
+.CalendarOtherMonthWeekendToday a:hover, .CalendarOtherMonthWeekendToday a:active{
+	color: #f72525;
+	}
+
+/* Calendar Selected Day (for DatePicker) */
+.CalendarSelectedDay{
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #e8dda8; border-right: 1px solid #e8dda8;
+	background-color: #e8dda8;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+	}
+
+.CalendarSelectedDay a:link {
+	color: #000000;
+	}
+
+.CalendarSelectedDay a:visited{
+	color: #000000;
+	}
+
+.CalendarSelectedDay a:hover, .CalendarSelectedDay a:active{
+	color: #f72525;
+	}
+
+/* Calendar Navigator */
+.CalendarNavigator {
+	font-size: 80%;
+	padding: 3px;
+	background-color: #e8dda8; color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.CalendarNavigator a:link {
+	color: #546216;
+	}
+
+.CalendarNavigator a:visited{
+	color: #879454;
+	}
+
+.CalendarNavigator a:hover, .CalendarNavigator a:active{
+	color: #f72525;
+	}
+
+.CalendarNavigator img{
+	margin: 2px;
+	vertical-align: middle; 	
+	}
+
+/* Calendar Extra */
+.CalendarEvent{
+	font-size: 80%;
+	text-align: left;
+	}
+
+.CalendarEvent a:link {
+	color: #546216;
+	}
+
+.CalendarEvent a:visited{
+	color: #879454;
+	}
+
+.CalendarEvent a:hover, .CalendarEvent a:active{
+	color: #f72525;
+	}
+
+$$$$$$ Response Body For Transaction With Id 400 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 418 ******
+GET /EmployeeDirectory/images/logo.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 418 Ended $$$$$$
+
+****** Response Header For Transaction With Id 418 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:14 GMT
+Accept-Ranges: bytes
+ETag: "0af80c0c926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:42 GMT
+Content-Length: 6685
+
+
+$$$$$$ Response Header For Transaction With Id 418 Ended $$$$$$
+
+****** Response Body For Transaction With Id 418 ******
+GIF89a\xB2\x01Z\x00\xE6\x7F\x00\xFF\xCCf\x00\x00\x00\xFE\xF1\xD4\x88m6PPP000mmn\xB9\x95JlX-\xB4\xB4\xB4\xE0\xB4Y\xD5\xAAUH8\x1D\x9A\x9A\x9A\xFF\xFF\xFF\xA5\xA5\xA5\xCB\xCB\xCB\xFF\xD9\x8C\xD7\xCF\x88\xFF\xCC\xCC\xB1\xED\xFB\x93gg\xF5\xA5	\xF0\xAE-\x17\x17\x17\xFF\xE4\xAD\x94\x94\x94\xFF\xFD\xBC\x85\x85\x85\xFF\xBD\xBD\xFF\xF7\xE6\xF9\xF9\xF9\xE6\xE5\xE6$\x18\x104'\x16\xF3\xC2`\xC7ZZ\xD4\x9B+\xC4\xFB\xFE\xFD\xD3}\xB3\xC1\xD6\xCA\x96\x96\xB3\xADu\x0C\x0C\x0C\xB6\x8A4x\x83\x92\xC5\x8B\x1A\xFF\xF7\xAF\xFE\xE9\xBE\xD9\xDA\xDCrnL\x11\x0E\x07\xFF\xFC\xF5\x8E\x97\xA9\xFD\xCAerTTWXZ\x88;;\xE1\xE5\xF8\xEF\xEF\xF0abd\xCA\xA1Q\x9B\x95d\x90\xA9\xB8\xE7\xA9\xA9\x17\x14zz{\x9E~?\xFA\xC8d\x87\x82Z\xE1\xFC\xFF\x0B\x14\x15\xC0\xBA\x8D\xF1\xB7E\xF7\xC6c\x05\x05\x05'()\x1D\x1E\x1F\x93m%\xFF\xCFp\xFF\xDF\xDF\x85\x88\x9B\xA2\xA7\xBE\xCD\xC5\x81999\xFF\xCEl\xA6\xA0j\xFD\xF2\xEF\xE9\xA4\x1E\xFF\xFD\xFA\xE1\xDA\x93\xB4\x7F\x7F\xF3\xF4\xF8\xF3\xFC\xFC\xC0\xB9z\xED\xBD^\x03\x03\x03\xFF\xF8\xF8\x00\x06\x06\xFE\xDF\xA0\x10\x11\x11\xF6\xC6h\xFC\xFC\xFC\x05\x06\x08\x06\x04\x03\x0E\x06\x06\x97\x97\x97\x03\x01\x01!\x1F\x16\x08\x08\x08\xFF\xCCg\xF2\xEB\xA8\x07\x0C\x0C\xA2x#\xAD\xAD\xAD\x00\x01\x01\xF8\xF8\xFE\x8E\x8E\x8E\x00\x01\x00\x00\x00\x01\x01\x01\x01\x02\x02\x02\xF9\xC8i\x01\x02\x02\x00\x00\x02FEA\x00\x07\x02\xFF\xFF\xFF!\xF9\x04\x01\x00\x00\x7F\x00,\x00\x00\x00\x00\xB2\x01Z\x00\x00\x07\xFF\x80\x7F\x82\x83\x84\x85\x86\x87\x88\x89\x8A\x8B\x8C\x8D\x8E\x8F\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9A\x9B\x9C\x9D\x9E\x9F\xA0\xA1\xA2\xA3\xA4\xA5\xA6\xA7\xA8\xA9\xAA\xAB\xAC\xAD\xAE\xAF\xB0\xB1\xB2\xB3\xB4\xB5\xB6\xB7\xB8\xB9\xBA\xBB\xBC\xBD\xBE\xBF\xC0\xC1\xC2\xC3\xC4\xC5\xC6\xC7\xC8\xA2\x0E\xC9\xCC\xCD\xCE\xCF\xB7\x0E\x1F\xD3f\xD0\xD6\xD7\xD8\xD9\x9B\xD2\xD3\xDD\xD5\xDA\xE0\xE1\xE2\xE2f\xDD\x1F-1\xD3\xE3\xEB\xEC\xED\x9B1T\x01\xF2\xF3\xF4\xF5\xF6\xF7\xF8\xF4L	\xDDR+\x018\xA6\xE5\x1BH\xB0\xA0\xC1\x83\x08\x13*\\\xC8\xB0\xA1\xC3\x87\x10#J\x9CHq!\x95\x18\x93\xE2U\x1C\xB8\xAF\x9B\x0E\x1C\x01\x9A`\xC0 p\xA3\xC9\x93(S\xAA\\\xC9\xB2\xA5K\x89T&\xC9\x03@\xB3\xA6\xCD\x9B8s\xEA\x04\x00C\xC04.5\x96\x04\xE0\xE1\x00\xE4\xB4\x13;\x93*]\xCA\xB4\xA9\xD3\xA7P\xA3J\x9DJ\xB5\xAA\xD5\xABX\xB3j\x85*Of\x00\xADn\x9ED\xF0i\xCE\x9C\x94&!!8p` @:s\x02\xFF2l\xCDj\x83\x88]"J\xF2*\xB9K\xC4\xC6\xDC\xBF\x80\x03\x0B\x1EL\xB8p\xD6\xAE\x92f6=A\xB6\xAC\xE3\xC7\x1F\x12\x14\x90\xC7am\x16\x07u\x02\x18\x80,\x00\xA9\xE1\x9Du\xF3\x8EH\x92\xE4\x82\xE9\xD3\xA4\xBF|\x19\x91\xD7\xAE\xDF\xCF\xB0c\xCB\x9EM\xDB0\xE2H\x8A\x95\xF6\x84\xEC\x98\x8B\x0E\x14	\xA4\x08\x8F\xC2D\x9E\x01\x10k7\xBCp\x90 d)(b\xE8\xE0\xD2\xED\x8A\xE7\xD9xG_\xB0`\xE1B\x92\x13\xE0\xC3\x9B\xE6n:\xC9\xEA\xBD\xAFk\xAB_\xCF\xBE=\xFB\xDB\x90r\xEBd\xDC\xCD7\x8A\x1A-\x0C\xF0\xC0\xD1\x87J\x81&\xFF\xE0\xC3D\x0Cky\xF0\xC2\x814\x80`\x0F\x06\x04\xB4\x80\x02\x1D\x1Ft&\x1B^\xA5Y0B\x06\x1E\xAC\xA5\xE1\x86\x1A\xD2\x00\xC3	\xDB]\xA0\x1Az\xEE\x95h\xE2\x89(V\x05\xDF#\xF2\xE1D\xDF\x07(\xF0\x80\xD6=h\xAC\x80\x81H"\xD1C\x85\x06\x05*w\xE0\x0B\x19\xA2EF\x1F\xFD\x911O\x14\xD3\x08\x00[\xFF]#\x986\x06\x87PFY\xA0\x1E\xDD\x8DHD\x8AXf\xA9e\x8A+:\xD2\xA2M'x0\x8DF\x010\xC1C\x1D	@\x00A\x02	<\xF0@\x03B\x18\xD0G\x80\x04\xA8\xE5@\x16>\xFE\xF8\x82\x00\x0Ep\x10\xC0
+1p\x01B\x0C1@\xD0G\x00(LS\xD3\x130\\\x91\xA4\\ZQh\xC1\x93RV
+\xA5\x07#`\xA1\xC0j}m\xE9\xE9\xA7\xA0\x16\xD6e#_\xD6\xE4\x93\x82\x7F\xF2\x00\x81\xA0k\xBE\xD9\xC0\xAB\x1A\x08A\x00\x06\xF2\xF4ag\x16\x06\xEA\xF9#\x9F\x0E\xD0Z\x00\x9BlB \xC7P\x8A\x020Fc\xDD@z\x15^\xDEeh\xE9\xB3\x1C\xC2`\xC1\x02
+\xB0\x96^\xA8\xD8f\xAB\xEDS\xA32R*O%\xE1\xB0\x03\x17\x10<\xA0\xC1\xB9j\xBCZ\x87\xAC32q\xAB\x00\xBA\xC6K\x83\x03\x0F\xC8#\x84\xB0l\xD6[\xC0Q\x8D\xA1\xC0D\x13:Dx\x1DU\xCC\x8Ep\x19\xB4\x08k\xE8\xC1\xB4\xD5*q\xED\xB6\x10G\x0Cq\xB7\x8B|\xEBS\xFF\x01\x14\xE0\x00\x08\x1A\xD4\xA1\xC1\xAB\xB0\xB2+\xCF\x12\x95\xDD\x99g\xBC\xBA\xCE\x0B\xD2
+\x0F\xAC\x99\x80\x9FM\x94\xA5\x03\x01\xF3\xF0\x90\xA4U\x05'\xAC\xB3\xC2\x0C\x8Fp\xA5\xC4@\x07*\xC5\x8A|;H;\xBA\xFA\xAA\x1Au\xC8Ik\x00K\x08\xB1\x83\x034\x9C\x8C\xB2\xBC\x0E\xC4C\x86\x1Ci\x82\xC4D7;\xF00\x0F\x044'\xFA\xC1\xC0P\xD9\xA0\x04i\x07#L\xC3\xBC:g\x80\xC5\x02\x9C
+m\xF7\xDD'\x12\x9D\x88\xD1\x1F\xB4U\x80~\x1Cp\x10'\x0E\x05\x08\xF5\xA7\xD4T[\xAD\xE7\x06\x8C7\xEE\xF8\x06kMFE\x9A\xF10QC\x14-<\xDD\x84Z\x10d|\xF3TD|a\x81\xB3\xCF\xD2P\x06\x16\xDCY\x90\x04\x0C	'Q\x02\xDD\x0E\xA38\xC0\xEC\xB4\xE3\xADS\x06\xB8\xE7\xAE{\x04h\xDB\x84\xFB\x18\xB6o\xA57"|\xB7Pf\x9C<\x10\xC0D\x80\x01\xF4\xF1\x00\x1D\x89\x1F\xF8\xF8\xF4/\xBC\xA1\xC5\x14^X\xE1C\x112\xC8\xC0\xC3d\x01\xB4\x81\xCF\xFF
+u\xAC\xD5\x85\x03\xC5!y\xB6TD4I\xE9\xB3\x0B\xBB0\x00\x02\xF4\xC7\x81E\x12mW\xBAp\x0F\xD5\xFEl\xA2=\xC1\xC3	\xB4\x04\x10\x81\x9C\xACEI\xEB\xC9\x00\x02Q4\xBCC\xB4\xE8E\x1F\x90B\x000\xD0\x07&\xE4a\x1EL\xB8W\x8F\x1C\xF7\x06	\xA8`{2@@\x1FD0\x83\x84`\x80
+T`\x1E\x0F\xA6f\x04
+P\xC0\x01\x1A\x08\xC0\x19\xA8\xB3\xC0\xA7(At\x08[\x18\xFDf7\x84\x1E\x0E\xC0\x05\x17\xC8\x9F\x94F\xF0\xBA/\xC4\xEE\x7F\xF5\x08\xE0M\x12\x06\x03\x01:\xA0\x86\xB3\xC9\x10\x14K\xD4@C\xB4\xA81;\xA0\x99\x8E8@ \xAAy\x80q/@\x82\x0F\x08\x10\x04|\x90\x81
+<0\x80\x10\x84\x108\x8F\x81\xEC\x01iz\x95\x1C\x0C0\xA3:\xAD\xC5\x04.\xA4\x80	v`\xAFi\x14\xF0)\xED\xBB@\x04\xA0\xA5\xC3\x01\xF4\xF0\x00\x88<\x00\x0B\x86\xE0\x822\x0C\x10\x0B\xFC\xF3Y\xDE\x92\xA8\xC4\x9A\x1C\x10'ba\xDDZ\x94E\x93\x08xr\xFF=\x97\xE4R\x00\xBCr\x93i\xD4\xE0i!\xE1\xC1\x03\xB8\xB0\x96\xAA1N\x02E\xA0\xC2\x05\xE9Q\x00\x1Ep\x00\x8E1\x00\xC1\xB8~\xB2\x03\x10\x0C\xAAPj\x12\x16\x9C\x0C\x00>;:\xA0\x85yt\xA1\x03hv\x86\x80MQ)\xA1\xB3\x00\xDC,\xF5\x858\x18\xF2\x00=X\x806\x17\xD0\x83\x03\x0C\xC1\x02\x08\xB3\xC0\x01`7IzT\xD2\x92O\xDC\xC9 \xD7\xF2G\x13\x85\x92\x81\xA3L\xCCWl2\x8D;,\x81\x00\x1A\xE8b\xF4^\xB0\x01-\x1Cj\x1Em\xE8\x83\x10\xE4\x00\x02.\x98a\x07\x85J\x80\x1C\xDE\xA4\x06t\xA5\x8B\xA1\xB2b\x82\xF80\xD8\x84\x07\x1C3\x99\xC9t@\xE7\x02@\x80i4\xB1)j+M8\xAF\x99\xCDM\xA9F\x01\x0B8\x00\x162\x00\xAD/\x94 \x92\x0F[\x0F\x00\xCF	\x80w\xE6\x84\xA5\xE9<\x91M\x91HJz~\x00\x03\x08\xD8\xC0\x17\xC1\xF8\xA3 \x01\x01\x00\x03\x01\xD0\xE4\xCB\x84\xBE\xE9\\\x1EKW\x03\xDC\xE4&5Dt\x1EM\xFF\x00_\x10\x16*\x8F#\xB4@\x8F\x18\xA5\x80\x11\x1C \xB6\x00\xF0CBL	\xE4	\xA0\x05\x03,\\\x93Z\xAB\x19\xC1I{P\x82\xB5>k\x0C%8\xC0\xA6\x88\xA0\x00\xDA\xCDN\x01\x00\xF8\xC2\x00\x18@X\x04\x00\xB6&C@@a\x0Fp\x93\xBE\xFA\x15\xB0}%,\x03\x06\xF0\x05\x9C\xCC\x14'\x07\x18\xACd\x07\xC0\x02\x9C\xF8uv=\xB8If\xFD\x1AZ\x9B\xF4U\xB1\x85\x1D@iwrZ\xC9"@\xB5:\xD9)N\x9C\xF5\x04S	\xE0\xA3\xC6\x12\x80\x92\xC60/\x0F\x00\xAF&\x11\x80\x81\xB3<\xF0!u
+\xB7@\x19\xA8-Mt\xDBJ\xDD\xFE\xB6\x93\xC7u\x00q{w\xAC\xDD\xF6\xB6\xBA\xB8\xB5\xC9X\x04\xF0\\\x9DT\xB1\x10-\x9AF\x01\x82 \x01\x94m\xE0\xE2s\xD7\xA0\x84\xE5*\xAA\xCA\xE1\xBDnj@\xACx\xD0\x07#\xC9\xA3	\xAA\x04A\x02he\x00#\x18\xA18\xFF\xF4*X3\xFA\x81\xF4&\xC9'h\xD5I\xE8.\x80SKE\xC0\x05.(A\xFF	\xB0p\x9A
+c\xA1\x04\x17`+\x16\xC6i\xC4\x03\xD4\x03\x91%\xAC\xC7\x10\x00\xD0\x03\x11\xD8\x03\x016\xF10=2k\x8F\x19t\xD6&\x97\xAD	\x0BB\x80\x8F\x10\x8C\xB8&\x08\xA8\x07\x8Am\xC2\x80z\x1C\x16\x00
+\xE81>\x18\xB0Z\xD3
+\xF9\x1EDv\xE23}\xB7\x96\xE7\xBE\x13\xA7\xEFs\x80\xB24	\xA5\xEC\xD2\x84QQ\xA2\xC1\x1F\xA34\xE5,w\x17\x00P\xDE\x10\x86\xD6\xD2;M\xB6\xD3\xBB\xF1\xC4\xCD<k2\x9AMA\x0BV\xDB\x80\x0C\x02@\x06\x0E\xAC+N\x06\xD0\xCF~p@\x00"Q\x81	\xF6\x9D\x87@\x13\x00\x820\xDC\xA9\x02\x01\xA0\x02
+\xF0\xF8\x83\x00\x04\xC1\x01\\\xA8\x03\xAD\x8E\xF0\x03<\xE6\xD1\x04\xF4\x92\x87\x14\xCA\xB2d\x9A\xDC\x10\x0BT\xAET\x16x\x17\x9ER\x9B\x9At\x95\xA2\x818\xA9\xA5\x04\x15\xCF#\xC7\xF8\x18@\x88\xEDqc\x00\xB8Z\x1E&\xC6G\x91c\x0C\x00X\x0Fd\xC7@\xAE\xC7\x0Cn2\xEB\x000\xA0&=(\xF6=f\xFFPk\x9A$\x9B \xCC^bN\xD5\xB9It.\x10\xA7o\x83\x81p=\xC3+\x1A\xC4E\x81\x1A\xB22\x95\xE3\x12]\x1A\xD4\x96\xB9Ts.M\xC6\x8D;\xD2u\x17\xDB\x1E\xDA6N9I\x93\xDE.\xE5\xBB\x84\x08o\xDF\x02\xE0\x85\xF2.n\x03l\xD0\xCC?\x0BrB[\x12z-a\x80B\x07R\xB0\x05D\x97\xE9\x08\x01\x80\x03Zd\xC0\xB8y%\xA0880\x81\xA5)p>\x08\xAC\xE0"\x85
+\xD8\x07\x92\xA2\x04\x05Hsg(\xCF\xB2\x05X\x10\xC9[;$\x045q\xF9@`^\x93\x18\x0F\xE0 \xC0>\xB2<^lk\x11\xD3D\x01\xCA\x0E\x01\x03hL\x8F\x19\xFC\x18\xE8\xF5\x10:\xD1\xE7at\x9B\xC8V\xC9\xD6\xAEI\x83\xCFl\xAC\x03*\x97&ab'p[yfM\xE2\xD6\xA6\xEB\xD42\x93\xA9v\xF5\xA9\xDB\xE4	\x05\xBA	\xA5\xAC\x9C\x13|\x0F\xE2\x8A\x1F\xE0\xA3\x0F$\xF0\x86<\xBDa
+\xF2h@<\x84\xF0\x00\xAE\xA5\x89P\xBA4\x03\x87\xAE0\x81\xFF\x14T\xA0\x0FK\x9F\x07\x190\xC0\x04\x02\xCC\x08\xCE\xD2[\x8B\x10\xCA\xB4h
+\xA0\xE0\x07\x1A\xA0#=ZP,\x9D\x8C\xC0\xE4\xD3L\xB9\xE8\x1Dp\x01\x96WK\xE6\xA9l\xCF\x85=\x00\x16\xD7\x83\xE7\x97U\x80=\x18\xC0\x82\x03\xE8\\\x1E\x87e\x81\x8Eq\\t\xD5\xFBZ\x1E\xC0\xBE9=\x80\xFD\xFB\x00\x04\x7F\xF7QW\xCA;\x9F,\xDB\x0Cy 'O\x98\xD7\x02yE\xF5\xE8K7\xF9\xCBm2N4\xA9,\x9CN\x91\xFA61\xF3\xBD\xD3\x1C\x9F5c] 2\x90\x00\x9C\xCF+\x01	\xF8@\x86r\xA0\x02\x18\xA2\x14\x860\\A\xE1\x86'@\xE2\xE9\x8C\xC6[\xAA\xE9M	\xA0\x06\xFF\xD0\x07\xD3\x93!m\x91\x07T\x10h:B,#\xA7\x136\xF0y'7z\xA3Wz-wb\xAAQ|\x01 \x02\x80%|+F\x132\xC7X4Q|\xC0vY\xC5wl5q{\xC0\x96x\xC3F\x13\xB9\x06|4\xF1\x05\xF5 \x027\xD1\x82\xF2PY0H\x0F2h\xFF\x134\x18\x00\xAAWS\xD3\xB6\x13\xCB7m\xF3v\x13\xEB\xF4e5\xA1I\xE8\xF4|8\xF1I\xD8\xE7\x83Jx\x13vum\xD5\xA6vk\x91]\xF66~=\xE5S\xC6&\x01SP=\xD8\xA3\x05s\xD6\x04	\xD0\x07h\x00\x05P0\x01\x13\xD0\x01\x1D\x80\x86)p\x03\x89\xD7\x048\xE0\x7F\xBA\xD4Tk\xF2*oB+l\xC0O\xCA\xA1\x05*P\x04}\xC0\x06\x86c\x0F\x05p/\xCD\x11\x10\x98\x13\x0F\x08z\x128\x81\xB5\xB7)2\xA7z7H\x0F<\xB7\x83 \xE8r4\xE7l1Xs\x94\x04\x00;Xd=\x90\x894\xC1\x81\xF2\x10Z\xB2\xD7\x81\x00\xA0{\xC3\x97H\x88T|\x8C\x85\x8A\xAF\xA6\x8A\x07\xC0\x8AM\x18[\xD3\xC6|\x0E@u\x94\xE2\x01\xBA\xB5\x8B\xBB\xE8,\x05\xB4Nlg@\xD3\x06\x8C:\x91!4 uZ\x87\x13WXu\x0E\x10\x8C\x96E~,b~41|\xB0\x04S0\x05\\x\x8DZ\x90c\xBFB3j\xF8\x8D\x85\x07>\x7F\xD3\xFF\x00\x10\xE0K\xEB\xD5&\xA0\x06\xEAh\x87r\xA0\x01u$\x03\x0CPF\x0BR\x00\x04`\x00\x1A\x90\x001p>k\x91\x19\x86\x08\x1A\x10\x18z\x8B\xA83\x14\xE8\x88\xF5`\x824\x11c\xB7W\x89\x05y\x13\x97\xD5\x90\x9B\xA8\x89\xE6\xF4\x82\xC5\x86bC@\x0F\x97(\x8A\x061\x00\x00\x80\x91\x05\xA1\x914\xF1t\xDAU\x85\xD8\x87ST\xD7`\xCF\xF2\x8BS\xA8|\xC3\x98\x927\xC1+\xC8x\x8B9!~<\x91\x8CJ\xE1v\x82\xF0%>\x01\x12V\x90\x8D\xDA\x98c\xFB\x00\x12k\xA8\x86\x13\xB0\x05\xF2`Gf\x00\x02\xE5"_u\xE01\x1A\xA0\x06\x0F\xC04\xC8C\x00\x13\xA5x\xF4h\x00u \x07\xE5(x\x1C\x92pg\x18\x06\x99\xD1\x07\x9D\x87\x13\x89\x08j\x08Safy\x96hy\x96+W\x81\xF4`\x90\x00\x80\x90\x1F\xE6\x81\x0B	c\x9B\xE8\x90\x11I\x97w\xD9k\x16	\x00:w|	\xA1\x91\x1CI\x10\x1E\xE9\x83\x9DF\x13\x94\xA2,\xB6X\x92\x05\xC2\x8B\x8C\xA9\xFF[()eL\xF1N\xEBDo\xA6\xB2\x16/Iu\x9D$\x92\x00\xB0\x8C5	\x8D^"\x8D`\xF6\x01\xC3"\x03\xD7s\x8Dov(\xFB@3@\x90\x86C)\x0F\x16\x05\x02r\xD0PQ%UvXV\xF40$\x06@\x8ER\x92\x05\xF7g\x86i\xF8\x8Dj\x08\x0510Aay\x13ci\x92R2\x06.\xE0\x04\xCC\xD9\x9C\xCE\xF9\x9C\xD0\xE9\x9Cq\x10\x07C0N\xA77\x97\x07\xF9\x90	)\x97mi\x13\x918\x0F\x10	\x9E4\xA1l=\x18X\xC2fZ\xF5\xF0\x89\xF4\xF0c\x18)t\x92\xF5\x9E\x925b\xED	\x9F\xF4Yk y\x844\x99\x987\x01eLA\x8CK!\x99\x9A9[\x96I\x13$Y\x8CT\xC3\x8C\xCE\xF8\x8CYX\x13'\xF0\x01\xC3)\x02<\x89\x8D=\xD6\x8D\x01\xB0\x05i\x08\x04k\x10\x00\x1A\xC0\x05\xED\xD8\x94 \xF3\xA1\xB0\xD2<\xE9\xD82\xAC\xA4!\xBC\xE9\x9B\xBF	\x9C*
+\x9C\x13\xE0\x00\xFFP\x9C7\xF1y%\xA0\x07\x8F\xF4Z<\xD4\xFFC8\x9A\xA3:\xBA\xA3\x87\x94M\x1D\x86\x9Do\xA9\x9Dq\xB9z\xF4\xD0\x83\xAE\x88k\xE1\x99\x1B\xB7\xD7l\x15\xD9\x9D<\x86\x838\x98b\xC8\xA7\x14.\x07l\xFF\xF9\x83.\x92v#I\x93\x99\xD9\x8CM\xF1t
+\x94\x01\x9EaSZz\x13h'\x84\\:vc \x93X(O8Q\x05\x1F\xC0\x05\xF2\xE0\x05\xA6\x89\x8D\x93Q\x00r@3\x15\xC0\x86\x1C\x15\x03\xF2E\x9B \x9A\x8ES\x15\x00B\xA0!\xF6w\x86+\xBA\xA2h\xB8\xA8\x8C\xBA\xA8\xCB\x14\x000j\x13%\xB7\x00\x19\x06-\x16`H\xD5	\x8B\x9A\xBA\xA9\xAA\xD8\x03>\xEA3.\xE7\x96pi\x8A2\xC7\x006\xB8\x83#\xB8\x89M\xCAt\xA5\xF5l\xF4\xD0l\xA7\x98\x0F\xB0\xAA\x82?\xB6\x91\xAD\x87M6A\xAB61;\x88Td\x84\x99\x14\xBC\xD2]\xFAyv\xADtu\xE1\x17\x175\xE1,\xBDC[\x1F\xF9\x83\xBE\x88\x138\x85[\x05\x9A\x13v\x05\x03\x9C\xD9\x99\x0B\xCAf\x1F \x0Fsg\x9A\x12`bT\x90\xFF\xA7\x01p\x03hH\x94\xAA\xF41\x81\xFA\xA1n2y!@\x02@\x90\xA8*\xCA\xA8\x1D\x00\x04)P\xAF\xF6z\xAF@\x90iI\xD2;\x9E\xF6\x05\x0B0:\xD0R\x06.P\x9D\xD9\xB4M\x06\xDB\x03Xpa\x12&a\x9E\xDA\xB0\xDA\xA4\x00\x9B\xB2\x17\xA1\x8A\x97\xE2I\x13\xDBI\xA4E\xC7\x00\xCA\x16\x00 \x18\xA4y\xB9\x83\x19x{\x19\x98\x13\xFB7\x0F\xE5\xB9\x91\xC2V\x9DC\xB0\x83!\xA0z\x18\xC9l\xDE\xC4\xB2=\x08\x92\x8C\xB1S\xC3\x1A~\x05b\xAC\xCC\xB8@\x94"\x00\xC6\xEA}M\x98\x8B\xC6\x1A\x01ps\x1D\xD3\x9A\x13\xA8\x96\xA0
+\xEA\xA68Q\x12\xA4\xE9\xAD\x01\x17\xAE4C\x05\x13\x00\x049\xC0Q\xE9\xAA\xAE\x0F \x043\x12\x049`\xA1\xF0\xCA\x9Am\xD8\x07\xA84\x10dP\x1Co\xB1d\xA1\xB3\x00X\xE0H\xCF\x92\x05+g\x9D\xAA1\xB7\x10k\x0100\x06\xE0Q\x1A\xDB\xC1\x1D	\xEB\x1D\x9B\xE2360\xB1Ij~\x17\x8BzCF\xB1\xF2\xE1\xAA\x031\xFF\x03\xBE\x1A\x8A\xF7`\xA5'h\x10\x8C\xFB\xA4\x051\xB9I\xA8;\xB8\x13]\xD2\xA5\xB37\xBB(p\xE3!\x9Et,\x1Arf\xC3\x95\x01\x11\xB0\xA6\x1Ar\x1Dpc\xBA\x9E\xE1,4`\xBA\xC1\x15nc\x87\x995\x11e\xB4\x8Bf\xD9:\x8D\xDB\xCAQ\xA5y\x8De\xD4\x07\xE2\xCA\x06\x13@\x02W{&Y\xFB&<`$AP\x04l\x10\x04$@\x02\xAC\xD9\xA8\xF3\xBA\x86\xF2\xA8xT\x80\x03B\xE0\x94\x1C '
+\xD8\x06\x9Bv\x88\xC6\xF9y=`\x01B\x14%\x0B\xF3:\x7F;\x02r\xB5\x1D\xA8\xD6!\xD9v\xB7\xDEaDW"\xB8\xD9\x99\x97\x85+l\xF8 \x02\xE5\xC9k%6\x10"\xD0\xB8\x12i\x0F<\xE7\x9D"+l\xBE\xFA\x05\x05\\t\xBE\x8A0>\x0Bu\x04\x9A\xA6\x9D\xD4\xBE\x1B\xF2eO \xC1\xDAW\x99\xB2\x0B\x00\x15,%Vv\xB4\x98\xA40\xDC\xE2\x99\xA4\x02\x9Ap\xFA\x01\x19
+\xA1u*>\xCEC3+\xD0\x01\xC4\x0B\x10u\x10\xA8o\x82\x03`\x10\xFF\x00l`\x05Z\xA0\x05~ \x02\xCF\x8B\x86\x0B\xB7\x057\x80x\xF2p\x03P\x00\x01\x80\xF3\x00\x81\xF2\x01k\x11w\xBD\x94K	\x00\x12\xF2\x90\x07;\xF0\x01\xB7{C\x0BP\x02n\x0B?I\x90\xB0\xA4Q!#`\xC1P\xA2\x07\x9AR7\xF4\xEB\xB1\x15\xCB\x97C\x1A\xAA=\xA0s30\x98\x83\x9B\x13C \xB2\x0C\x00\xAB8Q|\x97\x98\x13,P\xC0"@Y:\x91\xC7\xF7\xB0\xC7'\xEB\x83Yv[\xB7\xDB\xB9g7f\x1DR\\\x98\x94\x01\xA1G@f\xCA+\xD3\xF6\x04\x88\\ F\xE8\xC18\xC1+J\xBB\xB4j\xF6\xA6\xD3\xF0\x0F(l\x9A\xB5\xF2\x00\x04\xB0\x07b\x90\x02/\xDC\x07nd\x87\x0F\xC0\x03\xE9\x95\x00U\xA3\x05^\x10\x00!\x90\x03" \x02iP\x0F\x0Cr/\xD4\xB1\xC4\xE7HU \xA3\x01H\xACQ3\xC2\x01\x1F\xE0\x8C\xA1\xA3\x00\xE3\x0B\xC6P\xD2\x19\xE5\x11\x01\xCA\xCC!\x0Bc\x9D\x92\xF4\x17\xF4\xDB\xABW\xD1M\xB8\xCA\x14"\xC8\x14\xD8\x9C\xCD\xDC\x9C\xFFH\x00\xAC\x1E'\xE0I\xB7K\x84\x9E\xA4\xB3`r\xCE.\xA2\xCET\xC1\xA6La\x93\x7FP*\xD3`$l\x90\x8D\x12\x10\xCBXK\x00\xFFP\x01/\\\x00\xA9,\x07u\x80\x16b\xB8\x16ZP\x044(\x06M\xD0\x07\xB6\x84\x95\xE3R\x0E	\xB5P\xD51\xC0\xECwr\x90\x8E\x1D\xD3\x00\x85"\x14$q\x05\xE8\x0C\x00\x89\x98RA\x14\x90\x96\x02\xB7\x04\xDB?\x80Q\xC6\xB4\xA1\xB8\xB8GSws\xADm\xBA\xC9M\xFBS6l\xCF*P\x94\x1A0+\x01\x90\x03/\xCC\x04\x1C\xF01\xAB,\x0F\xE5\xE3\x00H\x90kM@\x00\x03\x15\x03\xCD\xCB\xADr.\x12\xAD\x8E\xEA\x08G\xC0\xF2\x94\xB4\xD9110y\x01\xF0\x00\x1F`\x84\xFD\x8A\xCC%\x90\x04"\xBD\x9BI0\xB0\xD2\xEC?[\x81\xD2\x9F!\x02\xAF\x85\x00\xCA\xE6\x96,-1\x87\xC9\x15"\xEC-\xA0	\x00\xD3\x80\x16\xF5|\x8D\x12`\x05\xF2\x80\x03u\xE0x9\xBD\xD3\x1C\xE0\x94\xA8\x89\x1C\x1EP\x04\x7FR\x07 \xA0\xFF\xC4\xD2\xD0K\xBE\xB4\xD4\xE72U\xF1\x052N	,
+\xB5\x8E\x1F:\xD9\xC6Q\xCC
+f\xC5*U\x06\xE5\x1B\x90Y\x10\xD6oeD1\x85\x15fm\x18 ;\x0F\x1D\xDB\xD6\xDB2\x06\xA7;/\xE6\x06\xD7\xB9K\xD7\x1F\x80\x16\x18`\xCF\xEF\x07\x10\x1C\xE0\xD7\x0C\xB0\xD31<\x19\x04 ]\x1BP\xD3\x05051\xA0PJ\xE3\xD4\x90\xEDwl"\xA8\x82J\xD9\xCD\x9D\xAEj \x07B\x11\x10	\xDA>\xC8|\x00]\xFD\xD9\xA3\xE7\x01X ?%=\xCD\xD4\x0C\xA4\xB0\x91\xC0\x90\xCB\xDA\xD9\x02\xC9\x0E\xA0\xD5\xD8\xCA\xB4\xA5\xF4\x01\xC5\x11\x04\xDE\x9A\xDB<pU<|\xB5LP\x07\xC5a\x00\x0E\xC08oP&S\x9C\x00\x12\xDD\x94\xD3\xADP\xD0\xCD&\x15\xA8\xCC\x1D\xD5\x80\xFA\xA1F\x02\x96\x9D\xA66_\x90\xDD%`\xB7_]\x06\x16\xE0\x04$\x15\xB1\xA5m\xDA\xE4\xFD\x19\x18h|\xE8-1F\x99\xEF\x1C\xD7\x153\xD7cBg\xF3\xBD\xD7W\xD5\xAEW\xEB\xCF!!\xFF]\xFCd\xD8j\x91\x00u\x00\xA8\xE9\xF2^\x07\x9E\xE0\x92\xD5\x94\xFD\x94\xC7[\x1C\xFBR\x98x1\xE1\xDD4\x04\x14\x16e;\xE3\x01\x11`\x01.\xF0Z%M\xDA,\xAD\x00\xDED;,\x10\xC8#\x9E-\xEC\x1C\x15\xF0,\xCF\x1F\x00\x123\x80\x8D\xEAg\xD8\x00a\x00\xCA\xE3h;\xAD\x06\x87\x82\x04\x8D\x13\x04\x1A\x03\x01\x1E
+\xA2\x05\xE4\xC0\xE2\xDCK\xB3\xE0\x95\x9D\xB5S\x15\x0F1s\x05\xD0tC\xD9=\x04qP\xE1I\x10\\o#%\xD96\x06\xA7\x03\xE57\x8AM\x11K\xD6[>\xE9\x94\x1E\xA4\xB3=b3\x03Z\x90\xD7}0\x07E\x89\xE6\x93\x81\x06\xFD\xBC\xDB\x8E\xC6O\xFF\x8D\xCA1,\xDDp\xE0B.\xD9\xAB\x1E\xE4~\xD9rp(m\x10\xA97q\xE4(\xA5HC0\x00q\xE0\x02\xA8C\x1Ef\xF9\xEB\xDF\x1D\x07\x1A\xCEC\xD8\x04W{Q\xE9\xCAN\xE9_\xAE\xE2\xFB\xD6<\x01G\x0F
+M\x00\x93\x91\x06$0\xA1\xC9c$n\x1E\xCB\xFD\xA7\xFF\xEAz\xDE\xEA?N\xD9\xB1\xC9\xE7\xE9(\xAE\x90
+\xBE;\x81\xEB\xDC\x84H>D;\xD1\xF9Y8\xDA\xAB\x7F{D\xCB^\xEF\xAC\xDD\xEC9A\x16\xE0#\x0Fm0#}\xC0g\x93\xE1\xBC=V\xD48\x80\x16E\xB0\x01z\xDD\x07\x06\xC0\x01\xD2\xAD\xE7\x01\x18\xA8\x05\x8E\xE0\xB1N\xE7?}\xEE \xA5\x04r\x85R\x9E\x8AH\x8B\xC4\xA39Z{\xBDJ-\x7F\xDB)\xF6^\xF2,\x8D\xEF.\x82, \xD0\x02l$\x0F\x05\x00\xF0\xB2|\xED\x13D\x008P\x1CT\xF0\x02	\xAFF\xD2m\xE7{N\xF1\xC0\x12\x9B\x13\xFF\xE3ma\xF1 \x95\x1D\x13\x8ER\xDC\xB4\xF1\x9B\xEA\xB0\x0F\xAB\x1A\xAC!\xE9&\x1F\xF5\xC1\x83\xF2)o\x0E\x93\xC7\x035\xCC\x040\xCF\xC3&\xC6 5/\x0FS\x90\xF3B\x90\xB5\xE9\x02\xEB\x10\xDF\x00\xCC]\xD1\xE4>UVm\xEB\xA0\x81\x17\x18\x7FR\x10\x8B\xF4\x06;\xF7\x10\xEB\xF4{\x01\xF5R\xBF\xF7wC\xF5;\xE1\x13:`\x07`P\xC3EM\x00\xF1\xD0\xFF\xDB]O\x00\x86/\x0FE\x10\xCB
+?\xF6Y\x0B\xCC??\xF1\x93=\xF9\xE4\xBE\xB5\xF2\xE0\xF6JQ\x17p\xAF\xBEs\xFB\xF9q\xC5\x1A$\xC2\xF7\xA4\x1F@\xF0L&\x03!\x04\xD3 A\xF2\xC0 \xD4\xFE\xD7\x89\xAF\xF8*\\\xD3\x8F\xCF\xE7\xEA\xC8\xDC\xE0\xEE\xEA\xE2\x1E\xF4v\xD8\xF6\xBB\xFB\x12\xC0\x1F\xFC\xC2?\xFC\xC4_\xFC\x1B\x11\x13\x92\x00\x0F\x06\x81\xD5\x1FPVd\xA0\xF8\x87\x9F\x03e\xE4\xFA\x05\xEFh\xEF\xA7\xF0\x0Co\xFBv>\xEE\xB2\x0E\xEB\x96M\xF1C_\x12\xC6?\xFE\xE4_\xFE\xE6\x7F\xFE'q\x11\xCAP\x0E\xF0Mgi\x84\xF5\xF4\xE0\xFA\x8Bo|\xCD\xB3\xF0k\x1F\xF1\xF9\xA2\xE3<\xBFP\xE9\x08\x08j\x83\x83j\x0F\x06\x01\x01\x1F\x1F\x7F\x8D\x8E\x8F\x90\x91\x92\x93\x94\x95\x96\x97\x98\x99\x9A\x9B\x9C\x9D\x9E\x9F\xA0\xA1\xA2\xA3\xA4\xA5\x95\x0E\x8B\x1F\x18\x01TuuB\x06Bd\x01\x18\x04\xB6\x04`\x01A\x01}\x06\x1C\x84\xC0\xC0\x1A\x0F	\xC5\xC5\x0F\x82\x84\x82\xC4\xC6\xC5\xFFr\xC1\x86\x88\x8A\x8C\xA6\xD6\xD7\xD8\xD9\xDA\xDB\xDC\xDD\xDE\xDF\x94\xA8\x8Bm\x01L\x1Cu\x1C\x1C+\xB4\xB7\x04\xAB\x89T\x06u\xD0\xC1jr\xCD	r\xC9\xCA\xCC\xF8	\xC8\xFC\xA6-\x02G\xB0\xA0\xC1\x83\x08\x13*\xCC&\xEE\xC3:2\xF28\x90\xABe\x0B\x07\x93D\xAC\xE4\xD1S\xD6\xC0\x1F@`\x86\xFC\x15\x8B\xC6\x8FG\xA2\x81\x0BS\xAA\\\xC9\xB2\xA5\xCBO\x0E\xCC|\x881+\x00\x8E:\x13\xDB\xF5\xC1\x18o\xDEFA\xF7\x9A=\xDBW((\xBE\x8F\xD1\x0C\x99\xA4\xF6\xB2\xA9\xD3\xA7P\xA3j\x8B9\xB3	\xBC\x9C\xED\xD6e\xFCEO\x90G5DI\x8AL@\xB2\xC1\x83\xB3	\x96\xA2\x94\xCA\xB6\xAD\xDB\xB7R\xA9\xEE\xA0\x82\x91]\x9F\xBB\x04\xACn\xED\xDA\xCF\x98\xBEz!\xC7>\x90\xF3\xA0\x01\x07\x03}
+<\\\x0B\xB7\xB1\xE3\xC7\x90\xB9Q\xFD\x80\x03c\x13\x1E\x98cU\xDE[\xCF\xA8\xDF\xB0\xCBD\x12\x16\xC2\xA3\x0F\x13\xADuq0\x8E\xCC\xBA\xB5\xEB\xD7\x95d~\xA8\x93\x08\x0C\xFF\x0F\xE9\xCE\x15\x08P V\xBD\xBE\xC6\xCA\x92\xEC\xFBL\x08\x0E*\xEF\xEA*g\x12\xE3\x83\x19\xD8\xD0\xA3K\x87,\xBB\x01\xC6\x9BB\x84\xD4\xA1\xDB[\x08\xC8\x8E"?\x9E=\xDB\xC08r\xE5\xE8\x03\xAC\xE8\xC3\x01\xC2\xA2\xE7\xD3\xE3\xCB\x9F\xFFR\x9C\x9C\xEB\xE8\xEA\xEC\xEE\xCE\xD1s\xB3\xF1\xE5\x11P@r\xE9\x05\xB0D\x018p Gs\xA98\xE7\x00}\x10F(!A\xF6a\xC4\x83+\xFB\xF9V\x08p\xFFq\xD0\x07\x81u\xAD\x80\xA0\x10j$\x10\x03\x17\xBEg\xC6\x83\x13\xB6\xE8\xE2\x8B\xA5\x88\xC3\x01F\x06\xA8\x91\xA1w\xD1p\xF8\x8F\x10y)\xB7B<\x1A\x98\x98b\x83f\x14\xC9"\x8CH&\xA9d&\xE2\x10\x90\xC8\x12B\xD0\xC5\x84\x01\x06\x10\x82\x8F\x06<P\x81Z\x00M\xE0\xA0\x81{C:W\xE4\x8AG.i\xE6\x99h:"\xD3\x0E\xEF\xAC\xB0\xCA\x94U6\x10T\x03<\\\x84Q\x1BT\xB47\xE4\x98e\xA6\xE9\xE7\x9Fg\xCA\x04\xC1rT\x0E&\x87\x06\x04\xA0z\xC6\x84\x10	\xA0\x98\x8A\x91\x80F*)\x9A\xE2X\x87\xD1\x94<\x18p\xDC\x12\xF0p\xC0\xE0\xA3\xF0M*\xEA\xA8H\x8A#\x04Fxl\x89\xC3\x03 \x10\xB9"\xA9\xB0\xC6\xEA\xA2l\xD3\xA4\xF6\xA9\x83\xB2\xE6\xAAk\x84\xB2q\x90\x07<	<\xDA\xE7\xAE\xC4\x16\x0B\x9Bl{\x1A\xAB\xEC\xB2\xB05\xF4\xDE\xB0\xCCF+\xED\xB4\xD4Vk\xED\xB5\xD8f\xAB\xED\xB6\xDCv\xEB\xED\xB7\xE0\x86+\xEE\xB8\xE4\x96k\xEE\xB9\xE8\x92\x1B\x08\x00;
+$$$$$$ Response Body For Transaction With Id 418 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 429 ******
+GET /EmployeeDirectory/images/home.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 429 Ended $$$$$$
+
+****** Response Header For Transaction With Id 429 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:14 GMT
+Accept-Ranges: bytes
+ETag: "0af80c0c926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:43 GMT
+Content-Length: 866
+
+
+$$$$$$ Response Header For Transaction With Id 429 Ended $$$$$$
+
+****** Response Body For Transaction With Id 429 ******
+GIF89aM\x00M\x00\xB3\x00\x00\x00\x00\x00\xFF\xFF\xFF}}~_`e\xFD\xFC\xDC\xD7\xD1\xAD\xFE\xD0h\xB2\x8EGjX30+"\xA2\x8D\x8C\x02\x01\x01\xAD\xA8\xA8\xD8\xD8\xD8\xFF\xFF\xFF\x00\x00\x00!\xF9\x04\x01\x00\x00\x0E\x00,\x00\x00\x00\x00M\x00M\x00\x00\x04\xFF\xD0\xC9I\xAB\xBD8\xEB\xCD\xBB\xFF`(\x8Edi\x9Eh\xAA\xAEl\xEB\xBEp,\xCFtm\xDFf\xA0\xEF|\xEF\xFF>\x19pH,\xF2Z\xC6\xA4\x12\x98Z\xF2\x04\x83\xA8t\x1Au\xEEN\xD6\x1D\xA3\xC0Xx\xBF`\xEF\xC0\xD9\xCC\x06\x16\x05BA\xC1n\xBB\x13\x0B\x81Re\x1E$\x08x\x86{\xAF\xF02\x8C+fhj\x0C\x04|n\x02^E,Y	\x08xpi\x87l\x0C\x03\x0B	CHN]i\x05^w\x86\x93\x0Cpcd#V\x0B\x8F\x04p\x9Fj\x93lprK$N\x96ya\x03\xAE\xAF^
+\xB3\xA7Kq\x90_\x08\x08\x0B
+\xBA|\x95\x8As\xBFIp\xB7_\x06\x06p\x85z\x87\x0C\xC5\x0B\xBE!J]\x02\xC2^\x08\xD2\x06^i\xD6\x87p\x98I\xCDE^x}\xD1\xE3\xE4\x0B\xEF\xBB\x0B\xA5\x8B"I\x89\xC7\x04`\x07\xF2\x0C\x1C\xB8T/Y\xA28\x80\xF4\x19qG\xE0\xE0\xA5\x80\xD2\x06>Zs\xCD\xD2\x82?D\xD8\x01\xA1\x86\xE7\x1FDi\xC5\xFF\xBEQL\xC6*\x1F7"]@YL\x15\x91\x18\x82\x04	\x00r\x1C\xC9']F\x85C\xFC\xA8\x01\x131\xCC\x02\x80\xF3\xCC\xD9S\xF7\x83\x16\x90D\xA0\xB2\xB1\x14\xE8\x13\xE8\xBC<\x15\xC50\xD1\xC8\xA3\xDC\xCEO\xE3\x06^\x82\xB2\x94)(Q\xD9z\x05\xA1\xAA#\x1D\xB8\x9F\xE3\xB21\x90\xE0H\x9E\xC4\x825\x97\xF50\xDA\xA3\xCB OX\xD3\xFA\x91 @\x9C\xBC\x90\xC8\xF8|)\xAA\x8FB\xD9T\x01V\xC5\xD3{QB\x00\xBF\xF2"\x05F\xF4il	\x1D\x16\x13p\x19\x160[\x80	\x90\xE5\x05#\xB4\xA5\x80iIR\x8F\xD0\x00\xCF'\xC4b	\x0C\xE0!\xC0\xE0\xE3\x81oj\xB8\xE8\x812\xE0\xE5=\xCB'\x9F4\xFDH\x9C8m\x9F`d\xCD\x05QD\xD9\xC3\xE2\xD0\x03\xB2B\x8Eo\xF9\x07g]\xA3kW\x8Ak\xEAu#pBk\x87\xCE\x1DLu\xD5\xDF\x8B\x84\x1F?\xBE\xFC\x17\xE5\xD6=$\xF1\xE2\x94}\xF1\xE9a\xE0\xC7\xE70\x1F-\xF4\x03\x00j\x87_\xFFr\x99\xA4G\x04}\xD1xIL\xD2!\x87\x90w\x1D\xF4W\xDFG
+\x86\x13\x90\x83\xC6\x14(\xDFB\xFE\xDD\xE7\xA0x\x18\x8AE\xD8\x86\xED, \xE0`\x9F\xF5\x01\xA2\x83"\x02\xC7\x1F\x87'z1A\x17+"\x87\xD1\x88\x11.\x02\x87v`\xCC\x98\x9DV6jH\xA2e^\xF0\xF8\xC5\x04g\x84\x06\xA4O7\xBA\xF8"pEF\xF7E\x02H>\xD7\x93\x83M\xEE\xF7d|V\x167e\x95\xB1e\x85a\x96\xE8y\x05\x05]\x12\xF7\xA5c]\xBA\x87\xA2\x939\x96)A\x9A\x10\x01I\xE5\x04mb\xA8C\x19gV\x90\x9Dmk\xCE\x19&Hz\x06\xD2'\x9A\x97 \x10`\x9D\x81:\xB0#c\xC8}F\xC7\x9E\x17\xB0f\xC7\x94\x8E\x04h'\x05\x8FJS\xA1"\x86J\xBAA\x00\x0C\xF4U\xE1\x00\x14\x14\x13Y\xA1\x93\x9ER\xEA\x00\x02\xFCQA1N}\xAAM 0T\xC2\x8A\x82	\x0C +\x0EX\xE8\xBA\xD5\xAF\xC0\x16k\xEC\xB1\xC8&\xAB\xEC\xB2\xCC6\xEB\xEC\x0F\xB3\xD0F+\xED\xB4\xD4Vk\xED\xB5\xD8\xAE\x10\x01\x00;
+$$$$$$ Response Body For Transaction With Id 429 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 433 ******
+GET /EmployeeDirectory/images/admin.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 433 Ended $$$$$$
+
+****** Response Header For Transaction With Id 433 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:14 GMT
+Accept-Ranges: bytes
+ETag: "0af80c0c926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:43 GMT
+Content-Length: 1161
+
+
+$$$$$$ Response Header For Transaction With Id 433 Ended $$$$$$
+
+****** Response Body For Transaction With Id 433 ******
+GIF89aM\x00M\x00\xC4\x00\x00\x00\x00\x00\xFF\xFF\xFF\x04\x97\x97\x05dd:\xAF\xAFj\xC4\xC4\x15\x13\xF9\xE6\x8CZYU\xBE\xB9\xAF\xFE\xAC\x15\xC7\x9Em\x85\x81||N\x1D\xA4yG=.\x1D\xD8\xD8\xD8\xFF\xFF\xFF\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x11\x00,\x00\x00\x00\x00M\x00M\x00\x00\x05\xFF`$\x8Edi\x9Eh\xAA\xAEl\xEB\xBEp,\xCFtm\xDFx\xAE\xEF|\xEF\xFF\xC0\xA0pX\x0B\x18\x8F\xC8\xA4r\x19 \x8A\x98\xD0\xA84(\xADZ\x97\xBE\xABv\xDB\xE4q\x13\xE0\x04cLf\x80\xB7\xBF\xAA\x18\xF10\xB8\x1F\x8D\x86\xC3\xB1X\xCC\xE7q\xF9\xE2\x8CMG\xDBptu\x83s\x83u\x07\x88v\x0F\x08}~P\x06t\x0Eqmn\x96\x97\x81\x0B\x88\x0E\x8CJBQ	\x06\x0B\x96\x0Fpy\xA8\xA9\x0E	\x9C\x0CV;Q\x0C\x0F\x0Bmr\xA8w\xB8\xB8\xB3\xADW:\x7F\xA3\x91\xB7\x86\x86w\xBB\x0F	\xBD9P\x11\x91\x9C\xC2yu\x82\x84w\xCE\xC8\xCA8Q\xA2\x0E\x06\x0F\x93q\x82r\xD3\xB8\xD6\xC9\xAF\xCBL\xA1v\x06\xB6\xE0\x0El\x08`v\xE4s\xD7\xE7\xD9L\xB2\xC1\xDF\x94\xF1\x8DF\xF3\x8C\xD5;\x02&\x1E\x13_L\xD8\xEC\xCB\xD3\xC9\xA0\xBC\\\x8C\xE6\x88\x19 @\xC0\x00\x03\xFF<\xE1[\x82\x00\x98)~\x0F\\\x81\x19#M\x97\xBF\x01(/\xFF\x1A\xB8\xF8\xC0\x91Ht>\xA2b\xF4Q\x9A8:\x08VZ\xB4\x94\x92\xA5\xC6\x1B0\x17\xB0\xE3\x07l\xD28q\x0B\x10\x0C \xA0\x12e\xC5\xA7\x02\x0C\xB8B\x82n\x89(\xA1\xA9\xC4\xC5!\xA4\xE7\x01J7=\xC3V4`\xCEHU%\xDB\xD8\xA9\xCA\x13N\x0E\xC56a\xE3R\x1C\x90\xB1\x0BP&i\x89\xB6\xD33\x89\x01E\xB0)\x05\x80Y)\xD6\x00\xD5\x8Dh\xD7\xE9\xE5'IVS\xA7\x06\x10\x05\x08U\xB8l\x16#\xEA\x16-f\xBB\xC7+`\x8A\x02\x10\x1CHp @\xCE\xB8S\xED\x9E\x9DLVsV\xB6\x01<\x13\x16@\xA0\xA2h3\x01\x0E\x18\xB0\xD835B\xB4\x07\\\xBFn\x90@)\\\x8A\x05j\xA3$\x1D\xF2\x00\x82\x8A=\x0B\x1C.\x02\xE5Apo\xC3Wu#L\xA0@\x01\xDEt\x11!X\x05=eY\xD52\xA4X\x077<\xF6E\x94\xDD\x93\xF3\x0E\xCD\x00\xD1h\xF0(\x93\xBC\xFC\x13|80\x06\xDD\xC0\xE7]rN\x11@\x00\x02\xF5\x1D\xE0W\xFFO\xE7\xA1\x17\x83z\xFD\xB5\xB7\xD2J\xF1ygQ|\x06"HKo?\xD1\xC0\xDF^\xA8,\x00\xA0\x80\x03\xD6V\xA1w\x062\xF5Uj\xD3yx\xD0zz\xC5\x91\x80W\xC8\x98\xDC\x89\xDF\x95w\x11\x8B-\xCE\xC0L\x03\xC1\xC5H\x9C\x01\xCA\xB9b\xA3\x8D\xB5\xE9H\x163\xFBaQ\x1F\x1E\xAA\x14'KFG\xCAW^7S4\xE9II\xAA0\x80\xC0\x979\x99qb\x92\xD0\xB9\xC1\xA3K>\x1E\x14\x00.ly\x89\xA0w\xF0\x94\x08\x95Jg\x1E\xA4\xA5~\x11`6J\x1Cn"\x90$\x86d\xEE\xD4\x06\x1AwNg\xD6dI\x91\xB1\x1BTO\xA9$U(ybC\x9D~\xA6ucJ<d\xCC\x91\xD3%\x96|Y\xDC\x1C\x86i\x81\xD8\xA1\xEC(`\xAA\xA9\xEF\x8C1	Fb\x94\x11P\x03\x08\x08Eh\xA1\x11\x8Cw\xEA\xA9\x8C\xC8\x12\xCA) \xBA3K\xA8QxAUl\xB7\x9Aj
+#\x8B$\xE0\x9F\xAF\xB2v\xD8\xC3av\x14\xAB@K\x93M;\xD9\xFF\xB2xp\x12\xA9\x13\xC3\xCE!m\x03fl\xC2@\x04\xCB\xDE\xD4\x80\x83\x9Ft\x11@\xB4\xB7&b\xDF\xB4\x11\xEC\x99\x1D\x1E\xE8R\xD1\x85<\xD2\xDA\x87\x88\x02\x06D\xA0\xAC\x7Fw\x9C\xEB\xC4		h\xD2\xEE\x01\xA6\xBE\xDB\xEF\xBF\xF3\xC6Q/\x11\xB19p\xB0\xBE\x07\xD0\xE2\xEF\xBCw<\xEC\xC4\x97\xF9\xEA\xEB\xCD\xC5Y\xE1\x92\xC0\xC0)\xC4\x86\xB0\x02\x14\xDB\xC7\xCD\x01 \xB3u\xC7\x02\x1A\x0Fl\xDD\xC9
+\x1C\x92\x08),\xC7{\xCB\x1D#\x93\x9CB<4\xF3\x0B\xA5\x1C9G\xC0X!1\x0F,F\xD0\xC8\xDA\xE2@\xD1\x01\xB8#\x91\xCF*\xC4\x16\xC0\xAD\x02O\x96L	\xCA\xBE\x9C4\xC93\x9F\xEA@\xCC\x93\xCD\xF15\xC9\x0C\x18|j\xCF+\x14|\xB6\xD2\xA2\x99\xBA\xC8\xB8-\xBC=\xB0\xC9r\xD3M\xF5\x0E@\x1Bk\xF7\xDEm\xD7\x87+\xE0\xBEX\x87*\x82\x84\xE7 \x1A\xC2\xE0&\x9E\x03+'\x0B\xEC\xF8O\xE7\xE6\xDC\xE48<]\xB1\xE4\x98\xD7P\x9CT\x7Fw.\xFA\x06\xE8\xA4\x97nC\x08\x00;
+$$$$$$ Response Body For Transaction With Id 433 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 438 ******
+GET /favicon.ico HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=6
+
+
+$$$$$$ Request Header For Transaction With Id 438 Ended $$$$$$
+
+****** Response Header For Transaction With Id 438 ******
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 1245
+
+
+$$$$$$ Response Header For Transaction With Id 438 Ended $$$$$$
+
+****** Response Body For Transaction With Id 438 ******
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+-->
+</style>
+</head>
+<body>
+<div id="header"><h1>Server Error</h1></div>
+<div id="content">
+ <div class="content-container"><fieldset>
+  <h2>404 - File or directory not found.</h2>
+  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>
+ </fieldset></div>
+</div>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 438 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 442 ******
+GET /EmployeeDirectory/Styles/Oak/Images/Spacer.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 442 Ended $$$$$$
+
+****** Response Header For Transaction With Id 442 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:04 GMT
+Accept-Ranges: bytes
+ETag: "0ce8abac926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 43
+
+
+$$$$$$ Response Header For Transaction With Id 442 Ended $$$$$$
+
+****** Response Body For Transaction With Id 442 ******
+GIF89a\x01\x00\x01\x00\x80\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x01\x00\x01\x00\x00\x02\x02D\x01\x00;
+$$$$$$ Response Body For Transaction With Id 442 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 444 ******
+GET /EmployeeDirectory/Styles/Oak/Images/en/ButtonSearch.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 444 Ended $$$$$$
+
+****** Response Header For Transaction With Id 444 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:04 GMT
+Accept-Ranges: bytes
+ETag: "0ce8abac926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 525
+
+
+$$$$$$ Response Header For Transaction With Id 444 Ended $$$$$$
+
+****** Response Body For Transaction With Id 444 ******
+GIF89aA\x00\x1B\x00\x85\x00\x00\xE8\xDD\xA8a\\T\xF7\xF7\xF7\xA5\x9Dw\xB6\xAD\x83\xAD\xA4}ql]\x89\x83lqk]\xDE\xD3\xA0\xCD\xC3\x94\x9C\x95x\xE1\xD7\xA4\xE6\xDB\xA6\x98\x90u\x8D\x86o\x95\x8Et\xC7\xBD\x90\xBE\xB4\x89\xCF\xC5\x95faV\xD8\xCD\x9C\xD2\xC8\x98f`V\x9D\x95y\x9F\x98z\xE6\xDB\xA6icXidX\xE2\xD7\xA3\xE0\xD5\xA2gbWhbWd_Ud_U\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00A\x00\x1B\x00\x00\x06\xFF@\x80P\xA8)\x1A\x8F\xC8\xA4r\xC9l\x0E\x87\x8D\x0C'@\xADZ\xAF\xD8\xACv\xAB\xDD8\x18\x1D\xCD\x13\xC3-\x9B\xCF\xE5G%!\x16\x82\xD0\xF0\xB8\xF9\x12\xB1\xB0\x85\xF2\xBC\xFEJ\x88T:\x00\x1A{\x83y\x05\x12\x16\x1EE\x84\x8Bh\x03\x04\x13l\x82\x8Cr\x02\x02p\x8E
+\x91e\x95\x9C\x93\x01\x95\x97\x04\x99\x8A[\xA0\x9EU\xA6g\x98\x9A\xA5\x96W\x9C\xAE\x9F\x9D\xB2\x9FT\xB0\xB2\xB3\\\xAB\xA4Z\xB0\xAE\xA6\xA9\xB6\x96\xB7\xC1\xC0\xB1Z\xBB\x92\xAD\x9D\xBE\xBF\xC4\xB1\xC5\xCEe\xC9h\xA0\xC1\xB4\xB4\xA9\xD1\xC2\xD3\xA2\xACf\xD6\xC7\xD8\xE1\xA8\xC7\xC6\xDD\xA3\xCAY\xBE\xE5\xB3\xEC\xD1\xE4\xD8[\xD4\xA7\xF5U\xF4\xF6\xF5\xF8\xF9\x9E\xC9\x1F\xFC\x9EB$\x83\x00p\x92\x01G\x90\x8A08@\xA1\xE0\x1E\x11\x08\x16\x18B$\xA6C\x85\x08\x04
+\x0C\xD8\xC8\xB1\xA3\xC7\x8F C\x8A\x0CY\xA0\xCF\x1F"	,D\x90@\xA0\xA5\xCB\x970c\xCA\x9CIs\xA6\x84:wPV\xB00A\x81\xCF*\x9F@\x83
+\x1DJ\xB4\xA8\xD0	\x16\xD6\xB4\x19\xA2\xA1\x83\x87\x04P\xA3J\x9DJ\xB5\xAA\xD5\xABV=\x84y\xF2\xA4\x89\xD7\xAF`\x99p\x02\x00;
+$$$$$$ Response Body For Transaction With Id 444 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 446 ******
+GET /EmployeeDirectory/Styles/Oak/Images/HeaderLeft.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Styles/Oak/Style.css
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=4, i
+
+
+$$$$$$ Request Header For Transaction With Id 446 Ended $$$$$$
+
+****** Response Header For Transaction With Id 446 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:08 GMT
+Accept-Ranges: bytes
+ETag: "028edbcc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 119
+
+
+$$$$$$ Response Header For Transaction With Id 446 Ended $$$$$$
+
+****** Response Body For Transaction With Id 446 ******
+GIF89a	\x00\x96\x00\xA2\x05\x00c^TidZ\xBD\xB9\xAA\x81}q\xA1\x9D\x90\xE1\xDD\xCD\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x05\x00,\x00\x00\x00\x00	\x00\x96\x00\x00\x033X%\x13\x01\xB0\x10H\xA1\xA8u`\xFA6\xE8^(\x8Edi\x9Eh\xAA\xAEl\xEB\xBEp,\xCFtm\xDFx\xAE\xEF|\xEF\xFF\xC0\xA0pH,\x1A\x8F\xC8\xA4r\x99L\x00\x00;\x15\xE3| \x90\xD9^:\x00
+$$$$$$ Response Body For Transaction With Id 446 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 392 ******
+	web_url("Default.php",
+		"URL=http://examples.codecharge.com/EmployeeDirectory/Default.php",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t23.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=Styles/Oak/Images/HeaderLeft.gif", "Referer=http://examples.codecharge.com/EmployeeDirectory/Styles/Oak/Style.css", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 392 Ended $$$$$$
+
+****** Request Header For Transaction With Id 448 ******
+GET /EmployeeDirectory/Styles/Oak/Images/HeaderRight.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Styles/Oak/Style.css
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=4, i
+
+
+$$$$$$ Request Header For Transaction With Id 448 Ended $$$$$$
+
+****** Response Header For Transaction With Id 448 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:08 GMT
+Accept-Ranges: bytes
+ETag: "028edbcc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 119
+
+
+$$$$$$ Response Header For Transaction With Id 448 Ended $$$$$$
+
+****** Response Body For Transaction With Id 448 ******
+GIF89a	\x00\x96\x00\xA2\x05\x00c^TidZ\xBD\xB9\xAA\x81}q\xA1\x9D\x90\xE1\xDD\xCD\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x05\x00,\x00\x00\x00\x00	\x00\x96\x00\x00\x032\x08
+1ReI\x12\xE5\x12v\x8D\xAC\x02g_(\x8Edi\x9Eh\xAA\xAEl\xEB\xBEp,\xCFtm\xDFx\xAE\xEF|\xEF\xFF\xC0\xA0pH,\x1A\x8F\xC8\xA42\x99\x00\x00;\x9F\xE2?\xBBcg\xDA\xC2\x91\x00
+$$$$$$ Response Body For Transaction With Id 448 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 392 ******
+	web_url("Default.php",
+		"URL=http://examples.codecharge.com/EmployeeDirectory/Default.php",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t23.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=Styles/Oak/Images/HeaderLeft.gif", "Referer=http://examples.codecharge.com/EmployeeDirectory/Styles/Oak/Style.css", ENDITEM,
+		"Url=Styles/Oak/Images/HeaderRight.gif", "Referer=http://examples.codecharge.com/EmployeeDirectory/Styles/Oak/Style.css", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 392 Ended $$$$$$
+
+****** Request Header For Transaction With Id 450 ******
+GET /EmployeeDirectory/Styles/Oak/Images/AscOff.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 450 Ended $$$$$$
+
+****** Response Header For Transaction With Id 450 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:06 GMT
+Accept-Ranges: bytes
+ETag: "0fbbbbbc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 56
+
+
+$$$$$$ Response Header For Transaction With Id 450 Ended $$$$$$
+
+****** Response Body For Transaction With Id 450 ******
+GIF89a\x0B\x00\x07\x00\x80\x00\x00\xE8\xDD\xA8\x99\x93\x8E!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x0B\x00\x07\x00\x00\x02\x0F\x84\x1D\xA7\x18\xB9\xD0\xE2\x8A\xF4\xD0\x0B\xAF\xDE\xB1\x00\x00;
+$$$$$$ Response Body For Transaction With Id 450 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 452 ******
+GET /EmployeeDirectory/Styles/Oak/Images/FirstOff.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 452 Ended $$$$$$
+
+****** Response Header For Transaction With Id 452 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:06 GMT
+Accept-Ranges: bytes
+ETag: "0fbbbbbc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 191
+
+
+$$$$$$ Response Header For Transaction With Id 452 Ended $$$$$$
+
+****** Response Body For Transaction With Id 452 ******
+GIF89a\x1B\x00\x1B\x00\x83\x00\x00\xE8\xDD\xA8\xF7\xF7\xF7\x99\x93\x8E\xE7\xDC\xA7\x9D\x98\x90\xBA\xB2\x99\xB8\xB1\x99\xBC\xB4\x9A\xBD\xB5\x9A\x9C\x97\x90\x9D\x97\x90\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x1B\x00\x1B\x00\x00\x04l\x10\xC8I\xAB\xBD\x03\x11\xC1\xBB\xFF\x042X\xC7g\x9E\xC2a%h\xCB%\x96+\xC7rK\xB7\x81]}A\xCE\xF5:
+\xCF\xD7\xF3\x9Dn\xBF\\qi\xE4 \x05\xCC\xE8\xE7\x19eNw\x9E\xEA\xF2*\xCC*\xAB\xDC\xC90\xD9\x0CK\xC6\xC9\xA0\xD8U\xF6<kn,\xDC\xB4\x9A\x7F`\x95\x92\xBDS\xB0\x0C\x0C
+v
+\x06#\x17\x86\x87\x88\x89\x8A\x8B\x8C\x8D\x8E\x8F\x17\x11\x00;
+$$$$$$ Response Body For Transaction With Id 452 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 454 ******
+GET /EmployeeDirectory/Styles/Oak/Images/DescOff.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 454 Ended $$$$$$
+
+****** Response Header For Transaction With Id 454 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:06 GMT
+Accept-Ranges: bytes
+ETag: "0fbbbbbc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 55
+
+
+$$$$$$ Response Header For Transaction With Id 454 Ended $$$$$$
+
+****** Response Body For Transaction With Id 454 ******
+GIF89a\x0B\x00\x07\x00\x80\x00\x00\xE8\xDD\xA8\x99\x93\x8E!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x0B\x00\x07\x00\x00\x02\x0E\x8C\x8F\xA9\x01k\x00\x17\x9Ci\xDAc3\xB3\x05\x00;
+$$$$$$ Response Body For Transaction With Id 454 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 456 ******
+GET /EmployeeDirectory/Styles/Oak/Images/PrevOff.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 456 Ended $$$$$$
+
+****** Response Header For Transaction With Id 456 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:06 GMT
+Accept-Ranges: bytes
+ETag: "0fbbbbbc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 183
+
+
+$$$$$$ Response Header For Transaction With Id 456 Ended $$$$$$
+
+****** Response Body For Transaction With Id 456 ******
+GIF89a\x1B\x00\x1B\x00\x83\x00\x00\xE8\xDD\xA8\x99\x93\x8E\xF7\xF7\xF7\xE7\xDC\xA7\x9D\x98\x90\xBA\xB2\x99\xB8\xB1\x99\xBC\xB4\x9A\xBD\xB5\x9A\x9C\x97\x90\x9D\x97\x90\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x1B\x00\x1B\x00\x00\x04d\x10\xC8I\xAB\xBD\x03\x91\xC0\xBB\xFF\x042X\xC7g\x9E\xC1a%h\xCB%\x96+\xC7rK\xA3\x82{\x9BBnW\xB8\x9E\x0E\xC8\xEB\x19\x85\x9F\x1D\xE7\xC84)\x99\xCD$\xD1\x035:\xA7\xD4\xEA\x95\x12\xF4\xA1\x94\xD9!\xB7\xE5=\x81k\x9D3:\xB0Z\x7F`\x95\x92\xBBS\xB0\x0C\x0C
+\xB7\xC20\xBA\xF8\xFF\x80\x81\x82\x83\x84\x85\x86\x87\x17\x11\x00;
+$$$$$$ Response Body For Transaction With Id 456 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 458 ******
+GET /EmployeeDirectory/Styles/Oak/Images/LastOff.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 458 Ended $$$$$$
+
+****** Response Header For Transaction With Id 458 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:08 GMT
+Accept-Ranges: bytes
+ETag: "028edbcc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 194
+
+
+$$$$$$ Response Header For Transaction With Id 458 Ended $$$$$$
+
+****** Response Body For Transaction With Id 458 ******
+GIF89a\x1B\x00\x1B\x00\x83\x00\x00\xE8\xDD\xA8\xF7\xF7\xF7\x99\x93\x8E\xE7\xDC\xA7\x9D\x98\x90\xBA\xB2\x99\xB8\xB1\x99\xBC\xB4\x9A\xBD\xB5\x9A\x9C\x97\x90\x9D\x97\x90\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x1B\x00\x1B\x00\x00\x04o\x10\xC8I\xAB\xBD\x03\x11\xC1\xBB\xFF\x042X\xC7g\x9E\xC2a%h\xCB%\x96+\xC7rK\x9F\xC1\\\xB5A\xCE\xF5\x9F\x9B\xA9\xE7\x03z\x84\x02\xA22g\xEC \x97\xD0\xE0\xCE\x03]J)\x9F\xAA\xF2:\xC9V\x93>\xE7\x14glr\x90\xD4\xB0Y\x80\xEE\x84Q\xED\xDAy,\xE7JXu\x0F\xACR\xCAw
+\x16\x03\x06
+y
+\x06#\x17\x89\x8A\x8B\x8C\x8D\x8E\x8F\x90\x91\x92\x17\x11\x00;
+$$$$$$ Response Body For Transaction With Id 458 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 460 ******
+GET /EmployeeDirectory/Styles/Oak/Images/NextOff.gif HTTP/1.1
+Host: examples.codecharge.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://examples.codecharge.com/EmployeeDirectory/Default.php
+Cookie: PHPSESSID=dea088feadb8f7525e1c580897f8eff6
+Priority: u=5, i
+
+
+$$$$$$ Request Header For Transaction With Id 460 Ended $$$$$$
+
+****** Response Header For Transaction With Id 460 ******
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Last-Modified: Wed, 14 Nov 2007 14:22:08 GMT
+Accept-Ranges: bytes
+ETag: "028edbcc926c81:0"
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+X-Powered-By: ARR/3.0
+X-Powered-By: ASP.NET
+Date: Thu, 04 Dec 2025 05:48:44 GMT
+Content-Length: 183
+
+
+$$$$$$ Response Header For Transaction With Id 460 Ended $$$$$$
+
+****** Response Body For Transaction With Id 460 ******
+GIF89a\x1B\x00\x1B\x00\x83\x00\x00\xE8\xDD\xA8\x99\x93\x8E\xF7\xF7\xF7\xE7\xDC\xA7\x9D\x98\x90\xBA\xB2\x99\xB8\xB1\x99\xBC\xB4\x9A\xBD\xB5\x9A\x9C\x97\x90\x9D\x97\x90\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00!\xF9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x1B\x00\x1B\x00\x00\x04d\x10\xC8I\xAB\xBD\x03\x91\xC0\xBB\xFF\x042X\xC7g\x9E\xC1a%h\xCB%\x96+\xC7rK\xA3\x82{\x9FB\x8E\xEE\xA6\x9E\xCF\x04\x0C\x08\x8FCO\x11y$V\x82L\xE1g\x19Mr\xA8\xCCS\xD1#\xD5>[=\xDB\x17\xA7\x1B\xD7\x9C\x94\xF3\xAF\xC2R{`\x95\x92\xBBS\xB0\x0C\x0C
+\xB7\xC20\xBA\xF8\xFF\x80\x81\x82\x83\x84\x85\x86\x87\x17\x11\x00;
+$$$$$$ Response Body For Transaction With Id 460 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+WebSocket Filter notify: WebSocket Ping message
+****** Request Header For Transaction With Id 484 ******
+GET /canonical.html HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 484 Ended $$$$$$
+
+****** Response Header For Transaction With Id 484 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Wed, 03 Dec 2025 13:12:42 GMT
+Age: 63826
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 484 Ended $$$$$$
+
+****** Response Body For Transaction With Id 484 ******
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+$$$$$$ Response Body For Transaction With Id 484 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/EmployeeDirectory/Default.php
+Form: name=empsSearch action=Default.php?ccsForm=empsSearch
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 484 ****** (Location Flag : tFlagInsertEnd, Location ID : 484)
+	web_url("canonical.html_4",
+		"URL=http://detectportal.firefox.com/canonical.html",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t24.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 484 Ended $$$$$$
+
+****** Request Header For Transaction With Id 508 ******
+GET /success.txt?ipv4 HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+$$$$$$ Request Header For Transaction With Id 508 Ended $$$$$$
+
+****** Response Header For Transaction With Id 508 ******
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 8
+Via: 1.1 google
+Date: Wed, 03 Dec 2025 17:08:53 GMT
+Age: 49655
+Content-Type: text/plain
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+
+$$$$$$ Response Header For Transaction With Id 508 Ended $$$$$$
+
+****** Response Body For Transaction With Id 508 ******
+success
+
+$$$$$$ Response Body For Transaction With Id 508 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/canonical.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Replace Event For Transaction With Id 484 ******
+	web_url("canonical.html_4",
+		"URL=http://detectportal.firefox.com/canonical.html",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t24.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"Url=/success.txt?ipv4", "Referer=", ENDITEM,
+		LAST);
+
+
+$$$$$$ Replace Event For Transaction With Id 484 Ended $$$$$$
+
+****** Request Header For Transaction With Id 511 ******
+POST /v1/ads HTTP/1.1
+Host: ads.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+content-type: application/json
+Content-Length: 223
+Connection: keep-alive
+Priority: u=4
+
+
+$$$$$$ Request Header For Transaction With Id 511 Ended $$$$$$
+
+****** Request Body For Transaction With Id 511 ******
+{"context_id":"23852afd-307f-4d9f-8e21-aa01fb354cbc","placements":[{"placement":"newtab_tile_1","count":1},{"placement":"newtab_tile_2","count":1},{"placement":"newtab_tile_3","count":1}],"blocks":[""],"credentials":"omit"}
+$$$$$$ Request Body For Transaction With Id 511 Ended $$$$$$
+
+****** Response Header For Transaction With Id 511 ******
+HTTP/1.1 200 OK
+content-type: application/json
+strict-transport-security: max-age=31536000
+date: Thu, 04 Dec 2025 06:56:28 GMT
+via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 511 Ended $$$$$$
+
+****** Response Body For Transaction With Id 511 ******
+{"newtab_tile_1":[{"format":"tile","url":"https://skyscanner.pxf.io/RGoLka?subid1=254860087025209344\u0026mfadid=adm","callbacks":{"click":"https://ads.mozilla.org/v1/t?data=Cp4IEgQxNTEwGgsIkN7EyQYQqveBJSIMCJzhxMkGEPSwjO8CKgpTa3lzY2FubmVyMiQyMzg1MmFmZC0zMDdmLTRkOWYtOGUyMS1hYTAxZmIzNTRjYmM6AklOcg1uZXd0YWJfdGlsZV8xggFQTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6MTQ1LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTQ1LjCYAQKgAQGoAQOwAQG4AQLCASRjMDg0NjljZC1lZjc2LTQ3ZDItYmVmYy04YmIxZjVkOTNkNzTIAQGSAagGCqUGaHR0cHM6Ly9icmlkZ2UucGR4MS5hZG1hcmtldHBsYWNlLm5ldC9jdHA_dmVyc2lvbj0xLjAuMCZlbmNwPWpuRVl4bXdWSlFrWDVRYlVmdElOSSUzRHdxZ0NsbnhHRWtnQ2xyNFEyYWZaYmQ0WnFhZlFEbkhud3FJJTNERVlEJTNEY1lIRmRaZ0RkU0VDZWczY3dyQ0QzUmZrZGxCQ2M0aXFsZENHdjNmdElXSFFrWGZwYlVmdElkaiUzRHF6ZkJJZEltcXpmT0l1eHIzV0dtd3FzcGtXN251cmlGMnpmWkhXZlFmWTRwTFo3UmNkSUc3X2lGMnpmUURrMXBIV2ZwTHJmcDhkZlFiX2ZaMms3bmRaajkyemZ0SVlqJTNEN1RnRklOSjk0dzdSZWtqJTNEd3FnQ2JuSTllUWlGMnpmdElRajl3dklwa1hmQklReG5Fdklwa1hmUWZhZk9JV0olM0R3cWdDbFdmcHhuSTk0V0hud3FnQ2xhMUNEbkk5NFdIRjNtaUYyemZDRFhmdElxeHJlTmpGM21pRjJ6MUNIYTRCSXF4cmV2Sm13cWdDbF9mQ0RuSEYzWkolM0R3cWdDOGQ0cExtZnBiYTRaYms0UWxhZkNsWGZ0SVpKJTNEemtKUkV1Z0NsbklGX0VEcVd6Q2xOZWZtSUZFJTNETGFFWkVIRFF3N0pyN1BEZEVDZmxrWEpFNCUyRkhHY1RDWmNfMURkd0k5SVNpcU40c0U4a0NudWEyd0VnNEU3NUVSN3dJOWZ3ZnFJVXhFajlzdERZMm5xWklFRWc0YzdZSSUzRERXQ2w0VTElM0R4a0VGWHZqcTdERW1Ob3hRMndmcUlrc1JJOTRDNDFJRTJfQ2tYJTNESG5FZkNudldpOWU5SVlEWjN0RFozdElZaiUzRHpaZ0IlMkZNNlFUUzFZJTJGbmlGd1FnQmtYMVlrWDFZa1gxWWtYMVlrWDduNFdnQ2JVZnBiZGZ0V1c1cGZYZlp4VGZ0V1c1cGxXZnB4VDV0V1Q1OTN2SiUzREVaeHRYT0hGNG9JbndUSmN6UUptX3FqRjR2am5EeRIghNKBWtz4Ei8J3hw6PiZSveKB9icKOtEBqSy7_N5NxeM","impression":"https://ads.mozilla.org/v1/t?data=CsgDEgQxNTEwGgsIkN7EyQYQqveBJSIMCJzhxMkGEPSwjO8CKgpTa3lzY2FubmVyMiQyMzg1MmFmZC0zMDdmLTRkOWYtOGUyMS1hYTAxZmIzNTRjYmM6AklOcg1uZXd0YWJfdGlsZV8xggFQTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6MTQ1LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTQ1LjCYAQGgAQGoAQOwAQG4AQLCASRjMDg0NjljZC1lZjc2LTQ3ZDItYmVmYy04YmIxZjVkOTNkNzTIAQGSAdIBCs8BaHR0cHM6Ly9pbXAubXQ0OC5uZXQvc3RhdGljP2lkPTdSSHpmT0lYakZFWXNCZHZJcGtZNEMyYTRRYlcxcHhXZlFEWWZwcVo0cDJuajl3V0lCZHZJcGtZN240WUlGY2tpR0l3NUZ3cWdDbFlmWkxZN1JlVEhGNHdKRkVVanRkdklwa1hmcGJyN25jcTVHNHdKJTNERVFqJTNEd1ZKT2R2SXBrWTRDMmE0UWJXMXB4VzRwSFgxcGxYZkNibnhtWFZqdGRVakZkT0lHOHpmMnl5EiArW596DroN8DeXw2MZIPCK4UcDMN-Rxhx7qRIJHRxp6Q","report":"https://ads.mozilla.org/v1/t?data=CrUEEgQxNTEwGgsIkN7EyQYQqveBJSIMCJzhxMkGEPSwjO8CKgpTa3lzY2FubmVyMiQyMzg1MmFmZC0zMDdmLTRkOWYtOGUyMS1hYTAxZmIzNTRjYmM6AklOcg1uZXd0YWJfdGlsZV8xggFQTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6MTQ1LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTQ1LjCYAQSgAQGoAQOwAQG4AQLCASRjMDg0NjljZC1lZjc2LTQ3ZDItYmVmYy04YmIxZjVkOTNkNzTIAQHqAUVodHRwczovL3NreXNjYW5uZXIucHhmLmlvL1JHb0xrYT9zdWJpZDE9MjU0ODYwMDg3MDI1MjA5MzQ0Jm1mYWRpZD1hZG3yAfcBaHR0cHM6Ly9hZHMtaW1nLm1vemlsbGEub3JnL3YxL2ltYWdlcz9pbWFnZV9kYXRhPUNuQUtibWgwZEhCek9pOHZZVzF3TFdGemMyVjBMalExZEhVeFl6QXVZMjl0TDJGemMyVjBjeTh4TlRFd0x6a3hNRFEzWWpsalpqYzJaamMyT0RnMk5EVTBZVGt5TWpVMk1qRTJPV1kxTmpGak5XWmpObVZqTW1Zd05USXlPRFkzWm1GbU9UQTJZV05qT0ROaVlUVXVhbkJuRWlCS19vMTRxd1JWeWxpMG5ORjk3d0puWGJCUEgyb0MtVndOYmxfVkQwMG1yURIgilwpKvJwh38I-QF-SXLCuetuIbk4ZyqmEDJ0D6H4Idw"},"image_url":"https://ads-img.mozilla.org/v1/images?image_data=CnAKbmh0dHBzOi8vYW1wLWFzc2V0LjQ1dHUxYzAuY29tL2Fzc2V0cy8xNTEwLzkxMDQ3YjljZjc2Zjc2ODg2NDU0YTkyMjU2MjE2OWY1NjFjNWZjNmVjMmYwNTIyODY3ZmFmOTA2YWNjODNiYTUuanBnEiBK_o14qwRVyli0nNF97wJnXbBPH2oC-VwNbl_VD00mrQ","name":"Skyscanner","block_key":"CAMSCnNreXNjYW5uZXI"}],"newtab_tile_2":[],"newtab_tile_3":[]}
+
+$$$$$$ Response Body For Transaction With Id 511 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/canonical.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 511 ****** (Location Flag : tFlagInsertEnd, Location ID : 511)
+	web_custom_request("ads_2",
+		"URL=https://ads.mozilla.org/v1/ads",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t25.inf",
+		"Mode=HTML",
+		"EncType=application/json",
+		"Body={\"context_id\":\"23852afd-307f-4d9f-8e21-aa01fb354cbc\",\"placements\":[{\"placement\":\"newtab_tile_1\",\"count\":1},{\"placement\":\"newtab_tile_2\",\"count\":1},{\"placement\":\"newtab_tile_3\",\"count\":1}],\"blocks\":[\"\"],\"credentials\":\"omit\"}",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 511 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 375)
+	web_reg_find("Text=Employee Directory",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+

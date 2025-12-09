@@ -1,0 +1,49 @@
+Steps to record and playback in jmeter
+Firewall
+
+1. Open firewall
+2. Outbound rules
+3. New Rules
+4. Allow the connection
+5. Specify the name of the rule
+6. Save
+7. Open windows firewall properties
+8. Change the firewall state to OFF for domain/public/profile
+9. Download and install the CCProxy
+10. Configure the proxy server using CCproxy
+11. Identify the ipnumber of your system (use ipconfig command)
+eg. 172.16.253.212
+12. Open the CCProxy
+13. Stop the server
+14. Click on the Options menu
+15. Enter the port number as "8888"
+16. Ensure the ip number of your system displayed in Auto detect option
+17. Open the Account option 
+18. Select new 
+19. Enter the username
+20. Enter the password
+21. Click on ? button nearer to IP address
+22. click on retrieve button 
+23. Click on OK button
+24. Configure the proxy server in proxy settings
+25. Start your browser to get connected thru your local server (username, password)
+
+netstat -ano | find "8888"
+
+taskkill/PID processid /F
+taskkill/PID 18052 /F
+taskkill/PID 4012 /F
+taskkill/PID 8036 /F
+
+To include
+.*petstore\.octoperf\.com.*
+To exclude
+(?i).*.(bmp|css|js|gif|ico|jpe?g|png|swf|woff|woff2|abc|def)
+
+
+
+Correlation is a statement which handles the dynamic data
+eg. session Id, response text
+
+capture the session id and dynamically use the session id in the other parst of the program
+step 1 launch the application, capture and store session id in a variable

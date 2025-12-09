@@ -1,0 +1,80 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: webtours",
+                "infFile": "t1.inf",
+                "time": 1764823832109
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: v1",
+                "infFile": "t2.inf",
+                "time": 1764823832205
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: ads",
+                "infFile": "t4.inf",
+                "time": 1764823832634
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: cf230efd-fbc9-4cdd-a8c8-ae16fd70188e",
+                "infFile": "t6.inf",
+                "time": 1764823833290
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: 0497cd55-5880-455f-9a46-1df6edcea0af",
+                "infFile": "t7.inf",
+                "time": 1764823833550
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: aaa636c4-85a4-4ab3-9a18-97eae0a962e3",
+                "infFile": "t8.inf",
+                "time": 1764823833859
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: 834e5da3-db1a-4c92-98f9-0987cee126b3",
+                "infFile": "t9.inf",
+                "time": 1764823834146
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: 48c4bc20-c041-4de3-a2a7-96c045e0daca",
+                "infFile": "t10.inf",
+                "time": 1764823834446
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: f1190c53-b730-41df-a28a-4add1dfbade9",
+                "infFile": "t11.inf",
+                "time": 1764823834730
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: 906f2d84-5072-4061-a7a2-ca81b7b11003",
+                "infFile": "t12.inf",
+                "time": 1764823835003
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: 7b764e50-d2ea-44b9-aa3d-7024d6b10c9b",
+                "infFile": "t13.inf",
+                "time": 1764823835268
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t14.inf",
+                "time": 1764823835347
+            }
+        ],
+        "transactions": []
+    }
+]

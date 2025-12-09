@@ -1,0 +1,19 @@
+POST /submit/firefox-desktop/health/1/94a66282-ab35-4458-8138-7bf9e6470f0d HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+x-telemetry-agent: Glean/65.2.3 (Rust on Windows)
+content-length: 2006
+date: Thu, 04 Dec 2025 06:09:01 GMT
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Priority: u=4
+Pragma: no-cache
+Cache-Control: no-cache
+

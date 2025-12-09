@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2.json
+URL1=https://firefox.settings.services.mozilla.com/v1/
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+FileName2=t2_remote-settings.content-signature.mozilla.org-2026-01-07-09-15-50.html
+URL2=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-07-09-15-50.chain
+FileName3=t2_remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.html
+URL3=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain
+[ProtocolInfo]
+ProtocolId=QTWeb

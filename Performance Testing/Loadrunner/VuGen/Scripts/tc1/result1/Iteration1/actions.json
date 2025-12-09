@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: demowebshop.tricentis.com",
+                "infFile": "t1.inf",
+                "time": 1764995439192
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Register",
+                "infFile": "t2.inf",
+                "time": 1764995439559
+            }
+        ],
+        "transactions": []
+    }
+]

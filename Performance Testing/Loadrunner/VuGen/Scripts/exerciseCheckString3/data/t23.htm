@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>Employee Directory</title>
+<link rel="stylesheet" type="text/css" href="Styles/Oak/Style.css">
+</head>
+<body>
+<table border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td><a href="Default.php"><img src="images/logo.gif" border="0"></a></td> 
+    <td align="center"><a href="Default.php"><img src="images/home.gif" width="77" height="77" border="0"></a><br>
+      <a href="Default.php">Home</a></td> 
+    <td align="center"><a href="AdminMenu.php"><img src="images/admin.gif" width="77" height="77" border="0"></a><br>
+      <a href="AdminMenu.php">Administration</a></td> 
+  </tr>
+</table>
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td>
+      <form method="post" action="Default.php?ccsForm=empsSearch" name="empsSearch">
+        <table cellspacing="0" cellpadding="0" border="0" class="Header">
+          <tr>
+            <td class="HeaderLeft"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+            <th>Employee Search</th>
+ 
+            <td class="HeaderRight"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+          </tr>
+ 
+        </table>
+ 
+        <table class="Grid" cellspacing="0" cellpadding="0">
+          
+          <tr class="Caption">
+            <td><input name="filter" maxlength="50" value="" size="25" />&nbsp;<input type="image" name="DoSearch" src="Styles/Oak/Images/en/ButtonSearch.gif" />&nbsp;&nbsp;<a href="AdvSearch.php">Advanced
+              Search</a></td> 
+          </tr>
+ 
+        </table>
+ 
+      </form>
+ </td> 
+  </tr>
+ 
+</table>
+<br>
+
+<table cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="0" class="Header">
+        <tr>
+          <td class="HeaderLeft"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+          <th>Employee Directory</th>
+ 
+          <td class="HeaderRight"><img src="Styles/Oak/Images/Spacer.gif" /></td> 
+        </tr>
+ 
+      </table>
+ 
+      <table class="Grid" cellspacing="0" cellpadding="0">
+        <tr class="Caption">
+          <td>
+            <a href="Default.php?empsOrder=emps_name&empsDir=ASC">Name</a> 
+            
+            <a href="Default.php?empsOrder=emps_name&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_name&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_title&empsDir=ASC">Title</a> 
+            
+            <a href="Default.php?empsOrder=emps_title&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_title&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_dep_id&empsDir=ASC">Department</a> 
+            
+            <a href="Default.php?empsOrder=emps_dep_id&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_dep_id&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_work_phone&empsDir=ASC">Work
+            Phone</a> 
+            
+            <a href="Default.php?empsOrder=emps_work_phone&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_work_phone&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+          <td>
+            <a href="Default.php?empsOrder=emps_email&empsDir=ASC">Email</a> 
+            
+            <a href="Default.php?empsOrder=emps_email&empsDir=ASC"><img border="0" src="Styles/Oak/Images/AscOff.gif" /></a>
+            
+            <a href="Default.php?empsOrder=emps_email&empsDir=DESC"><img border="0" src="Styles/Oak/Images/DescOff.gif" /></a></td> 
+        </tr>
+ 
+        
+        
+        
+        <tr class="NoRecords">
+          <td colspan="5">No records</td> 
+        </tr>
+ 
+        <tr class="Footer">
+          <td colspan="5">
+            
+            
+            <img border="0" src="Styles/Oak/Images/FirstOff.gif" />
+            
+            <img border="0" src="Styles/Oak/Images/PrevOff.gif" />&nbsp;1
+            of 1 
+            
+            <img border="0" src="Styles/Oak/Images/NextOff.gif" />
+            
+            <img border="0" src="Styles/Oak/Images/LastOff.gif" /></td> 
+        </tr>
+ 
+      </table>
+ </td> 
+  </tr>
+ 
+</table>
+<br>
+</body>
+</html>

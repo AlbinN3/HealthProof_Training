@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+last-modified: Tue, 30 Aug 2022 14:26:12 GMT
+etag: "1edfd-5e77629808900-gzip"
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: text/css
+content-encoding: gzip
+x-cloud-trace-context: 8155c08c0eaa6ceada92979fe8e71223
+date: Thu, 04 Dec 2025 05:26:03 GMT
+server: Google Frontend
+Transfer-Encoding: chunked
+

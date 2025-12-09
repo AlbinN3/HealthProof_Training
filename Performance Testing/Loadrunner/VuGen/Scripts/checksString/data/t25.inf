@@ -1,0 +1,11 @@
+[t25]
+FileName1=t25.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/health/1/303e04e6-3df2-4f28-9119-6e7a3e5b45ee
+Total=1
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=t25_RequestBody.txt
+ResponseHeaderFile=t25_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_25.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

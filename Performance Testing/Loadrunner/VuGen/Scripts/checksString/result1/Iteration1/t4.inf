@@ -1,0 +1,18 @@
+[t4]
+FileName2=t1_3_remote-settings.UNK
+RawStepEndTime=1764827864525
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=xvY
+ContentType=DummyContentType
+URL1=http://o.pki.goog/s/wr3/xvY
+URL2=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-07-09-15-50.chain
+URL3=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain
+ResponseHeaderFile=t4_ResponseHeader.txt
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1764827864472
+Total=3
+StepName=Custom Request: xvY
+FileName1=t4.UNK
+FileName3=t1_1_remote-settings.UNK

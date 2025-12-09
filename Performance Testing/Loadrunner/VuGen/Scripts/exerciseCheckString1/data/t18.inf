@@ -1,0 +1,13 @@
+[t18]
+FileName1=t18.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/6bc47a62-3faa-435f-9299-8b3ca5c4c5dd
+Total=2
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=t18_RequestBody.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_18.xml
+FileName2=t18_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,266 @@
+Virtual User Script started at: 06-12-2025 13:23:33
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Crashpad/0.8.0 WinHTTP/10.0.19041.5794 Windows_NT/10.0.19041.5915 (x64)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\corelation\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("petstore.octoperf.com") was successful, 7129 body bytes, 567 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): web_url("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(19): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/logo-topbar.svg" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): web_url("Enter the Store") was successful, 63413 body bytes, 4260 header bytes  	[MsgId: MMSG-26386]
+Action.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_url("sm_fish.gif") started  	[MsgId: MMSG-26355]
+Action.c(36): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Error -26366: "Text={categoryid}" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(36): web_url("sm_fish.gif") highest severity level was "ERROR", 3691 body bytes, 225 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("petstore.octoperf.com") was successful, 7129 body bytes, 567 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): web_url("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(19): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/logo-topbar.svg" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): web_url("Enter the Store") was successful, 63413 body bytes, 4260 header bytes  	[MsgId: MMSG-26386]
+Action.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_url("sm_fish.gif") started  	[MsgId: MMSG-26355]
+Action.c(36): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Error -26366: "Text=BIRDS"><img src="../images/sm_birds.gif" /></a></div>
+
+</div>
+
+<div id="Content">
+
+
+<div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>
+
+<div id="Catalog">
+
+<h2>Fish</h2>
+
+<table>
+	<tr>
+		<th>Product ID</th>
+		<th>Name</th>
+	</tr>
+	
+		<tr>
+			<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01">FI-SW-01</a></td>
+			<td>Angelfish</td>
+		</tr>
+	
+		<tr>
+			<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-02">FI-SW-02</a></td>
+			<td>Tiger Shark</td>
+		</tr>
+	
+		<tr>
+			<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=FI-FW-01">FI-FW-01</a></td>
+			<td>Koi</td>
+		</tr>
+	
+		<tr>
+			<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=FI-FW-02">FI-FW-02</a></td>
+			<td>Goldfish</td>
+		</tr>
+	
+</table>
+
+</div>
+
+
+</div>
+
+<div id="CTA">
+Elevate you load-testing with <a href="https://octoperf.com">OctoPerf</a>!
+</div>
+
+<div id="Footer">
+
+<div id="PoweredBy">
+&nbsp;&nbsp;Hosted by <a href="https://octoperf.com" target="_blank">https://octoperf.com</a>&nbsp;|&nbsp;Powered by <a href="https://mybatis.org/" target="_blank">www.mybatis.org</a>
+</div>
+
+<div id="Banner"></div>
+
+</div>
+
+</body>
+</html>
+
+
+
+" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(36): web_url("sm_fish.gif") highest severity level was "ERROR", 3425 body bytes, 225 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("petstore.octoperf.com") was successful, 7129 body bytes, 567 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): web_url("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(19): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/logo-topbar.svg" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(19): web_url("Enter the Store") was successful, 63413 body bytes, 4260 header bytes  	[MsgId: MMSG-26386]
+Action.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_url("sm_fish.gif") started  	[MsgId: MMSG-26355]
+Action.c(36): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Error -26366: "Text=BIRDS"><img src="../images/sm_birds.gif" /></a></div>
+
+</div>
+
+<div id="Content">
+
+
+<div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>
+
+<div id="Catalog">
+
+<h2>Cats</h2>
+
+<table>
+	<tr>
+		<th>Product ID</th>
+		<th>Name</th>
+	</tr>
+	
+		<tr>
+			<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=FL-DSH-01">FL-DSH-01</a></td>
+			<td>Manx</td>
+		</tr>
+	
+		<tr>
+			<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=FL-DLH-02">FL-DLH-02</a></td>
+			<td>Persian</td>
+		</tr>
+	
+</table>
+
+</div>
+
+
+</div>
+
+<div id="CTA">
+Elevate you load-testing with <a href="https://octoperf.com">OctoPerf</a>!
+</div>
+
+<div id="Footer">
+
+<div id="PoweredBy">
+&nbsp;&nbsp;Hosted by <a href="https://octoperf.com" target="_blank">https://octoperf.com</a>&nbsp;|&nbsp;Powered by <a href="https://mybatis.org/" target="_blank">www.mybatis.org</a>
+</div>
+
+<div id="Banner"></div>
+
+</div>
+
+</body>
+</html>
+
+
+
+" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(36): web_url("sm_fish.gif") highest severity level was "ERROR", 3975 body bytes, 225 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 14392), ended OK."

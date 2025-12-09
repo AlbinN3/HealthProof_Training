@@ -1,0 +1,14 @@
+[t13]
+FileName1=t13_cfr-v1-en-US.html
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+Total=5
+ContentType=text/css
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_styles.css
+URL2=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css
+FileName3=t13_responsive.css
+URL3=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css
+FileName4=t13_nivo-slider.css
+URL4=https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css
+FileName5=t13_jquery-ui-1.10.3.custom.min.css
+URL5=https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css

@@ -1,0 +1,56 @@
+[
+    {
+        "actionName": "LaunchApp",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: demowebshop.tricentis.com",
+                "infFile": "t1.inf",
+                "time": 1764997548497
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "BuyComputers",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: notebooks",
+                "infFile": "t2.inf",
+                "time": 1764997549268
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: 14.1-inch Laptop",
+                "infFile": "t3.inf",
+                "time": 1764997549839
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: 1",
+                "infFile": "t4.inf",
+                "time": 1764997550149
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: cart",
+                "infFile": "t5.inf",
+                "time": 1764997551033
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Cart",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: cart_2",
+                "infFile": "t6.inf",
+                "time": 1764997552246
+            }
+        ],
+        "transactions": []
+    }
+]

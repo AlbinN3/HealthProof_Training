@@ -1,0 +1,11 @@
+[t16]
+FileName1=t16.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/8a5c2561-eead-40d9-9c9e-1edb68bfde90
+Total=1
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=t16_RequestBody.txt
+ResponseHeaderFile=t16_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_16.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

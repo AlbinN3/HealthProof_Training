@@ -1,0 +1,8 @@
+HTTP/1.1 101 Switching Protocols
+sec-websocket-accept: PTm4GOc+YTULbjXf9eMg1QQ7kR8=
+date: Thu, 04 Dec 2025 08:55:00 GMT
+Via: 1.1 google
+Upgrade: websocket
+Connection: Upgrade
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

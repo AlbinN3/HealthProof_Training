@@ -1,0 +1,104 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: v1",
+                "infFile": "t1.inf",
+                "time": 1764827864157
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: ads",
+                "infFile": "t5.inf",
+                "time": 1764827864877
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: blazedemo.com",
+                "infFile": "t6.inf",
+                "time": 1764827867348
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: canonical.html_3",
+                "infFile": "t8.inf",
+                "time": 1764827868890
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: eac1b383-d838-4666-9177-452601d65896",
+                "infFile": "t10.inf",
+                "time": 1764827869532
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: canonical.html_4",
+                "infFile": "t11.inf",
+                "time": 1764827870742
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: f7ce9ec9-c13e-4ce7-ae4a-e01462ca3007",
+                "infFile": "t12.inf",
+                "time": 1764827871057
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: 067f5f3d-21ad-4e92-9b88-ec06675c2d43",
+                "infFile": "t14.inf",
+                "time": 1764827871435
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: 3159575b-a34c-49da-ac89-0205619f4873",
+                "infFile": "t17.inf",
+                "time": 1764827872172
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: 49116061-1d6e-4c12-a372-4d71a22d576f",
+                "infFile": "t18.inf",
+                "time": 1764827872483
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: a6bbde97-c895-4fee-a346-5c054e2b933d",
+                "infFile": "t19.inf",
+                "time": 1764827872784
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: 9bbfbbb3-9265-41e7-89ad-db13ddc7dd1a",
+                "infFile": "t20.inf",
+                "time": 1764827873092
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: 303e04e6-3df2-4f28-9119-6e7a3e5b45ee",
+                "infFile": "t21.inf",
+                "time": 1764827873392
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: canonical.html_5",
+                "infFile": "t22.inf",
+                "time": 1764827874201
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: canonical.html_6",
+                "infFile": "t23.inf",
+                "time": 1764827875116
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Submit Data: reserve.php",
+                "infFile": "t29.inf",
+                "time": 1764827878075
+            }
+        ],
+        "transactions": []
+    }
+]

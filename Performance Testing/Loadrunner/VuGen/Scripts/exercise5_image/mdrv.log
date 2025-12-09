@@ -1,0 +1,45 @@
+Virtual User Script started at: 04-12-2025 13:52:25
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\exercise5_image\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("petstore.octoperf.com") was successful, 7129 body bytes, 567 header bytes  	[MsgId: MMSG-26386]
+Action.c(17): web_image_check started  	[MsgId: MMSG-26355]
+Action.c(17): Verification checks not enabled. web_image_check is skipped. See the 'Runtime settings/Preferences/Checks'  	[MsgId: MMSG-27197]
+Action.c(17): web_image_check was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_link("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(21): Linking to "https://petstore.octoperf.com/actions/Catalog.action", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(21): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/logo-topbar.svg" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(21): web_link("Enter the Store") was successful, 63413 body bytes, 4260 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,150 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24011 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24011 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24011 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24011 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24011 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_80.jpeg" in HTML "https://demowebshop.tricentis.com/cart"  	[MsgId: MMSG-26659]
+Cart.c(11): web_url("cart") was successful, 40992 body bytes, 648 header bytes  	[MsgId: MMSG-26386]
+Cart.c(21): Notify: Transaction "goToCart" ended with a "Pass" status (Duration: 23.4384 Think Time: 22.0139).	[MsgId: MMSG-16872]
+Cart.c(23): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_80.jpeg" in HTML "https://demowebshop.tricentis.com/cart"  	[MsgId: MMSG-26659]
+Cart.c(11): web_url("cart") was successful, 40992 body bytes, 648 header bytes  	[MsgId: MMSG-26386]
+Cart.c(21): Notify: Transaction "goToCart" ended with a "Pass" status (Duration: 23.2477 Think Time: 22.0152).	[MsgId: MMSG-16872]
+Cart.c(23): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_80.jpeg" in HTML "https://demowebshop.tricentis.com/cart"  	[MsgId: MMSG-26659]
+Cart.c(11): web_url("cart") was successful, 40992 body bytes, 648 header bytes  	[MsgId: MMSG-26386]
+Cart.c(21): Notify: Transaction "goToCart" ended with a "Pass" status (Duration: 22.5670 Think Time: 22.0057).	[MsgId: MMSG-16872]
+Cart.c(23): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24012 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_80.jpeg" in HTML "https://demowebshop.tricentis.com/cart"  	[MsgId: MMSG-26659]
+Cart.c(11): web_url("cart") was successful, 40992 body bytes, 648 header bytes  	[MsgId: MMSG-26386]
+Cart.c(21): Notify: Transaction "goToCart" ended with a "Pass" status (Duration: 22.6028 Think Time: 22.0339).	[MsgId: MMSG-16872]
+Cart.c(23): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24012 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Cart.c(11): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_80.jpeg" in HTML "https://demowebshop.tricentis.com/cart"  	[MsgId: MMSG-26659]
+Cart.c(11): web_url("cart") was successful, 12228 body bytes, 695 header bytes  	[MsgId: MMSG-26386]
+Cart.c(21): Notify: Transaction "goToCart" ended with a "Pass" status (Duration: 22.6324 Think Time: 22.0006).	[MsgId: MMSG-16872]
+Cart.c(23): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 24012 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 6131 body bytes, 415 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): Resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_47.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Logout.c(9): web_url("login_4") was successful, 6131 body bytes, 415 header bytes  	[MsgId: MMSG-26386]
+Logout.c(19): lr_think_time: 13.00 seconds.	[MsgId: MMSG-15948]
+Logout.c(21): Error: Cannot start transaction "logout". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

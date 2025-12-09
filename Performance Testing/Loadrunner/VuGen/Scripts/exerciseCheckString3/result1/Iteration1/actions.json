@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: canonical.html",
+                "infFile": "t1.inf",
+                "time": 1764829309826
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: canonical.html_2",
+                "infFile": "t3.inf",
+                "time": 1764829311114
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: v1",
+                "infFile": "t4.inf",
+                "time": 1764829311208
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: ads",
+                "infFile": "t5.inf",
+                "time": 1764829311563
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: cfr-v1-en-US",
+                "infFile": "t6.inf",
+                "time": 1764829311634
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: canonical.html_3",
+                "infFile": "t7.inf",
+                "time": 1764829312446
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: examples.codecharge.com",
+                "infFile": "t9.inf",
+                "time": 1764829313663
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: 6e4a87c3-82eb-4667-9010-238e1a7be89e",
+                "infFile": "t10.inf",
+                "time": 1764829314249
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Default.php",
+                "infFile": "t11.inf",
+                "time": 1764829315311
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: canonical.html_4",
+                "infFile": "t12.inf",
+                "time": 1764829316445
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: ads_2",
+                "infFile": "t13.inf",
+                "time": 1764829316711
+            }
+        ],
+        "transactions": []
+    }
+]

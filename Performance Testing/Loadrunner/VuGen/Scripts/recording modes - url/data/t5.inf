@@ -1,0 +1,11 @@
+[t5]
+FileName1=t5_cart.gif
+URL1=https://petstore.octoperf.com/images/cart.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

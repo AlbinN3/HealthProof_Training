@@ -1,0 +1,13 @@
+[t35]
+FileName1=t35.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/b3e452fa-acc0-46b4-8461-66bfb00fcfdf
+Total=2
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=t35_RequestBody.txt
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_35.xml
+FileName2=t35_ohttp-configs.html
+URL2=https://prod.ohttp-gateway.prod.webservices.mozgcp.net/ohttp-configs
+[ProtocolInfo]
+ProtocolId=QTWeb

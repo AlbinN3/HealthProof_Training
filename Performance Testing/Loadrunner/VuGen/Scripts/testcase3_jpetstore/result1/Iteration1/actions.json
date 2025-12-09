@@ -1,0 +1,140 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: canonical.html",
+                "infFile": "t1.inf",
+                "time": 1764821451116
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t2.inf",
+                "time": 1764821452072
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: canonical.html_2",
+                "infFile": "t4.inf",
+                "time": 1764821452989
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: ads",
+                "infFile": "t5.inf",
+                "time": 1764821453312
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: canonical.html_3",
+                "infFile": "t6.inf",
+                "time": 1764821454130
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: canonical.html_4",
+                "infFile": "t7.inf",
+                "time": 1764821455207
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: 81b9aec5-e8bd-4367-a2b0-ef0ce78add7d",
+                "infFile": "t9.inf",
+                "time": 1764821455860
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: canonical.html_5",
+                "infFile": "t10.inf",
+                "time": 1764821457094
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: 9729b2ee-146e-437e-9b9c-2f0cf606f4ae",
+                "infFile": "t11.inf",
+                "time": 1764821457394
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: 80c9c6af-7912-4568-a554-81aca7a92d4c",
+                "infFile": "t12.inf",
+                "time": 1764821457705
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: a3c89a32-7d13-48ed-8363-fcf64aaf5c10",
+                "infFile": "t13.inf",
+                "time": 1764821458016
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: 6e1be924-ee7d-4808-a876-5d02ec513c49",
+                "infFile": "t14.inf",
+                "time": 1764821458298
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Custom Request: ca16ebfd-c370-4f15-9ce9-3029a3471f20",
+                "infFile": "t15.inf",
+                "time": 1764821458595
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: 72b70dcb-d58e-4a1c-84c6-5dc4470f7eca",
+                "infFile": "t16.inf",
+                "time": 1764821458888
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: 61310eaf-1d9a-42ff-b52f-69288cff9291",
+                "infFile": "t17.inf",
+                "time": 1764821459185
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: canonical.html_6",
+                "infFile": "t18.inf",
+                "time": 1764821460239
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: canonical.html_7",
+                "infFile": "t19.inf",
+                "time": 1764821461458
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t20.inf",
+                "time": 1764821462108
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Image: sm_fish.gif",
+                "infFile": "t21.inf",
+                "time": 1764821462431
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Link: FI-SW-01",
+                "infFile": "t22.inf",
+                "time": 1764821462623
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t23.inf",
+                "time": 1764821462838
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Link: Proceed to Checkout",
+                "infFile": "t24.inf",
+                "time": 1764821463024
+            }
+        ],
+        "transactions": []
+    }
+]

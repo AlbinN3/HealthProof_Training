@@ -1,0 +1,28 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1765138551399
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Enter the Store",
+                "infFile": "t2.inf",
+                "time": 1765138558290
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Enter the store",
+                "rawStartTime": 1765138551400,
+                "rawEndTime": 1765138558290,
+                "thinkTime": 0.0,
+                "wastedTime": 0.016440868377685548
+            }
+        ]
+    }
+]

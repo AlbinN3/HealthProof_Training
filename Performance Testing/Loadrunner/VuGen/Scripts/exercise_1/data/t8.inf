@@ -1,0 +1,17 @@
+[t8]
+FileName1=t8.html
+URL1=https://push.services.mozilla.com/
+Total=4
+ContentType=text/css
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+FileName2=t8_bootstrap.min.css
+URL2=https://blazedemo.com/assets/bootstrap.min.css
+FileName3=t8_bootstrap-table.html
+URL3=https://blazedemo.com/assets/bootstrap-table.js
+FileName4=t8_bootstrap-table.css
+URL4=https://blazedemo.com/assets/bootstrap-table.css
+[ProtocolInfo]
+ProtocolId=QTWeb

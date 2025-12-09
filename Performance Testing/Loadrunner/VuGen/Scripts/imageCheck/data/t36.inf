@@ -1,0 +1,13 @@
+[t36]
+FileName1=t36.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/e670c65d-0470-47e6-9f5e-97001c2f8a2a
+Total=2
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=t36_RequestBody.txt
+ResponseHeaderFile=t36_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_36.xml
+FileName2=t36_bullets.png
+URL2=https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/bullets.png
+[ProtocolInfo]
+ProtocolId=QTWeb

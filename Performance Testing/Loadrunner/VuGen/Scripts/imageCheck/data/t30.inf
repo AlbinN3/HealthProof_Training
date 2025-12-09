@@ -1,0 +1,15 @@
+[t30]
+FileName1=t30.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=3
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_30.xml
+FileName2=t30_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+FileName3=t30_jquery-migrate-1.2.1.min.html
+URL3=https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

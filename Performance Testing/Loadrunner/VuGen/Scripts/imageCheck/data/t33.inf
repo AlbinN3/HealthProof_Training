@@ -1,0 +1,13 @@
+[t33]
+FileName1=t33.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/759a6e33-000b-4fea-bd82-dafa9dee6a90
+Total=2
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=t33_RequestBody.txt
+ResponseHeaderFile=t33_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_33.xml
+FileName2=t33_loading.gif
+URL2=https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/loading.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

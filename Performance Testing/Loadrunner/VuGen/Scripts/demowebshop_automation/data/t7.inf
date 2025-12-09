@@ -1,0 +1,17 @@
+[t7]
+FileName1=t7.htm
+URL1=https://demowebshop.tricentis.com/desktops
+Total=4
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+FileName2=t7_0000230_desktop-pc-with-cdrw_125.png
+URL2=https://demowebshop.tricentis.com/content/images/thumbs/0000230_desktop-pc-with-cdrw_125.png
+FileName3=t7_0000231_elite-desktop-pc_125.png
+URL3=https://demowebshop.tricentis.com/content/images/thumbs/0000231_elite-desktop-pc_125.png
+FileName4=t7_ico-arrow-r.gif
+URL4=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ico-arrow-r.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

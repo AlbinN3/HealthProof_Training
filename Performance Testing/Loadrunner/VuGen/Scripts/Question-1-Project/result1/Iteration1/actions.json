@@ -1,0 +1,132 @@
+[
+    {
+        "actionName": "HomePage",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t3.inf",
+                "time": 1765138558398
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Enter the Store",
+                "infFile": "t4.inf",
+                "time": 1765138558781
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Entering the store",
+                "rawStartTime": 1765138558423,
+                "rawEndTime": 1765138558786,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006293773651123047
+            }
+        ]
+    },
+    {
+        "actionName": "LogIn",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Account.action;jsessionid=B8AE312074B025B00BA7C7ADA88E372A",
+                "infFile": "t7.inf",
+                "time": 1765138559098
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t8.inf",
+                "time": 1765138559506
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Logging in",
+                "rawStartTime": 1765138558817,
+                "rawEndTime": 1765138559520,
+                "thinkTime": 0.0,
+                "wastedTime": 0.025416135787963868
+            }
+        ]
+    },
+    {
+        "actionName": "AddToCart",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t10.inf",
+                "time": 1765138560087
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: FI-SW-01",
+                "infFile": "t12.inf",
+                "time": 1765138560464
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Add to Cart",
+                "infFile": "t13.inf",
+                "time": 1765138561107
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Adding to cart",
+                "rawStartTime": 1765138560095,
+                "rawEndTime": 1765138561121,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013519048690795899
+            }
+        ]
+    },
+    {
+        "actionName": "BuyItem",
+        "steps": [
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Order.action",
+                "infFile": "t16.inf",
+                "time": 1765138561668
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: Account.action_2",
+                "infFile": "t17.inf",
+                "time": 1765138563475
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Buying an item",
+                "rawStartTime": 1765138561153,
+                "rawEndTime": 1765138563481,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015432119369506836
+            }
+        ]
+    },
+    {
+        "actionName": "Logout",
+        "steps": [
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: Account.action_3",
+                "infFile": "t18.inf",
+                "time": 1765138564059
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Logging out",
+                "rawStartTime": 1765138563513,
+                "rawEndTime": 1765138564068,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005388498306274414
+            }
+        ]
+    }
+]

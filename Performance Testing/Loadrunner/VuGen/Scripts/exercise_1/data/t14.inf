@@ -1,0 +1,11 @@
+[t14]
+FileName1=t14.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/6d98c56e-7489-40c0-a393-a4d0b9e70360
+Total=1
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=t14_RequestBody.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_14.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

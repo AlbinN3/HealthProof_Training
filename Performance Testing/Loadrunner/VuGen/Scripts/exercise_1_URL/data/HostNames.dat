@@ -1,0 +1,14 @@
+[hosts]
+detectportal.firefox.com=
+o.pki.goog=
+ads.mozilla.org=
+blazedemo.com=
+firefox.settings.services.mozilla.com=
+push.services.mozilla.com=
+ocsp.digicert.com=
+incoming.telemetry.mozilla.org=
+ocsp.r2m04.amazontrust.com=
+blazemeter.trackinglibrary.prodperfect.com=
+prod.ohttp-gateway.prod.webservices.mozgcp.net=
+ocsp.r2m01.amazontrust.com=
+blazemeter.datapipe.prodperfect.com=

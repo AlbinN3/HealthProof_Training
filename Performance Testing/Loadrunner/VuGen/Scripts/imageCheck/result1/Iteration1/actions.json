@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: ads",
+                "infFile": "t3.inf",
+                "time": 1764834797908
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: demowebshop.tricentis.com",
+                "infFile": "t4.inf",
+                "time": 1764834803592
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: 767b4cb6-edd8-4d11-b9cd-2b646cbd1f11",
+                "infFile": "t6.inf",
+                "time": 1764834812956
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: f167fda8-5c4b-424a-b24e-afd8f89df0d3",
+                "infFile": "t7.inf",
+                "time": 1764834813277
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: 8b4bf2c1-f007-4eff-87ad-a02ddf62dac6",
+                "infFile": "t8.inf",
+                "time": 1764834813563
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: b7b740f6-2c15-4a7f-857e-527e0375b248",
+                "infFile": "t9.inf",
+                "time": 1764834813896
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: d965e19e-c673-4ed4-bf34-07c05d9dab20",
+                "infFile": "t10.inf",
+                "time": 1764834814214
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: f8518058-7f66-47e1-ab67-3dd939562656",
+                "infFile": "t11.inf",
+                "time": 1764834814530
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: dbe10ae3-b822-4701-a6c5-315ab614a078",
+                "infFile": "t12.inf",
+                "time": 1764834814840
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: a5b12c2e-47e7-4bfd-a489-a66a8337c880",
+                "infFile": "t13.inf",
+                "time": 1764834815127
+            }
+        ],
+        "transactions": []
+    }
+]

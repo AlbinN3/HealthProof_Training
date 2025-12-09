@@ -1,0 +1,15 @@
+[t21]
+FileName1=t21.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=3
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_sm_cats.gif
+URL2=https://petstore.octoperf.com/images/sm_cats.gif
+FileName3=t21_success.txt
+URL3=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

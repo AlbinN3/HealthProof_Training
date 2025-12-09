@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\checksString
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\checksstring\\logfile.log
+c:\users\administrator\documents\vugen\scripts\checksstring\\combined_checksString.c
+c:\users\administrator\documents\vugen\scripts\checksstring\\pre_cci.c

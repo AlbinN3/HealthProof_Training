@@ -1,0 +1,8 @@
+#include "lrun.h"
+#include "SharedParameter.h"
+#include "globals.h"
+#include "vuser_init.c"
+#include "Opening_the_application.c"
+#include "BuyItem.c"
+#include "Checkout.c"
+#include "vuser_end.c"

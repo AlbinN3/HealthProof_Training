@@ -1,0 +1,12 @@
+[hosts]
+content-signature-2.cdn.mozilla.net=
+detectportal.firefox.com=
+firefox.settings.services.mozilla.com=
+o.pki.goog=
+ocsp.digicert.com=
+ads.mozilla.org=
+safebrowsing.googleapis.com=
+demowebshop.tricentis.com=
+push.services.mozilla.com=
+incoming.telemetry.mozilla.org=
+prod.ohttp-gateway.prod.webservices.mozgcp.net=

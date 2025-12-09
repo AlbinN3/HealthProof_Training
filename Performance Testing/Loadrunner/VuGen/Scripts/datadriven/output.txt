@@ -1,0 +1,120 @@
+Virtual User Script started at: 06-12-2025 11:55:47
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\datadriven\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap-table.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap.min.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap-table.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("blazedemo.com") was successful, 68734 body bytes, 2641 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): web_submit_data("reserve.php") started  	[MsgId: MMSG-26355]
+Action.c(19): Notify: Parameter Substitution: parameter "flyFrom" =  "Philadelphia"
+Action.c(19): Notify: Parameter Substitution: parameter "flyTo" =  "Rome"
+Action.c(19): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): web_submit_data("reserve.php") was successful, 1918 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): web_submit_data("purchase.php") started  	[MsgId: MMSG-26355]
+Action.c(32): Notify: Parameter Substitution: parameter "flyFrom" =  "Philadelphia"
+Action.c(32): Notify: Parameter Substitution: parameter "flyTo" =  "Rome"
+Action.c(32): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): web_submit_data("purchase.php") was successful, 2115 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter flyFrom = 2 [table  = flyFrom].
+Notify: Getting new value for parameter 'flyFrom': table = 'flyFrom.dat' column = '0' row = '2'.
+Notify: Next row for parameter flyTo = 2 [table  = flyTo].
+Notify: Getting new value for parameter 'flyTo': table = 'flyTo.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap-table.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap.min.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap-table.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("blazedemo.com") was successful, 68734 body bytes, 2633 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): web_submit_data("reserve.php") started  	[MsgId: MMSG-26355]
+Action.c(19): Notify: Parameter Substitution: parameter "flyFrom" =  "Boston"
+Action.c(19): Notify: Parameter Substitution: parameter "flyTo" =  "London"
+Action.c(19): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): web_submit_data("reserve.php") was successful, 1913 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): web_submit_data("purchase.php") started  	[MsgId: MMSG-26355]
+Action.c(32): Notify: Parameter Substitution: parameter "flyFrom" =  "Boston"
+Action.c(32): Notify: Parameter Substitution: parameter "flyTo" =  "London"
+Action.c(32): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): web_submit_data("purchase.php") was successful, 2115 body bytes, 321 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter flyFrom = 3 [table  = flyFrom].
+Notify: Getting new value for parameter 'flyFrom': table = 'flyFrom.dat' column = '0' row = '3'.
+Notify: Next row for parameter flyTo = 3 [table  = flyTo].
+Notify: Getting new value for parameter 'flyTo': table = 'flyTo.dat' column = '0' row = '3'.
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap-table.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap.min.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://blazedemo.com/assets/bootstrap-table.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(9): web_url("blazedemo.com") was successful, 68734 body bytes, 2633 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): web_submit_data("reserve.php") started  	[MsgId: MMSG-26355]
+Action.c(19): Notify: Parameter Substitution: parameter "flyFrom" =  "Portland"
+Action.c(19): Notify: Parameter Substitution: parameter "flyTo" =  "Berlin"
+Action.c(19): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(19): web_submit_data("reserve.php") was successful, 1913 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): web_submit_data("purchase.php") started  	[MsgId: MMSG-26355]
+Action.c(32): Notify: Parameter Substitution: parameter "flyFrom" =  "Portland"
+Action.c(32): Notify: Parameter Substitution: parameter "flyTo" =  "Berlin"
+Action.c(32): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(32): web_submit_data("purchase.php") was successful, 2115 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

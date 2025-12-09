@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Thu, 09 Mar 2023 19:55:22 GMT
+Content-Encoding: gzip
+x-amz-server-side-encryption: AES256
+x-amz-version-id: LNjpnBGzddA26Jko.HnQ7S6zRLIzgGo3
+Server: AmazonS3
+Date: Wed, 03 Dec 2025 08:09:59 GMT
+ETag: W/"47101c8b4a66fd012a1147bc88eb03fd"
+Vary: accept-encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 303e917d845d3965f206781fd60fa0d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: ctCoPpqf_FQN0JyKGaDxBc1_IcZ2oU2tbXKtoS5EFefG8Pbch9eDDQ==
+Age: 76569
+

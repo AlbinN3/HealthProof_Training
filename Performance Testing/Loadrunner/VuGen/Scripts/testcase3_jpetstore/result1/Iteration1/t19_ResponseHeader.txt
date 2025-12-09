@@ -1,0 +1,27 @@
+HTTP/2.0 200
+Status: 200
+x-frame-options: DENY
+x-content-type-options: nosniff
+x-robots-tag: noodp
+cache-control: max-age=0, no-cache, no-store, must-revalidate, private
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+strict-transport-security: max-age=31536000
+expires: Thu, 04 Dec 2025 04:34:19 GMT
+cross-origin-opener-policy: same-origin
+accept-ch: Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+content-security-policy: img-src 'self' blob: data: https://*.mozaws.net https://*.webservices.mozgcp.net https://*.google-analytics.com https://profile.accounts.firefox.com https://firefoxusercontent.com https://secure.gravatar.com https://i1.wp.com https://mozillausercontent.com; style-src 'self' https://*.webservices.mozgcp.net https://*.jsdelivr.net; default-src 'none'; connect-src 'self' https://*.google-analytics.com https://location.services.mozilla.com https://accounts.firefox.com/metrics-flow https://accounts.stage.mozaws.net/metrics-flow https://basket.mozilla.org; media-src 'self' https://*.webservices.mozgcp.net; manifest-src https://support.allizom.org https://support.mozilla.org; frame-src 'self' https://*.youtube.com; form-action 'self' https://accounts.firefox.com https://accounts.stage.mozaws.net; script-src 'self' https://*.mozilla.org https://*.webservices.mozgcp.net https://*.google-analytics.com https://*.googletagmanager.com https://pontoon.mozilla.org https://*.jsdelivr.net; font-src 'self' https://*.webservices.mozgcp.net
+server: gunicorn
+content-language: en-US
+x-backend-server: gha-sumo-web-644966bf6b-8bwxl.prod.webservices.mozgcp.net
+set-cookie: session_id=tpnz65xxvpv2ejqia9ma3ikp78kswuvr; expires=Thu, 01 Jan 2026 04:34:19 GMT; HttpOnly; Max-Age=2419200; Path=/; SameSite=Lax; Secure
+accept-ranges: bytes
+content-type: text/html; charset=utf-8
+referrer-policy: strict-origin-when-cross-origin
+date: Thu, 04 Dec 2025 04:34:19 GMT
+x-served-by: cache-maa10235-MAA, cache-maa10237-MAA
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1764822859.308143,VS0,VE321
+vary: Accept-Encoding
+content-length: 87217
+

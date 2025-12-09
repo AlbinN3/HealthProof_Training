@@ -1,0 +1,45 @@
+Virtual User Script started at: 04-12-2025 11:27:20
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\checksString\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_url("v1") started  	[MsgId: MMSG-26355]
+Action.c(17): Downloading resource "https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-07-09-15-50.chain" (specified by argument number 9)  	[MsgId: MMSG-26576]
+Action.c(17): Downloading resource "https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain" (specified by argument number 12)  	[MsgId: MMSG-26576]
+Action.c(17): web_url("v1") was successful, 11241 body bytes, 1801 header bytes  	[MsgId: MMSG-26386]
+Action.c(29): web_url("v1_2") started  	[MsgId: MMSG-26355]
+Action.c(29): Resource "https://firefox.settings.services.mozilla.com/v1/" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(38): web_custom_request("v9o") started  	[MsgId: MMSG-26355]
+Action.c(38): web_custom_request("v9o") was successful, 5 body bytes, 627 header bytes  	[MsgId: MMSG-26386]
+Action.c(59): web_custom_request("v9o_2") started  	[MsgId: MMSG-26355]
+Action.c(59): web_custom_request("v9o_2") was successful, 5 body bytes, 627 header bytes  	[MsgId: MMSG-26386]
+Action.c(71): web_custom_request("xvY") started  	[MsgId: MMSG-26355]
+Action.c(71): web_custom_request("xvY") was successful, 5 body bytes, 627 header bytes  	[MsgId: MMSG-26386]
+Action.c(83): web_custom_request("ads") started  	[MsgId: MMSG-26355]
+Action.c(83): web_custom_request("ads") was successful, 3958 body bytes, 217 header bytes  	[MsgId: MMSG-26386]
+Action.c(95): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(95): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(98): web_url("blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(98): Found resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(98): Found resource "https://blazedemo.com/assets/bootstrap.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(98): Found resource "https://blazedemo.com/assets/bootstrap-table.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(98): Found resource "https://blazedemo.com/assets/bootstrap.min.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(98): Found resource "https://blazedemo.com/assets/bootstrap-table.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(98): Downloading resource "https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js" (specified by argument number 9)  	[MsgId: MMSG-26576]
+Action.c(98): Downloading resource "https://blazedemo.com/favicon.ico" (specified by argument number 11)  	[MsgId: MMSG-26576]
+Action.c(98): Error -26366: "Text=Welcome to the Simple Travel Agency?" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(98): web_url("blazedemo.com") highest severity level was "ERROR", 90949 body bytes, 3482 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

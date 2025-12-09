@@ -1,0 +1,13 @@
+[t7]
+FileName1=t7.htm
+URL1=https://demowebshop.tricentis.com/notebooks
+Total=2
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+FileName2=t7_ico-arrow-r.gif
+URL2=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/ico-arrow-r.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

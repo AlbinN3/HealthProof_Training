@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Type: application/ocsp-response
+Content-Length: 5
+Cache-Control: max-age=238
+Expires: Thu, 04 Dec 2025 04:34:00 GMT
+Date: Thu, 04 Dec 2025 04:30:02 GMT
+Connection: keep-alive
+Akamai-GRN: 0.36392017.1764822602.8dd1245d
+

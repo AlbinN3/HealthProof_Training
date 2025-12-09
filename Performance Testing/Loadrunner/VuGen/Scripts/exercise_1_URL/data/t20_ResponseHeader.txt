@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+last-modified: Tue, 30 Aug 2022 14:26:12 GMT
+etag: "0-5e77629808900"
+accept-ranges: bytes
+content-type: image/vnd.microsoft.icon
+x-cloud-trace-context: fab384d01b923ca7da92979fe8e71ed1
+date: Thu, 04 Dec 2025 05:26:07 GMT
+server: Google Frontend
+Content-Length: 0
+

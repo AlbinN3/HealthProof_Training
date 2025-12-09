@@ -1,0 +1,11 @@
+[t5]
+FileName1=t5.htm
+URL1=https://petstore.octoperf.com/actions/Catalog.action;jsessionid=104E54443A90F45438A1DE8E24A2FC39?viewCategory=&categoryId=FISH
+Total=1
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

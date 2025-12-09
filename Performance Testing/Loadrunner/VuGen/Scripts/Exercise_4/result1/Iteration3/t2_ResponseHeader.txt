@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Length: 5913
+Content-Type: text/html; charset=utf-8
+Date: Sat, 06 Dec 2025 05:21:15 GMT
+Server: Microsoft-IIS/10.0
+Cache-Control: private
+Content-Encoding: gzip
+Set-Cookie: Nop.customer=edbdd24b-48f1-42be-a662-3bd32a87772c; expires=Sun, 06-Dec-2026 05:21:16 GMT; path=/; HttpOnly
+Set-Cookie: __RequestVerificationToken=7OIwUffF7zwu_KIY59xRt-MeEsDReI3JSTUMWhNtNOiHl_OH_JjU59GDUDrv9wt-1dv9_0fyfIPrJHWnZC06uBGJGantqP8I4cRzHXK1n3U1; path=/; HttpOnly
+Vary: Accept-Encoding
+X-AspNetMvc-Version: 5.2
+X-Frame-Options: SAMEORIGIN
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+

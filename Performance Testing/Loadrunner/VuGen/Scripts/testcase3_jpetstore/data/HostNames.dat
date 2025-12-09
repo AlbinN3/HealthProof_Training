@@ -1,0 +1,9 @@
+[hosts]
+detectportal.firefox.com=
+petstore.octoperf.com=
+o.pki.goog=
+ads.mozilla.org=
+push.services.mozilla.com=
+ocsp.digicert.com=
+incoming.telemetry.mozilla.org=
+prod.ohttp-gateway.prod.webservices.mozgcp.net=

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\exerciseCheckString1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\exercisecheckstring1\\logfile.log
+c:\users\administrator\documents\vugen\scripts\exercisecheckstring1\\combined_exerciseCheckString1.c
+c:\users\administrator\documents\vugen\scripts\exercisecheckstring1\\pre_cci.c

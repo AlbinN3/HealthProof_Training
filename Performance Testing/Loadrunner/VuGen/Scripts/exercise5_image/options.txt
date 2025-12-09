@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\exercise5_image
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\exercise5_image\\logfile.log
+c:\users\administrator\documents\vugen\scripts\exercise5_image\\combined_exercise5_image.c
+c:\users\administrator\documents\vugen\scripts\exercise5_image\\pre_cci.c

@@ -1,0 +1,11 @@
+[hosts]
+localhost=
+detectportal.firefox.com=
+content-signature-2.cdn.mozilla.net=
+firefox.settings.services.mozilla.com=
+o.pki.goog=
+ads.mozilla.org=
+push.services.mozilla.com=
+ocsp.digicert.com=
+incoming.telemetry.mozilla.org=
+prod.ohttp-gateway.prod.webservices.mozgcp.net=

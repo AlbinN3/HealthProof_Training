@@ -1,0 +1,42 @@
+/* YesSoftware Site STYLE */
+BODY, TH, TR, TD, OL, UL, LI, FONT, A, BLOCKQUOTE, LABEL { font-family: Verdana, Arial, Tahoma, Helvetica; font-size: 11px; }
+BODY, FORM {padding: 0px; margin: 0px}
+H1 {font-family: Arial; color: black; font-size: 16px; font-weight: bold; margin: 0px }
+.noborder { border-width: 0px; }
+
+P {	margin-top: 10px; margin-bottom: 10px; }
+UL {margin: 0px  0px 20px 25px; }
+LI {margin: 0px 0px 0px 0px; }
+
+a:link, a:visited {text-decoration: underline; color: #38372E;}
+a:hover, a:active {text-decoration: none; color: #38372E;}
+
+.SubHead {font-family: Arial; color: #000080; font-size: 16px; font-weight: bold; margin-top: 0px}
+.Divl {MARGIN-LEFT: 15px}
+.Divll {MARGIN-LEFT: 25px}
+
+/* Body */
+a.link_body:link, a.link_body:visited {color: black; font-weight: bold; text-decoration: underline;}
+a.link_body:hover, a.link_body:active {color: #0079DE; font-weight: bold; text-decoration: none;}
+
+/* Example Pack */
+a.link_pack:link, a.link_pack:visited {color: black; text-decoration: underline;}
+a.link_pack:hover, a.link_pack:active { color: #0079DE; text-decoration: none;}
+
+
+/* Footer */
+.copy {color: black; font-size: 11px;}
+a.link_copy:link, a.link_copy:visited {color: black; text-decoration: underline;}
+a.link_copy:hover, a.link_copy:active {color: black; text-decoration: none;}
+
+/* Header */
+.header_menu_text {color: white; font-size: 13px; font-weight: bold;}
+a.link_header:link, a.link_header:visited {color:white; font-weight: bold; text-decoration: none;}
+a.link_header:hover, a.link_:active {color:white; font-weight: bold; text-decoration: none;}
+
+/* Grid */
+.TableHeaderTD {background-color: #dedcb7; color: #38372E; font-weight: bold}
+.TableColumnTD {background-color: #ecebd4; color: #38372E; font-weight: bold}
+.TableDataTD {background-color: #f7f7f7; color: black;}
+.TableBoldDataTD {background-color: #f0f0f0; color: black; font-weight: bold;}
+.TableAltDataTD {background-color: #EEEEEE; color: black;}

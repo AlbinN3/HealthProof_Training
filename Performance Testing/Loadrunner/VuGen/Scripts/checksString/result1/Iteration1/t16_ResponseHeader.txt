@@ -1,0 +1,13 @@
+HTTP/2.0 204
+Status: 204
+date: Thu, 04 Dec 2025 06:34:10 GMT
+x-amzn-trace-id: Root=1-69312b62-4027d2e403f39976797396a6;Parent=12418da565f7ad55;Sampled=0;Lineage=1:f1844f24:0
+x-amzn-requestid: f0ab35d8-bb2f-412f-b9fd-a44ca17834b5
+access-control-allow-origin: *
+x-amz-apigw-id: VDO3hHb3IAMEp5Q=
+x-content-type-options: nosniff
+x-cache: Miss from cloudfront
+via: 1.1 9a5f7993ae8aa6b11950605aada73158.cloudfront.net (CloudFront)
+x-amz-cf-pop: BLR50-P4
+x-amz-cf-id: ETV4FoGAZXBMVWSbWIA5ILekSUpis-fJBwrdBxGIUAWJp9v-0gREww==
+

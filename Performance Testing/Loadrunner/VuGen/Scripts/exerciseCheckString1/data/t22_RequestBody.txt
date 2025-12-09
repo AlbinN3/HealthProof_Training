@@ -1,0 +1,8 @@
+"{\"metrics\":{\"datetime\":{\"usage.first_run_date\":\"2022-10-16+05:30\"},\"boolean\":{\"usag"
+"e.is_default_browser\":false,\"usage.windows_backup_enabled\":false},\"uuid\":{\"usage.profile"
+"_group_id\":\"9285e5cf-d171-4f29-a5b8-d53d109d51a8\",\"usage.profile_id\":\"5ae6e87b-e670-4529"
+"-b684-10268475dcce\"},\"counter\":{\"browser.engagement.uri_count\":3,\"browser.engagement.act"
+"ive_ticks\":8},\"quantity\":{\"usage.windows_user_profile_age_in_days\":1145,\"usage.windows_b"
+"uild_number\":19045},\"string\":{\"usage.app_display_version\":\"145.0.2\",\"usage.os\":\"WINN"
+"T\",\"usage.os_version\":\"10.0\",\"usage.app_build\":\"20251124145406\",\"usage.distribution_"
+"id\":\"default\",\"usage.app_channel\":\"release\"}}}"

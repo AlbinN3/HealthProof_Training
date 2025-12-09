@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: ads",
+                "infFile": "t4.inf",
+                "time": 1764828464432
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: blazedemo.com",
+                "infFile": "t5.inf",
+                "time": 1764828465783
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: cfr-v1-en-US",
+                "infFile": "t6.inf",
+                "time": 1764828465872
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: b137a53c-8ec3-4335-93e0-13ef607973e3",
+                "infFile": "t9.inf",
+                "time": 1764828466648
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: 6bc47a62-3faa-435f-9299-8b3ca5c4c5dd",
+                "infFile": "t12.inf",
+                "time": 1764828467395
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: 27529dc1-7260-4561-bb48-c948af1e4927",
+                "infFile": "t13.inf",
+                "time": 1764828467686
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: 7be1dcff-3c27-466b-8672-3d3c16f1c7d7",
+                "infFile": "t14.inf",
+                "time": 1764828468005
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: 57b3f921-3ad4-460c-afc5-3ad6ef21c888",
+                "infFile": "t15.inf",
+                "time": 1764828468320
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: 2a192672-a43c-4936-b572-afcd9db9fc2b",
+                "infFile": "t16.inf",
+                "time": 1764828468642
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: 6eb02150-87dc-4a72-ad2e-6f9d4949af6a",
+                "infFile": "t17.inf",
+                "time": 1764828468937
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: 970d0e2a-3fef-4176-88ea-91a6cbd2ffdb",
+                "infFile": "t19.inf",
+                "time": 1764828469544
+            }
+        ],
+        "transactions": []
+    }
+]

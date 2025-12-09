@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Thu, 04 Dec 2025 06:45:16 GMT
+Content-Type: application/ocsp-response
+Content-Length: 5
+Connection: keep-alive
+Server: cloudflare
+CF-Ray: 9a8957078ab4b5d1-BOM
+CF-Cache-Status: DYNAMIC
+Cache-Control: max-age=600
+Vary: Accept-Encoding
+

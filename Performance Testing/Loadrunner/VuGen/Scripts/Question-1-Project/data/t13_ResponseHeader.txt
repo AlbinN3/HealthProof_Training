@@ -1,0 +1,8 @@
+HTTP/1.1 200 
+Date: Sun, 07 Dec 2025 14:33:02 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 4426
+Connection: keep-alive
+Content-Language: en-US
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

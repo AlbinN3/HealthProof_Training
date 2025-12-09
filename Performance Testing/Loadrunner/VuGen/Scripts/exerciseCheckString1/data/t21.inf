@@ -1,0 +1,11 @@
+[t21]
+FileName1=t21.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/57b3f921-3ad4-460c-afc5-3ad6ef21c888
+Total=1
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=t21_RequestBody.txt
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_21.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

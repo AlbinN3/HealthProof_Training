@@ -1,0 +1,10 @@
+[hosts]
+detectportal.firefox.com=
+o.pki.goog=
+ads.mozilla.org=
+push.services.mozilla.com=
+firefox.settings.services.mozilla.com=
+ocsp.digicert.com=
+examples.codecharge.com=
+incoming.telemetry.mozilla.org=
+prod.ohttp-gateway.prod.webservices.mozgcp.net=

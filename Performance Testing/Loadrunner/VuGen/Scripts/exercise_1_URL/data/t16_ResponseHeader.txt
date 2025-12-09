@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 8
+Via: 1.1 google
+Date: Wed, 03 Dec 2025 17:08:53 GMT
+Age: 44233
+Content-Type: text/plain
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+

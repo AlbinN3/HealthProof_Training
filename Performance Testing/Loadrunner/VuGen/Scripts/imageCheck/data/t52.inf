@@ -1,0 +1,15 @@
+[t52]
+FileName1=t52.htm
+URL1=http://detectportal.firefox.com/canonical.html
+Total=3
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t52_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_52.xml
+FileName2=t52_favicon.ico
+URL2=https://demowebshop.tricentis.com/favicon.ico
+FileName3=t52_success.txt
+URL3=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

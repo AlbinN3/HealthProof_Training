@@ -1,0 +1,16 @@
+[t2]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=DummyContentType
+StepName=Url: v1_2
+Total=2
+FileName1=t1_3_remote-settings.UNK
+FileName2=t1_1_remote-settings.UNK
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1764827864172
+RawStepName=v1_2
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1764827864172
+URL1=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-07-09-15-50.chain
+URL2=https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain

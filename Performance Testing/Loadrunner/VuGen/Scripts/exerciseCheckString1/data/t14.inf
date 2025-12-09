@@ -1,0 +1,15 @@
+[t14]
+FileName1=t14.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/b137a53c-8ec3-4335-93e0-13ef607973e3
+Total=3
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=t14_RequestBody.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_14.xml
+FileName2=t14_favicon.html
+URL2=https://blazedemo.com/favicon.ico
+FileName3=t14_ohttp-configs.html
+URL3=https://prod.ohttp-gateway.prod.webservices.mozgcp.net/ohttp-configs
+[ProtocolInfo]
+ProtocolId=QTWeb
